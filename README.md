@@ -21,14 +21,11 @@ so the site stays a faithful, rebuildable rendering of the source.
 
 ## Live site
 
-- **Vercel URL (production):** https://disertasi-web-zudin2007s-projects.vercel.app/
-  - Deployed from `dist-spa/` (the single-file live renderer — see "Two build
-    targets" below).
-  - ⚠️ **Currently gated by Vercel Deployment Protection (SSO).** Anonymous
-    visitors are redirected to a Vercel login. To make it public, the account
-    owner must open the Vercel dashboard → project **disertasi-web** → Settings →
-    **Deployment Protection** → set **Vercel Authentication** to *Disabled*. This
-    is a dashboard toggle and cannot be changed via the deploy API.
+- **Public URL:** https://disertasi-web.vercel.app/
+- The GitHub repo is connected to Vercel, so every push to `main` triggers a
+  build (`vercel.json`: `node scripts/build-site.js` → `dist/`) and re-renders the
+  Markdown from the committed `content/` snapshot — the pre-rendered multi-page
+  site (branch-independent, PDF/DOCX bundled under `/downloads/`).
 
 ## Two build targets
 
