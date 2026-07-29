@@ -1,16 +1,16 @@
 {
   "project": "Cryptocurrency Classification Under Islamic Law — dissertation",
   "repoCount": 2,
-  "fileCount": 93,
-  "totalBytes": 6919027,
+  "fileCount": 91,
+  "totalBytes": 2485180,
   "repos": [
     {
       "name": "Disertasi",
       "github": "https://github.com/zudin2007/Disertasi",
       "branch": "claude/halalscreener-mcp-setup-0imrfp",
       "note": "Dissertation manuscript, appendices, build pipeline, research scripts.",
-      "fileCount": 59,
-      "totalBytes": 5965650,
+      "fileCount": 56,
+      "totalBytes": 1447105,
       "files": [
         {
           "path": ".claude/claude.json",
@@ -118,13 +118,6 @@
           "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/CHAPTER_1_Cryptocurrency_Classification_Islamic_Law.md"
         },
         {
-          "path": "CHAPTER_1_Introduction.md",
-          "bytes": 37468,
-          "updated": "2026-07-29T01:55:43Z",
-          "category": "Chapter",
-          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/CHAPTER_1_Introduction.md"
-        },
-        {
           "path": "CHAPTER_2_Islamic_Legal_Framework.md",
           "bytes": 40585,
           "updated": "2026-07-29T17:06:57+07:00",
@@ -133,8 +126,8 @@
         },
         {
           "path": "CHAPTER_2_Regulatory_Frameworks_Operationalized.md",
-          "bytes": 82603,
-          "updated": "2026-07-29T01:55:43Z",
+          "bytes": 82623,
+          "updated": "2026-07-29T18:05:47+07:00",
           "category": "Chapter",
           "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/CHAPTER_2_Regulatory_Frameworks_Operationalized.md"
         },
@@ -207,20 +200,6 @@
           "updated": "2026-07-29T01:55:43Z",
           "category": "Built output",
           "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/Disertasi_Cryptocurrency_Classification_Islamic_Finance_Complete.pdf"
-        },
-        {
-          "path": "Dissertation_Full.docx",
-          "bytes": 244742,
-          "updated": "2026-07-29T17:06:57+07:00",
-          "category": "Built output",
-          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/Dissertation_Full.docx"
-        },
-        {
-          "path": "Dissertation_Full.pdf",
-          "bytes": 4236683,
-          "updated": "2026-07-29T17:06:57+07:00",
-          "category": "Built output",
-          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/Dissertation_Full.pdf"
         },
         {
           "path": "EXECUTIVE_SUMMARY.md",
@@ -301,8 +280,8 @@
         },
         {
           "path": "TABLE_OF_CONTENTS.md",
-          "bytes": 15336,
-          "updated": "2026-07-29T17:06:57+07:00",
+          "bytes": 15635,
+          "updated": "2026-07-29T18:14:20+07:00",
           "category": "Front matter",
           "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/TABLE_OF_CONTENTS.md"
         },
@@ -329,8 +308,8 @@
         },
         {
           "path": "build/manifest.json",
-          "bytes": 1690,
-          "updated": "2026-07-29T16:51:49+07:00",
+          "bytes": 1719,
+          "updated": "2026-07-29T18:14:20+07:00",
           "category": "Data/config",
           "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/build/manifest.json"
         },
@@ -432,8 +411,8 @@
       "github": "https://github.com/zudin2007/disertasi-web",
       "branch": "main",
       "note": "This project: static web output + this monitoring manifest.",
-      "fileCount": 34,
-      "totalBytes": 953377,
+      "fileCount": 35,
+      "totalBytes": 1038075,
       "files": [
         {
           "path": ".gitignore",
@@ -444,8 +423,8 @@
         },
         {
           "path": "MANIFEST.md",
-          "bytes": 17271,
-          "updated": "2026-07-29T17:11:23+07:00",
+          "bytes": 17005,
+          "updated": "2026-07-29T17:29:30+07:00",
           "category": "Doc",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/MANIFEST.md"
         },
@@ -520,6 +499,13 @@
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CASE_STUDIES.md"
         },
         {
+          "path": "content/CHAPTER_1_Cryptocurrency_Classification_Islamic_Law.md",
+          "bytes": 84820,
+          "updated": "2026-07-29T11:14:35.398Z",
+          "category": "Chapter",
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_1_Cryptocurrency_Classification_Islamic_Law.md"
+        },
+        {
           "path": "content/CHAPTER_1_Introduction.md",
           "bytes": 37468,
           "updated": "2026-07-29T17:02:56+07:00",
@@ -529,14 +515,14 @@
         {
           "path": "content/CHAPTER_2_Islamic_Legal_Framework.md",
           "bytes": 40585,
-          "updated": "2026-07-29T17:02:56+07:00",
+          "updated": "2026-07-29T17:29:30+07:00",
           "category": "Chapter",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_2_Islamic_Legal_Framework.md"
         },
         {
           "path": "content/CHAPTER_3_Jurisprudential_Positions.md",
           "bytes": 68088,
-          "updated": "2026-07-29T17:02:56+07:00",
+          "updated": "2026-07-29T17:29:30+07:00",
           "category": "Chapter",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_3_Jurisprudential_Positions.md"
         },
@@ -584,22 +570,22 @@
         },
         {
           "path": "content/site-manifest.json",
-          "bytes": 4122,
+          "bytes": 4194,
           "updated": "2026-07-29T17:02:56+07:00",
           "category": "Data/config",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/site-manifest.json"
         },
         {
           "path": "dist-spa/index.html",
-          "bytes": 14595,
-          "updated": "2026-07-29T09:58:19.460Z",
+          "bytes": 14667,
+          "updated": "2026-07-29T11:14:36.836Z",
           "category": "Web asset",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/dist-spa/index.html"
         },
         {
           "path": "dist-spa/vercel.json",
           "bytes": 117,
-          "updated": "2026-07-29T09:58:19.461Z",
+          "updated": "2026-07-29T11:14:36.836Z",
           "category": "Data/config",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/dist-spa/vercel.json"
         },
