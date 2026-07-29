@@ -35,8 +35,8 @@ const REPOS = [
   {
     name: 'disertasi-web',
     dir: '.',
-    github: null, // not yet pushed — needs a GitHub repo + credentials
-    branch: null,
+    github: 'https://github.com/zudin2007/disertasi-web',
+    branch: null, // detected from git below; falls back to 'main'
     note: 'This project: static web output + this monitoring manifest.',
   },
 ];

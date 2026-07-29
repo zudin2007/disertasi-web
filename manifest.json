@@ -1,656 +1,677 @@
 {
   "project": "Cryptocurrency Classification Under Islamic Law — dissertation",
   "repoCount": 2,
-  "fileCount": 90,
-  "totalBytes": 6906753,
+  "fileCount": 93,
+  "totalBytes": 6915417,
   "repos": [
     {
       "name": "Disertasi",
       "github": "https://github.com/zudin2007/Disertasi",
-      "branch": "build/reproducible-pipeline",
+      "branch": "claude/halalscreener-mcp-setup-0imrfp",
       "note": "Dissertation manuscript, appendices, build pipeline, research scripts.",
-      "fileCount": 58,
-      "totalBytes": 5973315,
+      "fileCount": 59,
+      "totalBytes": 5965650,
       "files": [
         {
           "path": ".claude/claude.json",
           "bytes": 227,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Data/config",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/.claude/claude.json"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/.claude/claude.json"
         },
         {
           "path": ".github/workflows/pdf-generation.yml",
-          "bytes": 1465,
+          "bytes": 1523,
           "updated": "2026-07-29T16:51:49+07:00",
           "category": "Other",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/.github/workflows/pdf-generation.yml"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/.github/workflows/pdf-generation.yml"
         },
         {
           "path": ".github/workflows/status-report.yml",
           "bytes": 3475,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Other",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/.github/workflows/status-report.yml"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/.github/workflows/status-report.yml"
         },
         {
           "path": ".github/workflows/validate-documents.yml",
           "bytes": 2452,
           "updated": "2026-07-29T16:51:49+07:00",
           "category": "Other",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/.github/workflows/validate-documents.yml"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/.github/workflows/validate-documents.yml"
         },
         {
           "path": ".gitignore",
           "bytes": 216,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Other",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/.gitignore"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/.gitignore"
         },
         {
           "path": "ABSTRACT.md",
           "bytes": 4673,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Front matter",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/ABSTRACT.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/ABSTRACT.md"
         },
         {
           "path": "APPENDIX_A8_Preliminary_Stakeholder_Feedback.md",
           "bytes": 17323,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Appendix",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/APPENDIX_A8_Preliminary_Stakeholder_Feedback.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/APPENDIX_A8_Preliminary_Stakeholder_Feedback.md"
         },
         {
           "path": "APPENDIX_B_Interview_Protocol_Blueprint.md",
           "bytes": 12176,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Appendix",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/APPENDIX_B_Interview_Protocol_Blueprint.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/APPENDIX_B_Interview_Protocol_Blueprint.md"
         },
         {
           "path": "APPENDIX_C_Survey_Instrument_Design.md",
           "bytes": 15096,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Appendix",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/APPENDIX_C_Survey_Instrument_Design.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/APPENDIX_C_Survey_Instrument_Design.md"
         },
         {
           "path": "APPENDIX_D_Regulatory_Executive_Summaries.md",
           "bytes": 16503,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Appendix",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/APPENDIX_D_Regulatory_Executive_Summaries.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/APPENDIX_D_Regulatory_Executive_Summaries.md"
         },
         {
           "path": "APPENDIX_E_Literature_Review_Summary.md",
           "bytes": 15657,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Appendix",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/APPENDIX_E_Literature_Review_Summary.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/APPENDIX_E_Literature_Review_Summary.md"
         },
         {
           "path": "APPENDIX_F_Detailed_Measurement_Examples.md",
           "bytes": 19984,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Appendix",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/APPENDIX_F_Detailed_Measurement_Examples.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/APPENDIX_F_Detailed_Measurement_Examples.md"
         },
         {
           "path": "APPENDIX_G_Phase_3_Case_Study_Protocol.md",
           "bytes": 20072,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Appendix",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/APPENDIX_G_Phase_3_Case_Study_Protocol.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/APPENDIX_G_Phase_3_Case_Study_Protocol.md"
         },
         {
           "path": "CASE_STUDIES.md",
           "bytes": 30221,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/CASE_STUDIES.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/CASE_STUDIES.md"
         },
         {
           "path": "CHAPTER_1_Cryptocurrency_Classification_Islamic_Law.md",
           "bytes": 84820,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Chapter",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/CHAPTER_1_Cryptocurrency_Classification_Islamic_Law.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/CHAPTER_1_Cryptocurrency_Classification_Islamic_Law.md"
         },
         {
           "path": "CHAPTER_1_Introduction.md",
           "bytes": 37468,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Chapter",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/CHAPTER_1_Introduction.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/CHAPTER_1_Introduction.md"
         },
         {
           "path": "CHAPTER_2_Islamic_Legal_Framework.md",
-          "bytes": 40616,
-          "updated": "2026-07-29T16:44:39+07:00",
+          "bytes": 40585,
+          "updated": "2026-07-29T17:06:57+07:00",
           "category": "Chapter",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/CHAPTER_2_Islamic_Legal_Framework.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/CHAPTER_2_Islamic_Legal_Framework.md"
         },
         {
           "path": "CHAPTER_2_Regulatory_Frameworks_Operationalized.md",
           "bytes": 82603,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Chapter",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/CHAPTER_2_Regulatory_Frameworks_Operationalized.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/CHAPTER_2_Regulatory_Frameworks_Operationalized.md"
         },
         {
           "path": "CHAPTER_3_Jurisprudential_Positions.md",
-          "bytes": 68079,
-          "updated": "2026-07-29T16:44:39+07:00",
+          "bytes": 68088,
+          "updated": "2026-07-29T17:06:57+07:00",
           "category": "Chapter",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/CHAPTER_3_Jurisprudential_Positions.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/CHAPTER_3_Jurisprudential_Positions.md"
         },
         {
           "path": "CHAPTER_4_Regulatory_Landscape.md",
           "bytes": 62697,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Chapter",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/CHAPTER_4_Regulatory_Landscape.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/CHAPTER_4_Regulatory_Landscape.md"
         },
         {
           "path": "CHAPTER_5_Unified_Classification_Framework.md",
           "bytes": 51608,
           "updated": "2026-07-29T16:42:42+07:00",
           "category": "Chapter",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/CHAPTER_5_Unified_Classification_Framework.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/CHAPTER_5_Unified_Classification_Framework.md"
         },
         {
           "path": "CHAPTER_6_Regulatory_Harmonization_Recommendations.md",
           "bytes": 34190,
           "updated": "2026-07-29T16:41:51+07:00",
           "category": "Chapter",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/CHAPTER_6_Regulatory_Harmonization_Recommendations.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/CHAPTER_6_Regulatory_Harmonization_Recommendations.md"
         },
         {
           "path": "CHAPTER_7_Conclusion_and_Future_Research.md",
           "bytes": 27448,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Chapter",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/CHAPTER_7_Conclusion_and_Future_Research.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/CHAPTER_7_Conclusion_and_Future_Research.md"
         },
         {
           "path": "CHAPTER_8_Empirical_Research_Agenda.md",
           "bytes": 30627,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Chapter",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/CHAPTER_8_Empirical_Research_Agenda.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/CHAPTER_8_Empirical_Research_Agenda.md"
         },
         {
           "path": "DISSERTATION_COMPLETION_GUIDE.md",
           "bytes": 30380,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/DISSERTATION_COMPLETION_GUIDE.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/DISSERTATION_COMPLETION_GUIDE.md"
         },
         {
           "path": "DISSERTATION_ENHANCED_v1.1.0.md",
           "bytes": 17879,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/DISSERTATION_ENHANCED_v1.1.0.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/DISSERTATION_ENHANCED_v1.1.0.md"
         },
         {
           "path": "Disertasi_Cryptocurrency_Classification_Islamic_Finance_Complete.docx",
           "bytes": 94483,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Built output",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/Disertasi_Cryptocurrency_Classification_Islamic_Finance_Complete.docx"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/Disertasi_Cryptocurrency_Classification_Islamic_Finance_Complete.docx"
         },
         {
           "path": "Disertasi_Cryptocurrency_Classification_Islamic_Finance_Complete.pdf",
           "bytes": 260936,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Built output",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/Disertasi_Cryptocurrency_Classification_Islamic_Finance_Complete.pdf"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/Disertasi_Cryptocurrency_Classification_Islamic_Finance_Complete.pdf"
         },
         {
           "path": "Dissertation_Full.docx",
-          "bytes": 244641,
-          "updated": "2026-07-29T16:51:50+07:00",
+          "bytes": 244742,
+          "updated": "2026-07-29T17:06:57+07:00",
           "category": "Built output",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/Dissertation_Full.docx"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/Dissertation_Full.docx"
         },
         {
           "path": "Dissertation_Full.pdf",
-          "bytes": 4237723,
-          "updated": "2026-07-29T16:51:50+07:00",
+          "bytes": 4236683,
+          "updated": "2026-07-29T17:06:57+07:00",
           "category": "Built output",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/Dissertation_Full.pdf"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/Dissertation_Full.pdf"
         },
         {
           "path": "EXECUTIVE_SUMMARY.md",
           "bytes": 10759,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Front matter",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/EXECUTIVE_SUMMARY.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/EXECUTIVE_SUMMARY.md"
         },
         {
           "path": "HALALSCREENER_SETUP.md",
           "bytes": 2094,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/HALALSCREENER_SETUP.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/HALALSCREENER_SETUP.md"
         },
         {
           "path": "IMPLEMENTATION_30DAY_ACTION_PLAN.md",
           "bytes": 17145,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/IMPLEMENTATION_30DAY_ACTION_PLAN.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/IMPLEMENTATION_30DAY_ACTION_PLAN.md"
         },
         {
           "path": "IMPLEMENTATION_ROADMAP.md",
           "bytes": 22009,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/IMPLEMENTATION_ROADMAP.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/IMPLEMENTATION_ROADMAP.md"
         },
         {
           "path": "MULAI_DARI_SINI.md",
           "bytes": 3958,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/MULAI_DARI_SINI.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/MULAI_DARI_SINI.md"
         },
         {
           "path": "QUICK_START.md",
           "bytes": 4814,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/QUICK_START.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/QUICK_START.md"
         },
         {
           "path": "README.md",
           "bytes": 28906,
           "updated": "2026-07-29T16:51:49+07:00",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/README.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/README.md"
         },
         {
           "path": "REGULATORY_COMPARISON_FRAMEWORK.md",
           "bytes": 14958,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/REGULATORY_COMPARISON_FRAMEWORK.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/REGULATORY_COMPARISON_FRAMEWORK.md"
         },
         {
           "path": "RELEASE_NOTES.md",
           "bytes": 16940,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/RELEASE_NOTES.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/RELEASE_NOTES.md"
         },
         {
           "path": "RELEASE_v1.1.0_SUMMARY.md",
           "bytes": 8018,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/RELEASE_v1.1.0_SUMMARY.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/RELEASE_v1.1.0_SUMMARY.md"
         },
         {
           "path": "RESEARCH_GUIDE.md",
           "bytes": 10119,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/RESEARCH_GUIDE.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/RESEARCH_GUIDE.md"
         },
         {
           "path": "TABLE_OF_CONTENTS.md",
-          "bytes": 29529,
-          "updated": "2026-07-29T01:55:43Z",
+          "bytes": 15336,
+          "updated": "2026-07-29T17:06:57+07:00",
           "category": "Front matter",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/TABLE_OF_CONTENTS.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/TABLE_OF_CONTENTS.md"
         },
         {
           "path": "build/assets/style.css",
-          "bytes": 2820,
+          "bytes": 2928,
           "updated": "2026-07-29T16:51:49+07:00",
           "category": "Web asset",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/build/assets/style.css"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/build/assets/style.css"
         },
         {
           "path": "build/build.js",
-          "bytes": 9088,
+          "bytes": 9354,
           "updated": "2026-07-29T16:51:49+07:00",
           "category": "Script",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/build/build.js"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/build/build.js"
+        },
+        {
+          "path": "build/gen-toc.js",
+          "bytes": 4667,
+          "updated": "2026-07-29T16:57:48+07:00",
+          "category": "Script",
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/build/gen-toc.js"
         },
         {
           "path": "build/manifest.json",
-          "bytes": 1656,
+          "bytes": 1690,
           "updated": "2026-07-29T16:51:49+07:00",
           "category": "Data/config",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/build/manifest.json"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/build/manifest.json"
         },
         {
           "path": "package-lock.json",
-          "bytes": 82775,
+          "bytes": 85018,
           "updated": "2026-07-29T16:51:49+07:00",
           "category": "Data/config",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/package-lock.json"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/package-lock.json"
         },
         {
           "path": "package.json",
-          "bytes": 752,
-          "updated": "2026-07-29T16:51:49+07:00",
+          "bytes": 865,
+          "updated": "2026-07-29T16:57:48+07:00",
           "category": "Data/config",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/package.json"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/package.json"
         },
         {
           "path": "references/README.md",
           "bytes": 7624,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/references/README.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/references/README.md"
         },
         {
           "path": "references/REFERENCES_INDEX.md",
           "bytes": 28828,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/references/REFERENCES_INDEX.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/references/REFERENCES_INDEX.md"
         },
         {
           "path": "references/regulatory_documents/BNM/MANIFEST.md",
           "bytes": 6403,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/references/regulatory_documents/BNM/MANIFEST.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/references/regulatory_documents/BNM/MANIFEST.md"
         },
         {
           "path": "references/regulatory_documents/OJK/MANIFEST.md",
           "bytes": 4733,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/references/regulatory_documents/OJK/MANIFEST.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/references/regulatory_documents/OJK/MANIFEST.md"
         },
         {
           "path": "references/regulatory_documents/README.md",
           "bytes": 13816,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/references/regulatory_documents/README.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/references/regulatory_documents/README.md"
         },
         {
           "path": "references/regulatory_documents/REGULATORY_INDEX.md",
           "bytes": 38792,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/references/regulatory_documents/REGULATORY_INDEX.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/references/regulatory_documents/REGULATORY_INDEX.md"
         },
         {
           "path": "references/regulatory_documents/VARA/MANIFEST.md",
           "bytes": 7503,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/references/regulatory_documents/VARA/MANIFEST.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/references/regulatory_documents/VARA/MANIFEST.md"
         },
         {
           "path": "references/research_papers/PAPERS_MANIFEST.md",
           "bytes": 9109,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/references/research_papers/PAPERS_MANIFEST.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/references/research_papers/PAPERS_MANIFEST.md"
         },
         {
           "path": "research-analysis.js",
           "bytes": 12149,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Script",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/research-analysis.js"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/research-analysis.js"
         },
         {
           "path": "research-data/ch5-case-study-dataset.md",
           "bytes": 3642,
           "updated": "2026-07-29T09:46:59.367Z",
           "category": "Doc",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/research-data/ch5-case-study-dataset.md"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/research-data/ch5-case-study-dataset.md"
         },
         {
           "path": "research-halalscreener.js",
           "bytes": 8638,
           "updated": "2026-07-29T01:55:43Z",
           "category": "Script",
-          "url": "https://github.com/zudin2007/Disertasi/blob/build/reproducible-pipeline/research-halalscreener.js"
+          "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/research-halalscreener.js"
         }
       ]
     },
     {
       "name": "disertasi-web",
-      "github": null,
+      "github": "https://github.com/zudin2007/disertasi-web",
       "branch": "main",
       "note": "This project: static web output + this monitoring manifest.",
-      "fileCount": 32,
-      "totalBytes": 933438,
+      "fileCount": 34,
+      "totalBytes": 949767,
       "files": [
         {
           "path": ".gitignore",
-          "bytes": 345,
-          "updated": "2026-07-29T09:49:42.755Z",
+          "bytes": 355,
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Other",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/.gitignore"
         },
         {
           "path": "MANIFEST.md",
-          "bytes": 13848,
-          "updated": "2026-07-29T09:50:43.191Z",
+          "bytes": 13418,
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Doc",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/MANIFEST.md"
         },
         {
           "path": "README.md",
-          "bytes": 4354,
-          "updated": "2026-07-29T09:50:19.862Z",
+          "bytes": 5489,
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Doc",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/README.md"
         },
         {
           "path": "content/ABSTRACT.md",
           "bytes": 4673,
-          "updated": "2026-07-29T09:54:17.103Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Front matter",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/ABSTRACT.md"
         },
         {
           "path": "content/APPENDIX_A8_Preliminary_Stakeholder_Feedback.md",
           "bytes": 17323,
-          "updated": "2026-07-29T09:54:17.170Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Appendix",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/APPENDIX_A8_Preliminary_Stakeholder_Feedback.md"
         },
         {
           "path": "content/APPENDIX_B_Interview_Protocol_Blueprint.md",
           "bytes": 12176,
-          "updated": "2026-07-29T09:54:17.150Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Appendix",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/APPENDIX_B_Interview_Protocol_Blueprint.md"
         },
         {
           "path": "content/APPENDIX_C_Survey_Instrument_Design.md",
           "bytes": 15096,
-          "updated": "2026-07-29T09:54:17.154Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Appendix",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/APPENDIX_C_Survey_Instrument_Design.md"
         },
         {
           "path": "content/APPENDIX_D_Regulatory_Executive_Summaries.md",
           "bytes": 16503,
-          "updated": "2026-07-29T09:54:17.158Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Appendix",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/APPENDIX_D_Regulatory_Executive_Summaries.md"
         },
         {
           "path": "content/APPENDIX_E_Literature_Review_Summary.md",
           "bytes": 15657,
-          "updated": "2026-07-29T09:54:17.160Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Appendix",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/APPENDIX_E_Literature_Review_Summary.md"
         },
         {
           "path": "content/APPENDIX_F_Detailed_Measurement_Examples.md",
           "bytes": 19984,
-          "updated": "2026-07-29T09:54:17.164Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Appendix",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/APPENDIX_F_Detailed_Measurement_Examples.md"
         },
         {
           "path": "content/APPENDIX_G_Phase_3_Case_Study_Protocol.md",
           "bytes": 20072,
-          "updated": "2026-07-29T09:54:17.168Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Appendix",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/APPENDIX_G_Phase_3_Case_Study_Protocol.md"
         },
         {
           "path": "content/CASE_STUDIES.md",
           "bytes": 30221,
-          "updated": "2026-07-29T09:54:17.174Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Doc",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CASE_STUDIES.md"
         },
         {
           "path": "content/CHAPTER_1_Introduction.md",
           "bytes": 37468,
-          "updated": "2026-07-29T09:54:17.113Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Chapter",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_1_Introduction.md"
         },
         {
           "path": "content/CHAPTER_2_Islamic_Legal_Framework.md",
           "bytes": 40616,
-          "updated": "2026-07-29T09:54:17.121Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Chapter",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_2_Islamic_Legal_Framework.md"
         },
         {
           "path": "content/CHAPTER_3_Jurisprudential_Positions.md",
           "bytes": 68079,
-          "updated": "2026-07-29T09:54:17.126Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Chapter",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_3_Jurisprudential_Positions.md"
         },
         {
           "path": "content/CHAPTER_4_Regulatory_Landscape.md",
           "bytes": 62697,
-          "updated": "2026-07-29T09:54:17.130Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Chapter",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_4_Regulatory_Landscape.md"
         },
         {
           "path": "content/CHAPTER_5_Unified_Classification_Framework.md",
           "bytes": 51608,
-          "updated": "2026-07-29T09:54:17.137Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Chapter",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_5_Unified_Classification_Framework.md"
         },
         {
           "path": "content/CHAPTER_6_Regulatory_Harmonization_Recommendations.md",
           "bytes": 34190,
-          "updated": "2026-07-29T09:54:17.140Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Chapter",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_6_Regulatory_Harmonization_Recommendations.md"
         },
         {
           "path": "content/CHAPTER_7_Conclusion_and_Future_Research.md",
           "bytes": 27448,
-          "updated": "2026-07-29T09:54:17.142Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Chapter",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_7_Conclusion_and_Future_Research.md"
         },
         {
           "path": "content/CHAPTER_8_Empirical_Research_Agenda.md",
           "bytes": 30627,
-          "updated": "2026-07-29T09:54:17.146Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Chapter",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_8_Empirical_Research_Agenda.md"
         },
         {
           "path": "content/EXECUTIVE_SUMMARY.md",
           "bytes": 10759,
-          "updated": "2026-07-29T09:54:17.107Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Front matter",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/EXECUTIVE_SUMMARY.md"
         },
         {
           "path": "content/site-manifest.json",
-          "bytes": 4112,
-          "updated": "2026-07-29T09:54:17.247Z",
+          "bytes": 4122,
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Data/config",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/site-manifest.json"
+        },
+        {
+          "path": "dist-spa/index.html",
+          "bytes": 14595,
+          "updated": "2026-07-29T09:58:19.460Z",
+          "category": "Web asset",
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/dist-spa/index.html"
+        },
+        {
+          "path": "dist-spa/vercel.json",
+          "bytes": 117,
+          "updated": "2026-07-29T09:58:19.461Z",
+          "category": "Data/config",
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/dist-spa/vercel.json"
         },
         {
           "path": "package-lock.json",
           "bytes": 4606,
-          "updated": "2026-07-29T09:45:31.274Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Data/config",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/package-lock.json"
         },
         {
           "path": "package.json",
           "bytes": 787,
-          "updated": "2026-07-29T09:54:07.722Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Data/config",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/package.json"
         },
         {
           "path": "public/downloads/Dissertation.docx",
           "bytes": 94483,
-          "updated": "2026-07-29T09:30:11.453Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Built output",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/public/downloads/Dissertation.docx"
         },
         {
           "path": "public/downloads/Dissertation.pdf",
           "bytes": 260936,
-          "updated": "2026-07-29T09:30:11.458Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Built output",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/public/downloads/Dissertation.pdf"
         },
         {
           "path": "scripts/build-site.js",
           "bytes": 7846,
-          "updated": "2026-07-29T09:53:10.016Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Script",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/scripts/build-site.js"
         },
         {
           "path": "scripts/build-spa.js",
-          "bytes": 9237,
-          "updated": "2026-07-29T09:54:00.821Z",
+          "bytes": 9637,
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Script",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/scripts/build-spa.js"
         },
         {
           "path": "scripts/generate-manifest.js",
-          "bytes": 7116,
-          "updated": "2026-07-29T09:49:23.173Z",
+          "bytes": 7149,
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Script",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/scripts/generate-manifest.js"
         },
         {
           "path": "scripts/sync-content.js",
-          "bytes": 5102,
-          "updated": "2026-07-29T09:48:24.916Z",
+          "bytes": 5561,
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Script",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/scripts/sync-content.js"
         },
         {
           "path": "templates/style.css",
           "bytes": 5279,
-          "updated": "2026-07-29T09:52:27.341Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Web asset",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/templates/style.css"
         },
         {
           "path": "vercel.json",
           "bytes": 190,
-          "updated": "2026-07-29T09:49:54.875Z",
+          "updated": "2026-07-29T17:02:56+07:00",
           "category": "Data/config",
-          "url": null
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/vercel.json"
         }
       ]
     }
