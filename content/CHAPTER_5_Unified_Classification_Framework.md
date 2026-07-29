@@ -387,6 +387,63 @@ The framework enables cryptocurrency projects to identify specific improvement p
 - Enables al-Karamah (Dignity) in governance decisions
 - Aligns with Islamic principle of Shura (Consultation)
 
+### Pathway Implementation: OJK Regulatory Sandbox Models and GIDR Case Study
+
+The Indonesia Financial Services Authority (OJK) has operationalized these pathways through its regulatory sandbox program, establishing seven distinct compliance models designed to test cryptocurrency structures meeting Islamic legal requirements. This section documents how OJK's implementation translates the abstract framework into concrete regulatory structures.
+
+**Five-Dimensional Assessment of Sandbox Models:**
+
+| Model | Asset Backing | Stability | Utility | Governance | Regulatory Recognition | Framework Category | Shariah Status |
+|---|---|---|---|---|---|---|---|
+| Bond Tokenization | 5/5 (RWA) | 4/5 (tied to bonds) | 4/5 (institutional) | 3/5 (issuer-controlled) | 5/5 (approved) | A+ | Compliant |
+| Property Tokenization | 5/5 (real estate) | 3/5 (subject to RE markets) | 3/5 (ownership fractionation) | 2/5 (developer control) | 5/5 (approved) | B+ | Conditional |
+| Digital Identity | 3/5 (identity service value) | 4/5 (non-traded) | 4/5 (KYC/CDD) | 4/5 (multi-party) | 5/5 (approved) | A- | Compliant |
+| Crypto Index | 1/5 (speculative) | 1/5 (volatile) | 2/5 (speculation only) | 2/5 (data provider control) | 4/5 (approved with conditions) | C | Problematic |
+| Stablecoin (100% Rupiah) | 5/5 (cash reserves) | 5/5 (1:1 peg) | 4/5 (medium of exchange) | 2/5 (issuer custody) | 5/5 (approved) | A | Compliant |
+| Blockchain Custody | 4/5 (asset services) | 4/5 (non-speculative) | 4/5 (settlement/custody) | 3/5 (regulated provider) | 5/5 (approved) | A- | Compliant |
+
+**GIDR (Gold Indonesia Republic): Pathway A Operationalized**
+
+**Framework Alignment:**
+
+GIDR exemplifies how Pathway A (Asset-Backing Enhancement) operationalizes within Indonesia's regulatory structure while satisfying Shariah legal requirements:
+
+| Requirement | GIDR Implementation | Framework Dimension | Shariah Justification |
+|---|---|---|---|
+| Clear underlying asset | 1 gram physical gold per token | Dimension 1: Asset Backing (5/5) | Al-Tahaqquq (Certainty) |
+| Verifiable reserves | Third-party custody and audit | Dimension 1: Asset Backing | Amin Al-Wadi (Trustworthy Custodian) |
+| No gharar | Fixed 1:1 ratio with gold ounce | Dimension 2: Stability (5/5) | Prohibition of excessive uncertainty |
+| Redemption rights | 1:1 gold redemption in 14 days | Dimension 3: Utility (4/5) | Real wealth claim (haqq 'aini) |
+| Governance | Regulated custodian + blockchain | Dimension 4: Governance (3/5) | Trusted institutional oversight |
+| Regulatory approval | OJK sandbox (approved Aug 2025) | Dimension 5: Recognition (5/5) | Regulatory Shariah coordination |
+
+**Classification Outcome:**
+
+- **Framework Score:** A (Category A — Conditionally Compliant)
+- **Shariah Status:** Compliant under Fatwa MUI November 2021 butir 3 exception
+- **Regulatory Pathway:** Approved through OJK sandbox → market launch
+- **Jurisprudential Rationale:** Physical gold backing eliminates al-gharar (uncertainty) and establishes al-tahaqquq (certainty) required for Islamic financial contracts
+
+**Regulatory Learning for Other Jurisdictions:**
+
+OJK's GIDR approval demonstrates how regulators operationalize Shariah compliance through:
+
+1. **Dimension-Based Assessment:** Regulatory approval focused on observable, measurable characteristics (asset backing, stability, utility) rather than abstract Islamic principles
+2. **Sandbox Testing Framework:** Limited-scope pilot testing reduces systemic risk while gathering market data
+3. **Institutional Coordination:** OJK coordination with Shariah Supervisory Boards and industry associations (AFSI) ensures jurisprudential alignment
+4. **Iterative Improvement:** GIDR serves as proof-of-concept for similar asset-backed tokenization models (real estate, bonds, other commodities)
+
+**Strategic Significance:**
+
+GIDR represents the first fully operationalized cryptocurrency satisfying both Islamic law requirements and modern regulatory frameworks. Its approval pathway enables:
+
+- **Institutional Investors:** Islamic banks and funds can hold GIDR without violating Shariah compliance obligations
+- **Retail Access:** Individual investors can participate in gold investment through blockchain-enabled fractionalization
+- **Financial Inclusion:** Cryptocurrency-based gold trading enables cost-effective access for small investors previously excluded from precious metals markets
+- **Regulatory Harmonization:** GIDR model can be replicated in other jurisdictions (Malaysia BNM, Saudi SAMA) with local underlying assets (palm oil in Malaysia, dates in Saudi Arabia)
+
+---
+
 ## 5.5 Case Study Analysis: Cryptocurrency Projects Through Classification Framework
 
 ### Case 1: Bitcoin - Pure Cryptocurrency Architecture
