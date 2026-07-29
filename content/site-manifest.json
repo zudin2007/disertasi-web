@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Cryptocurrency Classification Under Islamic Law",
+    "subtitle": "Jurisprudential Analysis, Methodological Divergence, and a Proposed Framework",
+    "author": "Zudin",
+    "date": "2026",
+    "repository": "github.com/zudin2007/Disertasi",
+    "repoBranch": "claude/halalscreener-mcp-setup-0imrfp"
+  },
+  "generatedFrom": "Disertasi/build/manifest.json (+ web front/back matter)",
+  "sections": [
+    {
+      "file": "ABSTRACT.md",
+      "slug": "abstract",
+      "title": "ABSTRACT"
+    },
+    {
+      "file": "EXECUTIVE_SUMMARY.md",
+      "slug": "executive-summary",
+      "title": "Executive Summary & Key Takeaways"
+    },
+    {
+      "file": "CHAPTER_1_Introduction.md",
+      "slug": "chapter-1-introduction",
+      "title": "Chapter 1: Introduction and Research Problem"
+    },
+    {
+      "file": "CHAPTER_2_Islamic_Legal_Framework.md",
+      "slug": "chapter-2-islamic-legal-framework",
+      "title": "Chapter 2: Islamic Legal Framework - Maqasid Shariah Analysis"
+    },
+    {
+      "file": "CHAPTER_3_Jurisprudential_Positions.md",
+      "slug": "chapter-3-jurisprudential-positions",
+      "title": "Chapter 3: Jurisprudential Positions and Islamic Authority Perspectives"
+    },
+    {
+      "file": "CHAPTER_4_Regulatory_Landscape.md",
+      "slug": "chapter-4-regulatory-landscape",
+      "title": "Chapter 4: Comparative Regulatory Analysis Across Islamic Jurisdictions"
+    },
+    {
+      "file": "CHAPTER_5_Unified_Classification_Framework.md",
+      "slug": "chapter-5-unified-classification-framework",
+      "title": "CHAPTER 5: UNIFIED CRYPTOCURRENCY CLASSIFICATION FRAMEWORK"
+    },
+    {
+      "file": "CHAPTER_6_Regulatory_Harmonization_Recommendations.md",
+      "slug": "chapter-6-regulatory-harmonization-recommendations",
+      "title": "CHAPTER 6: REGULATORY HARMONIZATION RECOMMENDATIONS"
+    },
+    {
+      "file": "CHAPTER_7_Conclusion_and_Future_Research.md",
+      "slug": "chapter-7-conclusion-and-future-research",
+      "title": "CHAPTER 7: CONCLUSION AND FUTURE RESEARCH"
+    },
+    {
+      "file": "CHAPTER_8_Empirical_Research_Agenda.md",
+      "slug": "chapter-8-empirical-research-agenda",
+      "title": "CHAPTER 8: EMPIRICAL RESEARCH AGENDA & IMPLEMENTATION ROADMAP"
+    },
+    {
+      "file": "APPENDIX_B_Interview_Protocol_Blueprint.md",
+      "slug": "appendix-b-interview-protocol-blueprint",
+      "title": "APPENDIX B: INTERVIEW PROTOCOL BLUEPRINT FOR PHASE 1 JURISPRUDENTIAL RESEARCH"
+    },
+    {
+      "file": "APPENDIX_C_Survey_Instrument_Design.md",
+      "slug": "appendix-c-survey-instrument-design",
+      "title": "APPENDIX C: SURVEY INSTRUMENT BLUEPRINT FOR PHASE 2 MARKET RESEARCH"
+    },
+    {
+      "file": "APPENDIX_D_Regulatory_Executive_Summaries.md",
+      "slug": "appendix-d-regulatory-executive-summaries",
+      "title": "APPENDIX D: REGULATORY EXECUTIVE SUMMARIES FOR KEY STAKEHOLDERS"
+    },
+    {
+      "file": "APPENDIX_E_Literature_Review_Summary.md",
+      "slug": "appendix-e-literature-review-summary",
+      "title": "APPENDIX E: LITERATURE REVIEW SUMMARY"
+    },
+    {
+      "file": "APPENDIX_F_Detailed_Measurement_Examples.md",
+      "slug": "appendix-f-detailed-measurement-examples",
+      "title": "APPENDIX F: DETAILED MEASUREMENT EXAMPLES"
+    },
+    {
+      "file": "APPENDIX_G_Phase_3_Case_Study_Protocol.md",
+      "slug": "appendix-g-phase-3-case-study-protocol",
+      "title": "APPENDIX G: PHASE 3 CASE STUDY PROTOCOL FOR REGULATORY IMPLEMENTATION RESEARCH"
+    },
+    {
+      "file": "APPENDIX_A8_Preliminary_Stakeholder_Feedback.md",
+      "slug": "appendix-a8-preliminary-stakeholder-feedback",
+      "title": "APPENDIX A.8: PRELIMINARY STAKEHOLDER CONSULTATION SUMMARY"
+    },
+    {
+      "file": "CASE_STUDIES.md",
+      "slug": "case-studies",
+      "title": "Case Studies: Islamic Finance & Cryptocurrency in Practice"
+    }
+  ],
+  "downloads": [
+    {
+      "file": "downloads/Dissertation.pdf",
+      "label": "Dissertation (PDF)",
+      "bytes": 260936
+    },
+    {
+      "file": "downloads/Dissertation.docx",
+      "label": "Dissertation (DOCX)",
+      "bytes": 94483
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+dist-spa/
+.vercel/
+.DS_Store
+# NOTE: content/ and public/downloads/ ARE committed on purpose. They are a
+# snapshot synced from the Disertasi repo (via `npm run sync`) so this repo
+# builds standalone on Vercel / a fresh clone without needing the Disertasi
+# repo checked out alongside it. Re-run `npm run sync` and commit to refresh.

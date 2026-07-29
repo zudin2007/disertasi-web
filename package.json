@@ -1,0 +1,21 @@
+{
+  "name": "disertasi-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static web output + repo/file monitor for the dissertation 'Cryptocurrency Classification Under Islamic Law'. Renders the Disertasi Markdown to a browsable site and generates a reproducible file manifest.",
+  "type": "commonjs",
+  "scripts": {
+    "sync": "node scripts/sync-content.js",
+    "manifest": "node scripts/generate-manifest.js",
+    "build": "node scripts/build-site.js",
+    "spa": "node scripts/build-spa.js",
+    "rebuild": "node scripts/sync-content.js && node scripts/generate-manifest.js && node scripts/build-site.js && node scripts/build-spa.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "markdown-it": "14.1.0",
+    "markdown-it-anchor": "9.2.0"
+  }
+}
