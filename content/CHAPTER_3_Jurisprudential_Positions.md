@@ -1049,43 +1049,7 @@ Earlier positions (2017-2019) reflecting purely speculative markets appropriatel
 
 ---
 
-## 3.9 Chapter Conclusion
-
-### Summary of Jurisprudential Landscape
-
-This chapter has documented the positions of four major Islamic authorities on cryptocurrency, revealing:
-
-**Consensus Elements:**
-- Pure cryptocurrency not shariah-compliant ✓
-- Asset-backed alternatives potentially permissible ✓
-- Stablecoins potentially more compliant ✓
-- Blockchain technology itself not prohibited ✓
-
-**Divergence Elements:**
-- Degree of restrictiveness differs
-- Treatment of emerging alternatives varies
-- DeFi and smart contracts differently analyzed
-- Risk tolerance and investor protection emphasis varies
-
-**Overall Assessment:**
-Islamic jurisprudence demonstrates both sufficient consensus to guide practice and sufficient flexibility to accommodate legitimate innovation. Rather than categorical prohibition, emerging approach emphasizes systematic assessment according to Islamic financial principles.
-
-### Evolution and Future Trajectory
-
-Islamic scholarly positions on cryptocurrency demonstrate:
-- Evolution as markets and technology mature
-- Movement from categorical prohibition toward nuanced assessment
-- Recognition of asset-backed and stablecoin alternatives
-- Development of systematic evaluation frameworks
-
-**Future Directions:**
-As cryptocurrency markets continue evolving and Islamic finance increasingly integrates blockchain technology, jurisprudential development will likely:
-- Clarify stablecoin and asset-backed cryptocurrency status
-- Develop sophisticated DeFi and smart contract assessment frameworks
-- Integrate blockchain more fully into Islamic financial innovation
-- Maintain strict standards for speculation while enabling legitimate innovation
-
-## 3.6 Mapping Disagreement Sources: Jurisprudential vs. Empirical vs. Methodological
+## 3.9 Mapping Disagreement Sources: Jurisprudential vs. Empirical vs. Methodological
 
 The preceding analysis establishes that Islamic jurisprudential positions on cryptocurrency demonstrate both areas of convergence and areas of legitimate disagreement. However, identifying *where* disagreement exists is insufficient for practical implementation. Regulators, institutions, and cryptocurrency projects require understanding of *why* disagreement exists—specifically, whether disagreements are:
 
@@ -1099,7 +1063,7 @@ This distinction is critical because each category demands different solutions:
 - **Empirical disagreements** can be resolved through research and evidence; framework can identify testable claims
 - **Methodological disagreements** can be resolved through regulatory and institutional innovation; different frameworks can coexist
 
-### 3.6.1 Disagreement Mapping Matrix
+### 3.9.1 Disagreement Mapping Matrix
 
 | Issue | Stated Positions | Type | Root Cause | Resolvable? | Evidence Needed |
 |-------|-----------------|------|-----------|------------|-----------------|
@@ -1111,7 +1075,7 @@ This distinction is critical because each category demands different solutions:
 | **Speculation vs. investment** | Consensus that pure speculation prohibited (maysir); disagreement on what constitutes "productive" vs. "speculative" use | Primarily empirical (65%) | Scholars agree on principle; disagree on classification of specific cryptocurrency uses as productive or speculative | Yes—market analysis can demonstrate actual use patterns | Usage data: what percentage of transactions constitute productive economic activity vs. speculative trading? |
 | **Cross-border recognition** | OJK (Indonesia): domestic assessment only; Malaysia: regional coordination beneficial; Saudi Arabia: unilateral prohibition | Primarily methodological (70%) | Disagreement on whether regulatory recognition should vary by jurisdiction or converge globally | Partial—institutional coordination mechanism (IIFRC) can bridge methodological differences | Empirical research: do coordination mechanisms reduce regulatory arbitrage costs without sacrificing Islamic compliance? |
 
-### 3.6.2 Implications for Framework Development
+### 3.9.2 Implications for Framework Development
 
 **Empirical Disagreements (75% of total):**
 These disagreements can be addressed through evidence collection and empirical research. The five-dimensional framework enables systematic identification of:
@@ -1131,7 +1095,7 @@ These reflect different frameworks for applying Islamic law to digital assets. T
 - Multi-jurisdiction coordination mechanisms (IIFRC) enabling different approaches to coexist
 - Regulatory frameworks permitting multiple pathways to Islamic compliance
 
-### 3.6.3 Research Agenda Implications
+### 3.9.3 Research Agenda Implications
 
 The disagreement mapping directly informs the empirical research agenda outlined in Chapter 8:
 
@@ -1143,7 +1107,7 @@ The disagreement mapping directly informs the empirical research agenda outlined
 
 The result is a framework for transforming disagreement about cryptocurrency from unresolvable jurisprudential debate to resolvable empirical research questions.
 
-## 3.7 Policy Implications for Regulators
+## 3.10 Policy Implications for Regulators
 
 The jurisprudential analysis demonstrates that implicit consensus exists on core principles (asset-backing importance, stability requirements, governance transparency) while legitimate disagreement persists on specific thresholds and application methods. Regulatory frameworks should leverage consensus areas while accommodating legitimate disagreement.
 
@@ -1189,6 +1153,44 @@ Regulatory convergence is feasible in consensus areas (60-70% of framework dimen
 **Phase 2 (Months 4-6):** Establish thresholds in consensus areas using framework
 **Phase 3 (Months 7-12):** Join IIFRC and harmonize with other regulators on consensus
 **Phase 4 (Months 13-24):** Participate in empirical research transforming disagreements
+
+---
+
+## 3.11 Chapter Conclusion
+
+### Summary of Jurisprudential Landscape
+
+This chapter has documented the positions of four major Islamic authorities on cryptocurrency, revealing:
+
+**Consensus Elements:**
+- Pure cryptocurrency not shariah-compliant ✓
+- Asset-backed alternatives potentially permissible ✓
+- Stablecoins potentially more compliant ✓
+- Blockchain technology itself not prohibited ✓
+
+**Divergence Elements:**
+- Degree of restrictiveness differs
+- Treatment of emerging alternatives varies
+- DeFi and smart contracts differently analyzed
+- Risk tolerance and investor protection emphasis varies
+
+**Overall Assessment:**
+Islamic jurisprudence demonstrates both sufficient consensus to guide practice and sufficient flexibility to accommodate legitimate innovation. Rather than categorical prohibition, emerging approach emphasizes systematic assessment according to Islamic financial principles.
+
+### Evolution and Future Trajectory
+
+Islamic scholarly positions on cryptocurrency demonstrate:
+- Evolution as markets and technology mature
+- Movement from categorical prohibition toward nuanced assessment
+- Recognition of asset-backed and stablecoin alternatives
+- Development of systematic evaluation frameworks
+
+**Future Directions:**
+As cryptocurrency markets continue evolving and Islamic finance increasingly integrates blockchain technology, jurisprudential development will likely:
+- Clarify stablecoin and asset-backed cryptocurrency status
+- Develop sophisticated DeFi and smart contract assessment frameworks
+- Integrate blockchain more fully into Islamic financial innovation
+- Maintain strict standards for speculation while enabling legitimate innovation
 
 ---
 

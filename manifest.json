@@ -2,7 +2,7 @@
   "project": "Cryptocurrency Classification Under Islamic Law — dissertation",
   "repoCount": 2,
   "fileCount": 93,
-  "totalBytes": 6915417,
+  "totalBytes": 6919027,
   "repos": [
     {
       "name": "Disertasi",
@@ -433,7 +433,7 @@
       "branch": "main",
       "note": "This project: static web output + this monitoring manifest.",
       "fileCount": 34,
-      "totalBytes": 949767,
+      "totalBytes": 953377,
       "files": [
         {
           "path": ".gitignore",
@@ -444,15 +444,15 @@
         },
         {
           "path": "MANIFEST.md",
-          "bytes": 13418,
-          "updated": "2026-07-29T17:02:56+07:00",
+          "bytes": 17271,
+          "updated": "2026-07-29T17:11:23+07:00",
           "category": "Doc",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/MANIFEST.md"
         },
         {
           "path": "README.md",
-          "bytes": 5489,
-          "updated": "2026-07-29T17:02:56+07:00",
+          "bytes": 5268,
+          "updated": "2026-07-29T17:23:48+07:00",
           "category": "Doc",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/README.md"
         },
@@ -528,14 +528,14 @@
         },
         {
           "path": "content/CHAPTER_2_Islamic_Legal_Framework.md",
-          "bytes": 40616,
+          "bytes": 40585,
           "updated": "2026-07-29T17:02:56+07:00",
           "category": "Chapter",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_2_Islamic_Legal_Framework.md"
         },
         {
           "path": "content/CHAPTER_3_Jurisprudential_Positions.md",
-          "bytes": 68079,
+          "bytes": 68088,
           "updated": "2026-07-29T17:02:56+07:00",
           "category": "Chapter",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_3_Jurisprudential_Positions.md"
@@ -648,7 +648,7 @@
         {
           "path": "scripts/generate-manifest.js",
           "bytes": 7149,
-          "updated": "2026-07-29T17:02:56+07:00",
+          "updated": "2026-07-29T17:11:23+07:00",
           "category": "Script",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/scripts/generate-manifest.js"
         },

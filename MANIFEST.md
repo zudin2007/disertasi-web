@@ -120,7 +120,7 @@ Dissertation manuscript, appendices, build pipeline, research scripts.
 This project: static web output + this monitoring manifest.
 
 - Repo: [https://github.com/zudin2007/disertasi-web](https://github.com/zudin2007/disertasi-web)
-- Files: 34 · Size: 928 KB · Branch: `main`
+- Files: 34 · Size: 931 KB · Branch: `main`
 
 ### Appendix
 
@@ -168,7 +168,7 @@ This project: static web output + this monitoring manifest.
 
 | File | Size | Last updated |
 | --- | ---: | --- |
-| [MANIFEST.md](https://github.com/zudin2007/disertasi-web/blob/main/MANIFEST.md) | 13 KB | 2026-07-29 |
+| [MANIFEST.md](https://github.com/zudin2007/disertasi-web/blob/main/MANIFEST.md) | 17 KB | 2026-07-29 |
 | [README.md](https://github.com/zudin2007/disertasi-web/blob/main/README.md) | 5 KB | 2026-07-29 |
 | [content/CASE_STUDIES.md](https://github.com/zudin2007/disertasi-web/blob/main/content/CASE_STUDIES.md) | 30 KB | 2026-07-29 |
 

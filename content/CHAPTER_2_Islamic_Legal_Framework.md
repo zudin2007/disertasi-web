@@ -615,8 +615,6 @@ Maqasid Shariah provides principled assessment framework applicable across juris
 
 ## References for Chapter 2
 
-## References for Chapter 2
-
 ### Primary Islamic Law Sources
 
 - Al-Ghazali. (n.d.). *Al-Mustasfa min Ilm al-Usul* [The Extracted from the Science of Principles].
