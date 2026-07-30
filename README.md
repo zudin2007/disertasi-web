@@ -96,6 +96,24 @@ git commit timestamps (falling back to filesystem mtime), so the same tree
 produces the same manifest. To add another repo to the monitor, edit the `REPOS`
 array at the top of `scripts/generate-manifest.js`.
 
+## Multilingual (i18n)
+
+The English site renders from `content/site-manifest.json` into `dist/` (site
+root). Each additional language is **pure data** — no code change needed:
+
+- Drop that language's Markdown under **`content/<lang>/`** (e.g. `content/id/`).
+- Add a **`content/<lang>/site-manifest.json`** listing its `sections`
+  (`file`, `slug`, `title`, optional `sourceFile` for the "view source" link),
+  `metadata`, and a `ui` object of localized labels.
+- `npm run build` discovers every `content/<lang>/site-manifest.json` and renders
+  it into **`dist/<lang>/`**, cross-linked with the English root via a language
+  switcher in the sidebar.
+
+**Bahasa Indonesia** lives at `content/id/` → served at `/id/`. Translator drops
+new ID chapters into `content/id/` and adds a `sections` entry in
+`content/id/site-manifest.json`; the source Markdown is mirrored from the
+`Disertasi` repo's `id/` directory.
+
 ## Downloads / provenance
 
 The site's **Download** buttons serve the committed, compact

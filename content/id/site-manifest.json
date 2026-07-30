@@ -1,0 +1,30 @@
+{
+  "lang": "id",
+  "metadata": {
+    "title": "Klasifikasi Mata Uang Kripto dalam Hukum Islam",
+    "subtitle": "Analisis Yurisprudensial, Divergensi Metodologis, dan Kerangka yang Diusulkan",
+    "author": "Zudin",
+    "date": "2026",
+    "repository": "github.com/zudin2007/Disertasi",
+    "repoBranch": "claude/disaa-26-bab1-id"
+  },
+  "ui": {
+    "eyebrow": "Disertasi Doktoral",
+    "homeNav": "Beranda",
+    "tocHeading": "Daftar Isi",
+    "onThisPage": "Pada halaman ini",
+    "downloadHeading": "Unduh",
+    "sourceLabel": "Lihat sumber",
+    "renderedFrom": "Dirender dari"
+  },
+  "generatedFrom": "Disertasi/id/ (branch claude/disaa-26-bab1-id) — translation drop, DISAA-36",
+  "sections": [
+    {
+      "file": "BAB_1_Yurisprudensi_Islam_dan_Mata_Uang_Kripto.md",
+      "sourceFile": "id/BAB_1_Yurisprudensi_Islam_dan_Mata_Uang_Kripto.md",
+      "slug": "bab-1-klasifikasi-mata-uang-kripto-dalam-hukum-islam",
+      "title": "Bab 1: Klasifikasi Mata Uang Kripto dalam Hukum Islam"
+    }
+  ],
+  "downloads": []
+}
