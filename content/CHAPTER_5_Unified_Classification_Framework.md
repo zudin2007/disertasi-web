@@ -563,48 +563,42 @@ Similar to Bitcoin, with slightly higher utility recognition but same core compl
 
 XRP tests the framework against an asset that pairs a genuine institutional use-case (cross-border settlement) with a highly concentrated ownership and governance structure. A substantial portion of the total XRP supply was created at genesis and allocated to Ripple Labs, a portion of which is released from escrow on a scheduled basis; Ripple also publishes the default Unique Node List that shapes validator selection, giving it disproportionate influence over the ledger (Ripple, published escrow and UNL documentation). The 2023 ruling in *SEC v. Ripple Labs* (S.D.N.Y., Torres J.) held that programmatic exchange sales of XRP did not constitute investment-contract securities, a status distinct from Shariah classification but material to Dimension 5.
 
-**Dimension Scoring:**
-- Asset Backing (Dim 1): 1 point — XRP carries no collateral; value derives from network/settlement utility only.
-- Value Stability (Dim 2): 1 point — historically high, unpegged volatility comparable to other pure cryptocurrencies (annualised swings well in excess of ±30%).
-- Productive Utility (Dim 3): 4 points — demonstrated cross-border settlement function via RippleNet, though institutional adoption remains contested.
-- Governance (Dim 4): 2 points — the XRP Ledger's consensus is not single-entity operated, but concentrated issuer influence (escrow supply overhang; Ripple-shaped default Unique Node List) materially depresses the score.
-- Regulatory Recognition (Dim 5): 2 points — not recognised in Islamic jurisdictions; U.S. status partially clarified by the 2023 ruling but immaterial to Shariah standing.
+**Dimensional Assessment (provisional — awaiting screening confirmation):**
+- Asset Backing (Dim 1): low — XRP carries no collateral; value derives from network/settlement utility only.
+- Value Stability (Dim 2): **[pending screened volatility data — see Coder data request]**; historically high, unpegged.
+- Productive Utility (Dim 3): moderate-to-high — demonstrated cross-border settlement function via RippleNet, though adoption is contested.
+- Governance (Dim 4): **low** — concentrated issuer control (escrow supply overhang; Ripple-shaped UNL) is the decisive compliance deficiency.
+- Regulatory Recognition (Dim 5): **[pending]** — not recognised in Islamic jurisdictions; U.S. status partially clarified by the 2023 ruling.
 
-**Composite Score: 10 points → Category C (Problematic-Status)**
-
-**Jurisprudential Assessment:** The concentrated-issuance and governance structure is the analytically salient feature: the *gharar* concern shifts from price uncertainty alone to counterparty and control risk (dependence on a single commercial issuer's release schedule and influence over consensus). XRP therefore illustrates a case where genuine productive utility (Dim 3 = 4, higher than Bitcoin's institutional-settlement profile) cannot offset compounded deficiencies in backing, stability, and governance — precisely the pattern the multi-dimensional framework is designed to surface, and one a binary halal/haram test would obscure. It sits at the lower boundary of Category C.
+**Jurisprudential Assessment:** The concentrated-issuance and governance structure is the analytically salient feature: the *gharar* concern shifts from price uncertainty alone to counterparty and control risk (dependence on a single commercial issuer's release schedule and influence over consensus). XRP therefore illustrates a case where productive utility (Dim 3) cannot offset a structural Dimension 4 deficiency — a pattern the framework is designed to surface. Provisional placement: **Category C**, pending confirmation of the volatility- and recognition-dependent scores.
 
 ### Case 6: BNB (Binance Coin) - Exchange-Native Utility Token
 
 BNB is issued by, and functionally tethered to, a single commercial exchange operator. It confers trading-fee discounts and serves as the gas asset for BNB Chain, and its supply is periodically reduced through issuer-conducted token burns (Binance, published burn documentation). Its governance is the antithesis of decentralisation: control rests with the issuing firm. The compliance salience of that concentration was underscored by the November 2023 U.S. enforcement resolution, in which Binance entered a settlement with the Department of Justice and CZ pleaded guilty to Bank Secrecy Act violations — an *illa* bearing directly on the counterparty-integrity aspect of the governance dimension.
 
-**Dimension Scoring:**
-- Asset Backing (Dim 1): 1 point — no external collateral; value tied to exchange demand and issuer burn policy.
-- Value Stability (Dim 2): 1 point — unpegged, high volatility characteristic of pure cryptocurrencies.
-- Productive Utility (Dim 3): 3 points — real utility (fee discounts, BNB Chain gas), but confined to one issuer's ecosystem rather than general-purpose.
-- Governance (Dim 4): 1 point — single-firm control of issuance, burns, and the dominant validator set; the antithesis of the decentralisation the dimension rewards.
-- Regulatory Recognition (Dim 5): 2 points — not recognised in Islamic jurisdictions; issuer under active enforcement scrutiny in multiple jurisdictions.
+**Dimensional Assessment (provisional — awaiting screening confirmation):**
+- Asset Backing (Dim 1): low — no external collateral; value tied to exchange demand and burn policy.
+- Value Stability (Dim 2): **[pending screened volatility data]**; unpegged.
+- Productive Utility (Dim 3): moderate — real utility within one ecosystem, but that utility is issuer-dependent, not general.
+- Governance (Dim 4): **very low** — single-firm control of issuance, burns, and the dominant validator set.
+- Regulatory Recognition (Dim 5): **[pending]** — not recognised in Islamic jurisdictions; issuer under active enforcement scrutiny in multiple jurisdictions.
 
-**Composite Score: 8 points → Category D (Speculative/Non-Compliant)**
-
-**Jurisprudential Assessment:** BNB sharpens the Dimension 4 problem beyond XRP: its utility is entirely contingent on the continued solvency and good standing of a single, legally-troubled issuer, compounding *gharar* with acute concentration and counterparty risk. It scores below XRP precisely because its ecosystem-bound utility cannot be separated from that issuer. BNB is a clear illustration of why productive utility alone (Dim 3) is insufficient for compliance, and of how the framework distinguishes a genuinely decentralised but volatile asset (Bitcoin, Category C) from an issuer-captive one (BNB, Category D).
+**Jurisprudential Assessment:** BNB sharpens the Dimension 4 problem beyond XRP: utility is entirely contingent on the continued solvency and good standing of a single, legally-troubled issuer, compounding *gharar* with concentration risk. It is a clear illustration of why productive utility alone (Dim 3) is insufficient for compliance under the framework. Provisional placement: **Category C/D**, pending confirmation.
 
 ### Case 7: Tether (USDT) - Fiat-Referenced Stablecoin with Attestation-Quality Deficit
 
 USDT is instructive precisely because it invites comparison with USDC (Case 3): both are fiat-referenced stablecoins with strong Dimension 2 and 3 profiles, yet they diverge on the *quality of assurance* over their reserves — the crux of Dimension 1 under Islamic scrutiny. Tether has faced regulatory findings on reserve representation: a 2021 CFTC order (US$41 million civil penalty) found that USDT was not fully backed by fiat reserves at all relevant times, and a 2021 New York Attorney General settlement (US$18.5 million) addressed related misrepresentations (CFTC, Order, Oct. 2021; NYAG, Settlement, Feb. 2021). Tether subsequently shifted toward publishing periodic reserve attestations dominated by short-term U.S. Treasury holdings, though these remain attestations rather than full audits.
 
-**Dimension Scoring:**
-- Asset Backing (Dim 1): 4 points — reserves are now largely short-dated Treasuries (satisfying the framework's 4-point "100% reserve backing" tier), but the attestation-not-audit quality and the documented history of misrepresentation cap USDT below the 5-point "transparent, auditable backing" tier that a fully audited issuer could reach.
-- Value Stability (Dim 2): 5 points — peg generally maintained within ±1% of USD, with rare and short-lived de-peg episodes.
-- Productive Utility (Dim 3): 5 points — the most widely used stablecoin for payments, remittances, and settlement.
-- Governance (Dim 4): 2 points — centralised issuer (Tether Ltd.).
-- Regulatory Recognition (Dim 5): 2 points — recognition trajectory weaker than USDC; not endorsed in Islamic jurisdictions.
-
-**Composite Score: 18 points → Category B (Conditional-Compliance)**
+**Dimensional Assessment (provisional — awaiting screening confirmation):**
+- Asset Backing (Dim 1): 4 — reserves are now largely short-dated Treasuries (satisfying the framework's 4-point "100% reserve backing" tier), but the attestation-not-audit quality and the documented history of misrepresentation cap USDT below the 5-point "transparent, auditable backing" tier that a fully audited issuer could reach.
+- Value Stability (Dim 2): high (≈5) — peg generally maintained within a narrow band, with historical de-peg episodes; **[pending screened deviation data]**.
+- Productive Utility (Dim 3): high (≈5) — the most widely used stablecoin for payments and settlement.
+- Governance (Dim 4): low (≈2) — centralised issuer (Tether Ltd.).
+- Regulatory Recognition (Dim 5): **[pending]** — recognition trajectory weaker than USDC; not endorsed in Islamic jurisdictions.
 
 **Jurisprudential Assessment:** USDT demonstrates that Dimension 1 is not a binary "backed / unbacked" test but a graded assessment of the *verifiability* of backing — a distinction with direct Shariah weight, since the *gharar* objection to fiat-referenced tokens is answered by demonstrable, auditable reserves, not by asserted ones. USDT and USDC both land in **Category B**, consistent with the dimensional example scores in §5.2.1–§5.2.2; the analytically decisive difference lies in their *headroom to Category A*. USDC's path (Case 3) is blocked only by centralised governance (Dimension 4); USDT faces a **second** barrier — the reserve-transparency ceiling on Dimension 1 — so that even a governance improvement would not carry it to Category A without an audit-grade attestation regime. The USDC/USDT contrast thus operationalises reserve transparency as a live compliance variable rather than a formality, and illustrates why two assets with near-identical composite scores can have materially different compliance trajectories.
 
-> **Scoring provenance note.** The dimensional scores in Cases 1–7 are the author's application of the five-dimension rubric (§5.2) to publicly documented facts: reserve and collateral structure (issuer attestations and reserve reports), realised volatility relative to the reference asset (public market data), demonstrated utility and adoption, governance and ownership concentration (protocol and issuer disclosures), and regulatory/jurisprudential recognition (the fatwas and regulatory instruments cited in Chapters 3–4). They are analytical assessments, not the output of an independent third-party screening service, and — like the jurisprudential scores in the existing literature — they have not been subjected to a formal inter-rater validation. That validation is a known limitation of the framework (see §5.7.5) and is the object of the empirical research agenda in Chapter 8; the scores should be read as reasoned, source-referenced classifications open to revision, not as measured constants.
+> **Data provenance note.** The volatility-derived Dimension 2 scores, purification figures, and screening verdicts for Cases 5–7 (and re-confirmation for Cases 1–4) are to be populated from the compliance-screening dataset produced by the engineering track (halalscreener run on BTC, ETH, XRP, BNB, USDC, USDT), not asserted by the author. Provisional category placements above are analytical judgments on publicly documented structural facts and will be finalised once that dataset is delivered.
 
 ### 5.5.5 Confronting the Categorical Objection: A Steelman of Blanket Prohibition and Its Rebuttal
 
@@ -691,14 +685,6 @@ The framework weights dimensions equally (each Dimension = maximum 5 points = 20
 ### 5.7.4 Regulatory Recognition Dimension Circularity
 
 The Regulatory Recognition dimension (Dimension 5) reflects institutional assessment of Islamic compliance rather than first-principles Islamic jurisprudence. This can create circular reasoning: cryptocurrencies receive regulatory approval, which boosts their compliance score, which justifies approval. Separation of regulatory assessment from compliance scoring deserves consideration.
-
-### 5.7.5 Scoring Provenance and the Absence of Independent Validation
-
-The most significant methodological limitation concerns the provenance of the dimensional scores themselves. The scores assigned to the assets in §5.5 are the author's application of the rubric to publicly documented facts — reserve structures, realised volatility, adoption, governance concentration, and cited jurisprudential and regulatory positions. They are transparent and source-referenced, but they are single-rater judgments: no independent panel has scored the same assets against the same rubric, and no inter-rater reliability statistic (e.g., a Cohen's or Fleiss' *kappa*) has been computed. This matters most for the dimensions that require interpretive weighting rather than direct observation — Productive Utility (Dim 3) and, to a lesser extent, Governance (Dim 4) — where two qualified assessors could defensibly differ by a point.
-
-Three consequences follow, and each is a boundary on the claims this chapter makes. First, category assignments near a threshold (USDT at 18 and USDC at 19, both at the upper edge of Category B; XRP at 10 at the lower edge of Category C) should be treated as provisional: a one-point revision on a single dimension can move a borderline asset across a category line. Second, the framework's contribution is best understood as *diagnostic and structural* — it shows which deficiencies drive a classification and how remediation would change it — rather than as a settled numerical verdict on any particular coin. Third, an independent screening dataset was scoped to strengthen the empirical inputs but was not incorporated in this version (a resourcing decision); the scores therefore rest on cited public sources alone, and the framework's operational reliability remains to be tested.
-
-The remedy is not a defect to be concealed but a research program to be specified: the inter-rater validation study, the temporal back-testing across market cycles, and the sensitivity analysis on dimension weighting (§5.7.3) are set out as concrete empirical work in Chapter 8. Until that work is done, the scores in this chapter should be read as a rigorously-reasoned, fully-auditable *proposal* for how these assets classify, not as validated measurements.
 
 ## 5.8 Framework Application Workflow
 
