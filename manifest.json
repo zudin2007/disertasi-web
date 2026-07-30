@@ -2,7 +2,7 @@
   "project": "Cryptocurrency Classification Under Islamic Law — dissertation",
   "repoCount": 2,
   "fileCount": 101,
-  "totalBytes": 4662588,
+  "totalBytes": 4669450,
   "repos": [
     {
       "name": "Disertasi",
@@ -10,7 +10,7 @@
       "branch": "claude/halalscreener-mcp-setup-0imrfp",
       "note": "Dissertation manuscript, appendices, build pipeline, research scripts.",
       "fileCount": 67,
-      "totalBytes": 3646469,
+      "totalBytes": 3649900,
       "files": [
         {
           "path": ".claude/claude.json",
@@ -175,8 +175,8 @@
         },
         {
           "path": "CHAPTER_5_Unified_Classification_Framework.md",
-          "bytes": 56259,
-          "updated": "2026-07-29T16:37:00Z",
+          "bytes": 59690,
+          "updated": "2026-07-30T06:52:33+07:00",
           "category": "Chapter",
           "url": "https://github.com/zudin2007/Disertasi/blob/claude/halalscreener-mcp-setup-0imrfp/CHAPTER_5_Unified_Classification_Framework.md"
         },
@@ -489,7 +489,7 @@
       "branch": "main",
       "note": "This project: static web output + this monitoring manifest.",
       "fileCount": 34,
-      "totalBytes": 1016119,
+      "totalBytes": 1019550,
       "files": [
         {
           "path": ".gitignore",
@@ -501,7 +501,7 @@
         {
           "path": "MANIFEST.md",
           "bytes": 18884,
-          "updated": "2026-07-29T18:15:35+07:00",
+          "updated": "2026-07-30T06:48:05+07:00",
           "category": "Doc",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/MANIFEST.md"
         },
@@ -599,14 +599,14 @@
         {
           "path": "content/CHAPTER_4_Regulatory_Landscape.md",
           "bytes": 71679,
-          "updated": "2026-07-29T17:02:56+07:00",
+          "updated": "2026-07-30T06:48:05+07:00",
           "category": "Chapter",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_4_Regulatory_Landscape.md"
         },
         {
           "path": "content/CHAPTER_5_Unified_Classification_Framework.md",
-          "bytes": 56259,
-          "updated": "2026-07-29T17:02:56+07:00",
+          "bytes": 59690,
+          "updated": "2026-07-30T06:48:05+07:00",
           "category": "Chapter",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_5_Unified_Classification_Framework.md"
         },
@@ -648,14 +648,14 @@
         {
           "path": "dist-spa/index.html",
           "bytes": 14667,
-          "updated": "2026-07-29T23:47:37.467Z",
+          "updated": "2026-07-29T23:47:43.631Z",
           "category": "Web asset",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/dist-spa/index.html"
         },
         {
           "path": "dist-spa/vercel.json",
           "bytes": 117,
-          "updated": "2026-07-29T23:47:37.468Z",
+          "updated": "2026-07-29T23:47:43.633Z",
           "category": "Data/config",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/dist-spa/vercel.json"
         },
