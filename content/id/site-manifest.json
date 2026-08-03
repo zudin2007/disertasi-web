@@ -6,7 +6,7 @@
     "author": "Zudin",
     "date": "2026",
     "repository": "github.com/zudin2007/Disertasi",
-    "repoBranch": "claude/disaa-26-bab1-id"
+    "repoBranch": "claude/halalscreener-mcp-setup-0imrfp"
   },
   "ui": {
     "eyebrow": "Disertasi Doktoral",
@@ -17,13 +17,103 @@
     "sourceLabel": "Lihat sumber",
     "renderedFrom": "Dirender dari"
   },
-  "generatedFrom": "Disertasi/id/ (branch claude/disaa-26-bab1-id) — translation drop, DISAA-36",
+  "generatedFrom": "Disertasi/id/ (branch claude/halalscreener-mcp-setup-0imrfp) — synced by scripts/sync-content.js",
   "sections": [
+    {
+      "file": "ABSTRAK.md",
+      "sourceFile": "id/ABSTRAK.md",
+      "slug": "abstrak",
+      "title": "ABSTRAK"
+    },
     {
       "file": "BAB_1_Yurisprudensi_Islam_dan_Mata_Uang_Kripto.md",
       "sourceFile": "id/BAB_1_Yurisprudensi_Islam_dan_Mata_Uang_Kripto.md",
-      "slug": "bab-1-klasifikasi-mata-uang-kripto-dalam-hukum-islam",
+      "slug": "bab-1-yurisprudensi-islam-dan-mata-uang-kripto",
       "title": "Bab 1: Klasifikasi Mata Uang Kripto dalam Hukum Islam"
+    },
+    {
+      "file": "BAB_3_Posisi_Yurisprudensial.md",
+      "sourceFile": "id/BAB_3_Posisi_Yurisprudensial.md",
+      "slug": "bab-3-posisi-yurisprudensial",
+      "title": "Bab 3: Posisi Yurisprudensial dan Perspektif Otoritas Islam"
+    },
+    {
+      "file": "BAB_4_Lanskap_Regulasi_Komparatif.md",
+      "sourceFile": "id/BAB_4_Lanskap_Regulasi_Komparatif.md",
+      "slug": "bab-4-lanskap-regulasi-komparatif",
+      "title": "Bab 4: Lanskap Regulasi Komparatif di Seluruh Yurisdiksi Keuangan Islam"
+    },
+    {
+      "file": "BAB_5_Kerangka_Klasifikasi_Terpadu.md",
+      "sourceFile": "id/BAB_5_Kerangka_Klasifikasi_Terpadu.md",
+      "slug": "bab-5-kerangka-klasifikasi-terpadu",
+      "title": "BAB 5: KERANGKA KLASIFIKASI MATA UANG KRIPTO TERPADU"
+    },
+    {
+      "file": "BAB_6_Rekomendasi_Harmonisasi_Regulasi.md",
+      "sourceFile": "id/BAB_6_Rekomendasi_Harmonisasi_Regulasi.md",
+      "slug": "bab-6-rekomendasi-harmonisasi-regulasi",
+      "title": "BAB 6: REKOMENDASI HARMONISASI REGULASI"
+    },
+    {
+      "file": "BAB_7_Simpulan_dan_Riset_Masa_Depan.md",
+      "sourceFile": "id/BAB_7_Simpulan_dan_Riset_Masa_Depan.md",
+      "slug": "bab-7-simpulan-dan-riset-masa-depan",
+      "title": "BAB 7: SIMPULAN DAN RISET MASA DEPAN"
+    },
+    {
+      "file": "BAB_8_Agenda_Riset_Empiris.md",
+      "sourceFile": "id/BAB_8_Agenda_Riset_Empiris.md",
+      "slug": "bab-8-agenda-riset-empiris",
+      "title": "BAB 8: AGENDA RISET EMPIRIS & PETA JALAN IMPLEMENTASI"
+    },
+    {
+      "file": "GLOSSARY_ID.md",
+      "sourceFile": "id/GLOSSARY_ID.md",
+      "slug": "glossary-id",
+      "title": "Glosarium Terjemahan Indonesia–Inggris"
+    },
+    {
+      "file": "APPENDIX_A8_Preliminary_Stakeholder_Feedback.md",
+      "sourceFile": "id/APPENDIX_A8_Preliminary_Stakeholder_Feedback.md",
+      "slug": "appendix-a8-preliminary-stakeholder-feedback",
+      "title": "LAMPIRAN A.8: RINGKASAN KONSULTASI PEMANGKU KEPENTINGAN PENDAHULUAN"
+    },
+    {
+      "file": "APPENDIX_B_Interview_Protocol_Blueprint.md",
+      "sourceFile": "id/APPENDIX_B_Interview_Protocol_Blueprint.md",
+      "slug": "appendix-b-interview-protocol-blueprint",
+      "title": "LAMPIRAN B: CETAK BIRU PROTOKOL WAWANCARA UNTUK PENELITIAN YURISPRUDENSIAL FASE 1"
+    },
+    {
+      "file": "APPENDIX_C_Survey_Instrument_Design.md",
+      "sourceFile": "id/APPENDIX_C_Survey_Instrument_Design.md",
+      "slug": "appendix-c-survey-instrument-design",
+      "title": "LAMPIRAN C: CETAK BIRU INSTRUMEN SURVEI UNTUK RISET PASAR FASE 2"
+    },
+    {
+      "file": "APPENDIX_D_Regulatory_Executive_Summaries.md",
+      "sourceFile": "id/APPENDIX_D_Regulatory_Executive_Summaries.md",
+      "slug": "appendix-d-regulatory-executive-summaries",
+      "title": "LAMPIRAN D: RINGKASAN EKSEKUTIF REGULATIF UNTUK PEMANGKU KEPENTINGAN UTAMA"
+    },
+    {
+      "file": "APPENDIX_E_Literature_Review_Summary.md",
+      "sourceFile": "id/APPENDIX_E_Literature_Review_Summary.md",
+      "slug": "appendix-e-literature-review-summary",
+      "title": "LAMPIRAN E: RINGKASAN TINJAUAN PUSTAKA"
+    },
+    {
+      "file": "APPENDIX_F_Detailed_Measurement_Examples.md",
+      "sourceFile": "id/APPENDIX_F_Detailed_Measurement_Examples.md",
+      "slug": "appendix-f-detailed-measurement-examples",
+      "title": "LAMPIRAN F: CONTOH PENGUKURAN TERPERINCI"
+    },
+    {
+      "file": "APPENDIX_G_Phase_3_Case_Study_Protocol.md",
+      "sourceFile": "id/APPENDIX_G_Phase_3_Case_Study_Protocol.md",
+      "slug": "appendix-g-phase-3-case-study-protocol",
+      "title": "LAMPIRAN G: PROTOKOL STUDI KASUS FASE 3 UNTUK PENELITIAN IMPLEMENTASI REGULATIF"
     }
   ],
   "downloads": []

@@ -22,6 +22,13 @@ const DISERTASI = path.resolve(PROJECT, process.env.DISERTASI_DIR || '../Diserta
 const CONTENT = path.join(PROJECT, 'content');
 const DOWNLOADS = path.join(PROJECT, 'public', 'downloads');
 
+// Additional-language trees to mirror out of Disertasi. Each maps a source
+// subdirectory in the Disertasi repo to a content/<lang>/ tree that build-site.js
+// renders into dist/<lang>/. Chrome (ui strings, localized metadata) lives in the
+// committed content/<lang>/site-manifest.json and is preserved across syncs — we
+// only regenerate the ordered `sections` list from the translated Markdown.
+const LOCALES = [{ lang: 'id', srcDir: 'id' }];
+
 // Extra front/back matter to surface on the site beyond the compiled manifest.
 // Inserted relative to the canonical section list; content decisions stay in the
 // Disertasi repo — we only choose whether to LINK a file, not what it says.
@@ -77,6 +84,88 @@ function ensureDir(d) {
 function firstH1(markdown, fallback) {
   const m = markdown.match(/^#\s+(.+?)\s*$/m);
   return m ? m[1].replace(/[*_`]/g, '').trim() : fallback;
+}
+
+function slugify(file) {
+  return file.replace(/\.md$/i, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+// Clean a heading for use as a nav/TOC title: drop a leading "FILE.md — " artifact
+// some translated files carry, and collapse whitespace.
+function cleanTitle(raw, file) {
+  let t = firstH1(raw, file.replace(/\.md$/i, ''));
+  t = t.replace(/^\S+\.md\s*[—–-]\s*/i, '').replace(/\s+/g, ' ').trim();
+  return t;
+}
+
+// Deterministic front-to-back order: abstract, executive summary, numbered
+// chapters (BAB_n / CHAPTER_n), glossary, then appendices (A8, B..G lexically).
+function sectionOrder(file) {
+  const f = file.toUpperCase();
+  if (/^ABSTRA(K|CT)/.test(f)) return 0;
+  if (/^EXECUTIVE/.test(f)) return 5;
+  const n = f.match(/^(?:BAB|CHAPTER)_(\d+)/);
+  if (n) return 100 + Number(n[1]);
+  if (/^GLOSSARY/.test(f)) return 800;
+  if (/^APPENDIX/.test(f)) return 900;
+  return 500;
+}
+
+/*
+ * Mirror one localized Markdown tree (Disertasi/<srcDir>/) into content/<lang>/
+ * and regenerate its site-manifest.json `sections`. Files already committed under
+ * content/<lang>/ but absent from the source (e.g. Bab 1, whose translation lives
+ * on a different Disertasi branch) are preserved so the live site never regresses.
+ * Localized chrome (metadata + ui) in the existing manifest is kept verbatim.
+ */
+function syncLocale({ lang, srcDir }) {
+  const srcRoot = path.join(DISERTASI, srcDir);
+  const outDir = path.join(CONTENT, lang);
+  const manifestPath = path.join(outDir, 'site-manifest.json');
+  const existing = fs.existsSync(manifestPath)
+    ? JSON.parse(fs.readFileSync(manifestPath, 'utf8'))
+    : {};
+
+  ensureDir(outDir);
+
+  // Union of translated sources (copied fresh) and previously-committed .md files.
+  const fromSource = fs.existsSync(srcRoot)
+    ? fs.readdirSync(srcRoot).filter((f) => /\.md$/i.test(f))
+    : [];
+  for (const f of fromSource) {
+    fs.copyFileSync(path.join(srcRoot, f), path.join(outDir, f));
+  }
+  const committed = fs.readdirSync(outDir).filter((f) => /\.md$/i.test(f));
+  const files = Array.from(new Set([...fromSource, ...committed])).sort(
+    (a, b) => sectionOrder(a) - sectionOrder(b) || a.localeCompare(b)
+  );
+
+  const sections = files.map((file) => {
+    const raw = fs.readFileSync(path.join(outDir, file), 'utf8');
+    return {
+      file,
+      sourceFile: `${srcDir}/${file}`,
+      slug: slugify(file),
+      title: cleanTitle(raw, file),
+    };
+  });
+
+  const branch = publishBranch(DISERTASI);
+  const manifest = {
+    lang,
+    metadata: {
+      ...(existing.metadata || {}),
+      repository: (existing.metadata && existing.metadata.repository) || 'github.com/zudin2007/Disertasi',
+      repoBranch: branch,
+    },
+    ui: existing.ui || {},
+    generatedFrom: `Disertasi/${srcDir}/ (branch ${branch}) — synced by scripts/sync-content.js`,
+    sections,
+    downloads: existing.downloads || [],
+  };
+  fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
+  console.log(`Synced ${sections.length} content files -> content/${lang}/ (${branch})`);
+  return sections.length;
 }
 
 function main() {
@@ -144,6 +233,9 @@ function main() {
   console.log(`Synced ${sections.length} content files -> content/`);
   console.log(`Synced ${downloads.length} deliverables -> public/downloads/`);
   if (missing.length) console.warn(`Skipped ${missing.length} missing: ${missing.join(', ')}`);
+
+  // Mirror additional-language trees (e.g. Bahasa Indonesia -> content/id/).
+  for (const locale of LOCALES) syncLocale(locale);
 }
 
 try {

@@ -89,6 +89,7 @@ Lima tujuan Maqasid (dalam Abstrak): necessity → **keniscayaan**; certainty �
 | SC (Malaysia) | Securities Commission |
 | VARA | Virtual Assets Regulatory Authority (UEA) |
 | SAMA | Saudi Arabian Monetary Authority |
+| CBB | Central Bank of Bahrain |
 | IIFRC | Inter-Islamic Finance Regulatory Council (Dewan Regulasi Keuangan Islam Antar-Yurisdiksi) |
 | Ijtima' Ulama | Ijtima' Ulama (kongres ulama nasional) |
 | Mufti Taqi Usmani | (nama ulama — verbatim) |
@@ -152,5 +153,38 @@ Indonesia, Malaysia, Arab Saudi (Saudi Arabia), Uni Emirat Arab / UEA (UAE), Bah
 
 *Catatan format Bab 2:* verdikt/emoji (❌ ⚠️ ✅ ✓) dan blok kode ASCII (bagan skor, distribusi Gini) dipetakan 1:1; label di dalamnya diterjemahkan, angka & bar dipertahankan, desimal dilokalkan (mis. `2,4/5`, `3,5–4,0/5`). Harga dolar dilokalkan pemisah ribuan (`$29.000`).
 
+## Tambahan istilah — Bab 3 (Posisi Yurisprudensial)
+
+### Kaidah usul dan metodologi hukum
+
+| Inggris/Arab (sumber) | Indonesia (ilmiah) | Catatan |
+|---|---|---|
+| ikhtilaf | *ikhtilaf* (perbedaan pendapat ulama yang legitim) | Perbedaan dalam yurisprudensi Islam yang diakui sah. |
+| usul al-fiqh | *usul al-fiqh* (metodologi/teori hukum Islam) | Disiplin yang mendasari pengambilan hukum. |
+| nusus | *nusus* (teks-teks normatif) | Teks Al-Quran dan Hadis yang relevan; bentuk jamak dari *nass*. |
+| ijtihad | *ijtihad* (penalaran hukum independen) | Upaya mujtahid menetapkan hukum melalui dalil. |
+| mujtahid | *mujtahid* (ulama yang berwenang berijtihad) | |
+| mazhab | *mazhab* (aliran/madzhab fikih) | Misalnya Hanafi, Maliki, Syafi'i, Hanbali. |
+| taqlid | *taqlid* (mengikuti pendapat madzhab/ulama terdahulu) | |
+| scholarly consensus | konsensus ulama | Tidak selalu sama dengan *ijmak* formal. |
+| jurisprudential divergence | divergensi yurisprudensial | Perbedaan pendapat antar otoritas. |
+| legal uncertainty | ketidakpastian hukum | |
+| prohibition thesis | tesis pelarangan | Posisi yang mengharamkan. |
+| permissibility thesis | tesis kebolehan | Posisi yang membolehkan. |
+| conditional permissibility thesis | tesis kebolehan bersyarat | Posisi yang membolehkan dengan syarat. |
+
+### Istilah analitis Bab 3
+
+| Inggris | Indonesia | Catatan |
+|---|---|---|
+| synthesis | sintesis | Bagian §3.5 dst. |
+| consensus points | titik-titik kesepakatan | |
+| areas of disagreement | area-area perbedaan pendapat | |
+| regulatory recommendation | rekomendasi regulatif | |
+| mapping (regulatory → jurisprudential) | pemetaan (regulatif → yurisprudensial) | |
+| evolution (of positions) | evolusi (posisi yurisprudensial) | |
+| implications | implikasi | |
+| legitimacy (of ikhtilaf) | legitimasi (ikhtilaf) | |
+
 ---
-*Sumber terjemahan: repo `zudin2007/Disertasi`, cabang `claude/halalscreener-mcp-setup-0imrfp`, commit `7e2daeb` (kanonik per DISAA-21). Perbarui glosarium ini bila muncul istilah baru saat menerjemahkan bab berikutnya.*
+*Sumber terjemahan: repo `zudin2007/Disertasi`, cabang `claude/disaa-34-lampiran-id`, commit `253dd1f` (Bab 3) / `9450132` (Lampiran). Perbarui glosarium ini bila muncul istilah baru saat menerjemahkan bab berikutnya.*

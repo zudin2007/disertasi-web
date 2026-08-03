@@ -176,6 +176,7 @@ function renderSite(site, contentDir, outDir, opts) {
       ${prev ? `<a class="prev" href="${prev.slug}.html">← ${escapeHtml(prev.navLabel)}</a>` : '<span></span>'}
       ${next ? `<a class="next" href="${next.slug}.html">${escapeHtml(next.navLabel)} →</a>` : '<span></span>'}
     </nav>`;
+    const pageOpts = opts.switchFor ? { ...opts, langSwitch: opts.switchFor(s.file) } : opts;
     const sourceFile = s.sourceFile || s.file;
     const source = `<p class="source-link"><a href="${opts.repoUrl}/blob/${opts.repoBranch}/${sourceFile
       .split('/')
@@ -191,7 +192,7 @@ ${pager}
 </article>`;
     fs.writeFileSync(
       path.join(outDir, `${s.slug}.html`),
-      page(site, { title: s.navLabel, sections, activeSlug: s.slug, main: mainHtml, opts })
+      page(site, { title: s.navLabel, sections, activeSlug: s.slug, main: mainHtml, opts: pageOpts })
     );
   });
 
@@ -235,9 +236,10 @@ ${toc}
     opts.ui.renderedFrom
   )} ${escapeHtml(site.metadata.repository)}</a></p>
 </article>`;
+  const homeOpts = opts.switchFor ? { ...opts, langSwitch: opts.switchFor(null) } : opts;
   fs.writeFileSync(
     path.join(outDir, 'index.html'),
-    page(site, { title: opts.ui.homeNav, sections, activeSlug: 'index', main: home, opts })
+    page(site, { title: opts.ui.homeNav, sections, activeSlug: 'index', main: home, opts: homeOpts })
   );
 
   fs.writeFileSync(path.join(outDir, 'assets', 'style.css'), CSS);
@@ -285,22 +287,61 @@ function main() {
     .map((d) => ({ lang: d.name, manifest: loadManifest(path.join(CONTENT, d.name)) }))
     .filter((l) => l.manifest);
 
-  // Default (English) site at dist/. Switcher points to each extra language.
-  const enSwitch =
-    langs.length > 0
-      ? { href: `${langs[0].lang}/index.html`, label: langLabel(langs[0].lang) }
-      : null;
-  renderSite(en, CONTENT, DIST, optsFor(en, { htmlLang: 'en', langSwitch: enSwitch }));
+  // Build a file -> slug map per language keyed by a language-agnostic
+  // correspondence key (chapter number, appendix letter, abstract, glossary…) so
+  // the switcher can jump to the SAME chapter across languages, falling back to
+  // the language home when the other language hasn't translated that section yet.
+  const slugMapFor = (site) => {
+    const m = {};
+    for (const s of site.sections) m[corrKey(s.file)] = s.slug;
+    return m;
+  };
+  const enMap = slugMapFor(en);
 
-  // Each additional language at dist/<lang>/, switcher back to English root.
+  // Default (English) site at dist/. Switcher points to the first extra language,
+  // preserving the current chapter where a translation exists.
+  const primary = langs[0] || null;
+  const enSwitchFor = primary
+    ? (file) => {
+        const idMap = slugMapFor(primary.manifest);
+        const target = file ? idMap[corrKey(file)] : null;
+        return {
+          href: `${primary.lang}/${target ? `${target}.html` : 'index.html'}`,
+          label: langLabel(primary.lang),
+        };
+      }
+    : null;
+  renderSite(en, CONTENT, DIST, optsFor(en, { htmlLang: 'en', switchFor: enSwitchFor }));
+
+  // Each additional language at dist/<lang>/, switcher back to the matching
+  // English page (or English root when EN lacks that section).
   for (const { lang, manifest } of langs) {
+    const enSwitchBack = (file) => {
+      const target = file ? enMap[corrKey(file)] : null;
+      return { href: `../${target ? `${target}.html` : 'index.html'}`, label: 'English' };
+    };
     renderSite(
       manifest,
       path.join(CONTENT, lang),
       path.join(DIST, lang),
-      optsFor(manifest, { htmlLang: lang, langSwitch: { href: '../index.html', label: 'English' } })
+      optsFor(manifest, { htmlLang: lang, switchFor: enSwitchBack })
     );
   }
+}
+
+// Language-agnostic section identity: CHAPTER_n and BAB_n share `ch<n>`,
+// APPENDIX_X shares `app<X>`, ABSTRACT/ABSTRAK share `abstract`, etc.
+function corrKey(file) {
+  const f = String(file).toUpperCase();
+  if (/^ABSTRA(K|CT)/.test(f)) return 'abstract';
+  const n = f.match(/^(?:BAB|CHAPTER)_(\d+)/);
+  if (n) return 'ch' + Number(n[1]);
+  const a = f.match(/^APPENDIX_([A-Z0-9]+)/);
+  if (a) return 'app' + a[1];
+  if (/^GLOSSARY/.test(f)) return 'glossary';
+  if (/^EXECUTIVE/.test(f)) return 'exec';
+  if (/^CASE_STUDIES/.test(f)) return 'cases';
+  return f;
 }
 
 function langLabel(code) {
