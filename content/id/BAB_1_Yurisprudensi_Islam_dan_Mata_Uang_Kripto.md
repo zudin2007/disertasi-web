@@ -888,15 +888,3 @@ Pertanyaan-pertanyaan ini hanya dapat dijawab melalui investigasi empiris—yang
 - The Business Times (Singapore). (2024). "Indonesia's POJK No. 27/2024 (amended by POJK No. 23/2025): Bridging MUI Fatwa-Regulator Gap on Cryptocurrency." Analysis, March 2024.
 
 - Arab News. (2024). "Bahrain's CBB Launches Shariah-Compliant Stablecoins: bDinar and IF Coin." Business Section, April 2024.
-
----
-
-<!-- ================================================================
-  STATUS TERJEMAHAN — BAB 1 — SELESAI (LENGKAP)
-  Sumber: CHAPTER_1_Islamic_Jurisprudence_and_Cryptocurrency_EXPANDED.md
-          @ zudin2007/Disertasi commit 7e2daeb (cabang claude/halalscreener-mcp-setup-0imrfp; kanonik per DISAA-21)
-  Diterjemahkan: §1 (1.1–1.3), §2 (2.1–2.4), §3 (3.1–3.3), §4 (4.1–4.3),
-                 §5 (5.1–5.2), §6 (6.1–6.3), §7 (7.1–7.4).
-  REFERENCES: disalin VERBATIM dari sumber EN (tidak diterjemahkan) sesuai aturan sitasi.
-  Struktur heading/penomoran/daftar/label dipetakan 1:1 dengan sumber EN.
-================================================================ -->
