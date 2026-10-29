@@ -2,748 +2,440 @@
 
 ## 5.1 Framework Architecture and Synthesis
 
-The preceding chapters have demonstrated the fragmented landscape of cryptocurrency assessment under Islamic law. Chapter 2 established the Maqasid Shariah framework as the principled foundation for evaluation. Chapter 3 revealed the jurisprudential divergence among Islamic authorities, ranging from categorical prohibition (Dar al-Ifta) to nuanced distinction based on asset backing and utility (AAOIFI, Taqi Usmani). Chapter 4 documented the varied regulatory responses across Islamic jurisdictions, from commodity classification (Indonesia) to prohibition (Saudi Arabia) to comprehensive licensing frameworks (UAE).
+The preceding chapters have shown that the assessment of cryptocurrency under Islamic law is fragmented at every level. Chapter 2 proposed the *maqasid al-shari'ah* as a principled foundation for evaluation. Chapter 3 showed that Islamic authorities diverge. Dar al-Ifta al-Misriyyah (2017/2018) and the Darul Uloom Karachi fatwa signed by Mufti Muhammad Taqi Usmani (2026) hold crypto-assets impermissible, the latter denying that they are *mal* at all. MUI (2021) validates crypto traded as a commodity only where specified conditions are met. Muhammadiyah and the Nahdlatul Ulama (2026) permit crypto as an asset subject to conditions of conduct. AAOIFI has issued no specific standard. Chapter 4 documented a comparable divergence in regulatory practice. Saudi Arabia is restrictive. Indonesia supervises crypto-assets as digital financial assets. Malaysia screens them for Sharia compliance before they are offered, and the UAE licenses them comprehensively.
 
-This fragmentation creates three interrelated problems: (1) Islamic financial institutions lack a unified assessment methodology; (2) cryptocurrency projects cannot navigate a coherent pathway to Islamic compliance; (3) regulators in different jurisdictions apply conflicting standards. A unified classification framework must synthesize these divergent approaches into a coherent system that:
+This fragmentation produces three related problems. Islamic financial institutions lack a common methodology of assessment. Projects seeking Sharia compliance cannot identify a coherent route to it. And regulators in different jurisdictions apply conflicting standards. A unified framework must therefore satisfy five requirements:
 
-- Grounds classification in Maqasid Shariah principles (universal Islamic jurisprudence)
-- Reflects contemporary jurisprudential consensus where it exists
-- Acknowledges legitimate jurisdictional variation in regulatory approach
-- Provides practical guidance for compliance assessment
-- Enables regulatory harmonization over time
+- it should ground classification in the *maqasid*;
+- it should reflect agreement among the authorities where agreement exists;
+- it should accommodate legitimate variation between jurisdictions;
+- it should give practical guidance for assessment;
+- it should support harmonisation over time.
 
-The proposed framework operates as a multi-dimensional classification space rather than a binary halal/haram determination. Islamic legal tradition recognizes categories beyond binary prohibition: mubaah (permissible), makruh (disliked), mubah ma'a karahah (permissible with reservation), and category-dependent assessment. This framework applies this jurisprudential sophistication to cryptocurrency classification.
+The framework proposed here is a multi-dimensional classification space rather than a binary determination of *halal* or *haram*. Islamic legal theory itself recognises more than two categories: the obligatory (*wajib*), the recommended (*mandub*), the permissible (*mubah*), the disliked (*makruh*) and the prohibited (*haram*). Juristic practice also recognises rulings of permissibility subject to reservation and rulings that depend on the characteristics of the case. The framework applies this graded understanding to digital assets.
+
+---
+
+## 5.1.1 Core Islamic Arguments Against Pure Cryptocurrency - Synthesis from Major Authorities
+
+Before the framework is presented, the substantive objections that Islamic authorities have raised against pure cryptocurrency must be stated. Four objections recur across the literature. Each is presented here in its strongest form; their limits are examined in §5.5.5.
+
+### **Argument 1: Lack of Intrinsic Value and Productive Backing**
+
+The first objection is that pure cryptocurrency lacks the economic substance required of an Islamic financial instrument. Its doctrinal bases are the requirement of certainty (*al-tahaqquq*) and the broader orientation of Islamic finance towards real economic activity. Dar al-Ifta, the Darul Uloom Karachi fatwa and many contemporary scholars rely on it. In a qualified form it also underlies MUI's 2021 requirement of a clear underlying as a condition of validity for crypto traded as a commodity.
+
+The objection proceeds by contrast. Gold and silver have uses in ornament and industry. Fiat currency is backed by the standing of the issuing state and the economy it governs. Shares represent ownership of productive enterprises that generate revenue, and commodities have uses in production or consumption. Bitcoin and similar cryptocurrencies have none of these attributes. Their value derives entirely from market demand. On this view they are valuable only in a speculative sense; they are not productive assets.
+
+The objection also draws on the emphasis of Islamic finance on the real transaction. In a real transaction, value is created by economic activity. In the trading of a pure cryptocurrency, value is merely transferred between holders. The proponents of the objection conclude that, without a connection to productive activity or a defined economic benefit, no contract recognised by Islamic law has a proper object.
+
+### **Argument 2: Excessive Gharar (Uncertainty) - Violates Al-Tahaqquq**
+
+The second objection rests on the prohibition of *gharar*, attested in the tradition reported by Muslim. Dar al-Ifta and MUI (2021) both cite *gharar* among their grounds.
+
+The core of the objection is price uncertainty. Bitcoin's price has moved within single years by amounts that make its future value unknowable to the parties: it fell by about 63 percent in 2022 and rose by about 163 percent in 2023 (see Table 2.1 for indicative figures). On this view, uncertainty of this magnitude defeats the requirement that the parties know the value of what they exchange. Nor is there any reference point from which a just price (*thaman al-mithl*) could be determined, since there is no underlying asset or cash flow against which to measure it.
+
+The objection adds two further layers. The first is legal uncertainty. Crypto-assets have been treated as legal tender (El Salvador, 2021–2025), restricted (Saudi Arabia), and supervised as digital financial assets (Indonesia since January 2025). The second is technological uncertainty: the emergence of a superior protocol or the obsolescence of a network can destroy value for reasons unrelated to any market fundamental. On the strongest version of the objection, the combined uncertainty amounts to excessive *gharar* (*gharar fahish*), which invalidates the contract. The objection is answered in §5.5.5. Classical doctrine voids particular contracts whose object or price is indeterminate. It does not void asset classes, and a spot sale of a defined quantity at a defined price contains little contractual *gharar*.
+
+### **Argument 3: Maysir (Gambling) Characteristics - Violates Al-Maslaha**
+
+The third objection rests on the Qur'anic prohibition of *maysir* (al-Ma'idah 5:90–91). MUI, Dar al-Ifta and many contemporary Islamic economists identify elements of *maysir* in cryptocurrency trading.
+
+*Maysir* is a transfer of wealth from losers to winners without the creation of value. The objection holds that cryptocurrency trading fits this definition. When the price of Bitcoin rises, the gains of existing holders are paid by new entrants or by leveraged traders on the losing side, not by any productive activity.
+
+The market structure aggravates this character. Some participants have advance knowledge of large transactions or announcements, thin regulation permits pump-and-dump schemes, and major holders and developers can profit from information unavailable to others. These features are especially pronounced in smaller tokens. Most activity, moreover, takes place on trading venues where participants take positions on the direction of price. Unlike an investment whose return reflects productivity, such speculation redistributes existing wealth. The response, developed in §3.4.6 and §5.5.5, is that much of this objection concerns the conduct of the market rather than the asset itself. Indonesian fatwa practice already catalogues such conduct in DSN-MUI Fatwa No. 80/2011.
+
+### **Argument 4: Incompatibility with Islamic Medium of Exchange Requirements**
+
+The fourth objection concerns monetary status. It draws on the classical theory of money examined in Chapter 2 (§2.0.1). There are three positions:
+
+- **money by creation (*thaman khilqi*)**, under which only gold and silver are money by nature;
+- **money by convention (*thaman istilahi*)**, associated with Imam Malik's statement on leather adopted as currency and with Ibn Taymiyyah's argument that the dirham and dinar are defined by custom;
+- **the modern institutional synthesis** of the Saudi Council of Senior Scholars (1393 AH/1973), which grounds the monetary status of paper money in general acceptance together with state backing.
+
+Pure cryptocurrency fails the first test because it is not gold or silver. It fails the second as an empirical matter, because it has not attained general acceptance as a medium of exchange in Muslim societies: its use for payment remains a small fraction of its activity, and its holders are concentrated among technologically engaged and speculative participants. It fails the third because it has no state backing and, in Indonesia, its use for payment is prohibited by law. Its volatility also makes it unsuitable for the functions of money. Merchants cannot price goods in it, workers cannot rely on wages paid in it, and savings held in it lose value unpredictably.
+
+This objection is the one on which Islamic authorities most widely agree. It concerns only the monetary question, however. It does not settle whether crypto-assets are property that may be held and exchanged as commodities, and the 2026 Nahdlatul Ulama determination shows that even the monetary characterisation is contested in the fiqh sense.
+
+### **Synthesis: Three-Position Categorization**
+
+The four objections are weighed differently by different authorities. The result is the three positions defined in Chapter 1 (§3), which this dissertation uses throughout.
+
+**Position A: conditionally permissible as digital property.** On this view, crypto-assets are *mal* and may be held and exchanged as property, subject to conditions concerning the object and the conduct of the transaction. Use as money is excluded. The position is held by Muhammadiyah (4 March 2026), which characterises crypto as *mal mutaqawwam*. It is also held by the Nahdlatul Ulama Muktamar (29 August 2026), which found Bitcoin specifically to satisfy the criteria of *mal* and *thaman* while holding its use as currency in Indonesia to be *haram*. It underlies Malaysia's regulated framework, and it is the position of the asset-side exception in the MUI decision of 2021. Its consequence is conditional permissibility for properly structured assets. The conditions are of two kinds: those relating to the asset, such as the *sil'ah* conditions, a clear underlying and a clear benefit, and those relating to conduct, such as the exclusion of *riba*, *gharar*, *maysir*, futures, short selling and interest-bearing leverage.
+
+**Position B: prohibited.** On this view, the four objections are dispositive, at least under present market conditions. Dar al-Ifta al-Misriyyah (2017/2018) holds this position. The Darul Uloom Karachi fatwa of June 2026 holds it in its strictest form: crypto-assets, including stablecoins, are not *mal*, and transactions in them are impermissible. MUI (2021) holds it only with respect to the use of crypto as currency. Its consequence is that Muslims should avoid transactions in pure cryptocurrency. Some proponents treat the prohibition as preventive (*al-man'u*) rather than intrinsic (*tahrim*), which leaves it open to revision as conditions change (Chapter 1, §3.2).
+
+**Position C: deferred judgment (*tawaqquf*).** On this view, the factual and legal characteristics of the asset are not yet sufficiently settled to permit a ruling. The International Islamic Fiqh Academy took this course in Resolution 237 (24/8) of November 2019, which called for further study. Its consequence is caution pending further examination.
+
+The framework that follows is designed to make the conditions of Position A operational. It also identifies the assets for which the objections underlying Position B retain full force.
 
 ## 5.2 Dimensional Analysis: Five Classification Variables
 
-Rather than assigning cryptocurrencies to fixed categories, the framework evaluates each cryptocurrency across five independent dimensions, each contributing to overall Islamic compatibility assessment.
+The framework does not assign assets to fixed categories by type. It evaluates each asset on five independent dimensions, each scored from zero to five, which together determine its overall compatibility with Islamic law. For each dimension, this section states the definition, the scoring scale, the jurisprudential basis and illustrative scores. The scores given for named assets are the author's analytical judgements; §5.7 discusses their limitations.
 
 ### 5.2.1 Asset Backing Dimension (Dimension 1)
 
-**Definition:** The extent to which cryptocurrency value derives from underlying productive assets, collateral reserves, or claim rights rather than speculative demand.
+The first dimension measures the extent to which an asset's value derives from underlying assets, collateral reserves or enforceable claims, rather than from speculative demand.
 
-**Scoring Scale (0-5):**
-- **5 points:** Full collateralization with tangible productive assets (property, equipment, commodity reserves) with transparent, auditable backing
-- **4 points:** 100% reserve backing with fiat currency or precious metals
-- **3 points:** Partial collateralization (75-99%) with diverse asset classes
-- **2 points:** Algorithmic backing claims without full collateral verification
-- **1 point:** No collateral; value derives entirely from network utility
-- **0 points:** Negative backing (structured as debt obligations)
+**Scoring scale.** The dimension is scored from 0 to 5:
 
-**Islamic Jurisprudential Basis:**
-- Al-Tahaqquq (Certainty): Asset backing provides tangible value verification
-- Al-Darura (Necessity): Backed assets address financial stability concerns
-- Prohibition of Riba (Usury): Asset-backed instruments avoid interest-bearing debt characteristics
+- **5:** full collateralisation by tangible productive assets, such as property, equipment or commodity reserves, with transparent and auditable backing;
+- **4:** full reserve backing in fiat currency or precious metals;
+- **3:** partial collateralisation (75–99 percent) across diverse asset classes;
+- **2:** algorithmic backing without verifiable full collateral;
+- **1:** no collateral, with value deriving entirely from network utility;
+- **0:** negative backing, where the asset is structured as a debt obligation.
 
-**Regulatory Recognition:**
-- Indonesia (OJK) exempts asset-backed instruments from commodity classification restrictions
-- Malaysia (BNM) recognizes asset-backed digital assets within regulatory framework
-- UAE (VARA) explicitly supports Islamic digital asset issuance, primarily asset-backed models
-- Bahrain (CBB) prioritizes collateral adequacy in prudential assessments
+**Jurisprudential basis.** Asset backing engages three doctrines. It supplies the verifiable value that certainty (*al-tahaqquq*) requires. It addresses the concern for stability and preservation of wealth (*al-darura*). And it links the asset to the real economy, so that the asset is not merely a claim on money. The last point matters for avoiding characteristics of *riba*, although backing alone does not settle that question.
 
-**Example Scores:**
-- USDT (Tether, fiat-backed): 4 points
-- USDC (USD Coin, fiat-backed): 4 points
-- Liquidity pools with commodity reserves: 3 points
-- Bitcoin (network-dependent value): 1 point
-- Ethereum (network utility with staking): 1 point
+**Regulatory practice.** Regulatory practice increasingly gives weight to backing. OJK's sandbox assessment parameters include the clarity of the underlying asset. The graduates of the sandbox include tokenised gold, government securities and property usufruct (Chapter 4, §4.1.8). Malaysia's Securities Commission regulates digital assets, including asset-backed tokens, within its capital markets framework. The UAE authorities permit the issuance of asset-referenced virtual assets under their licensing regimes, and Bahrain's prudential framework emphasises the adequacy of collateral.
+
+**Illustrative scores.** Fiat-backed stablecoins such as USDT and USDC score 4. Liquidity pools backed by commodity reserves score 3. Bitcoin and Ether score 1, since their value depends on network utility and, for Ether, staking.
 
 ### 5.2.2 Value Stability Dimension (Dimension 2)
 
-**Definition:** The degree to which cryptocurrency maintains stable purchasing power relative to standard units of account (fiat currency, commodity baskets).
+The second dimension measures how far an asset maintains stable purchasing power relative to a standard unit of account, such as a fiat currency or a commodity basket.
 
-**Scoring Scale (0-5):**
-- **5 points:** Price stability within ±1% of reference asset (e.g., USDT/USD within 0.5-1.5)
-- **4 points:** Price stability within ±5% of reference asset
-- **3 points:** Price stability within ±15% of reference asset; planned stability mechanisms
-- **2 points:** High volatility (±30-100%) with speculative demand component
-- **1 point:** Extreme volatility (>100% annual) driven by speculative trading
-- **0 points:** Price crashes or depegging events; no stability mechanism
+**Scoring scale.** The dimension is scored from 0 to 5:
 
-**Islamic Jurisprudential Basis:**
-- Al-Tahaqquq (Certainty): Price volatility prevents transaction certainty
-- Al-Darura (Necessity): Instability prevents reliable value preservation
-- Gharar (Excessive Uncertainty): High volatility constitutes prohibited gharar
-- Riba (Value Exchange): Volatile cryptocurrencies function as speculation vehicles rather than media of exchange
+- **5:** price stability within ±1 percent of the reference asset;
+- **4:** stability within ±5 percent;
+- **3:** stability within ±15 percent, with a stability mechanism in place;
+- **2:** high volatility (±30–100 percent) with a speculative component;
+- **1:** extreme volatility (over 100 percent annually) driven by speculation;
+- **0:** a collapse in price or loss of peg with no functioning stability mechanism.
 
-**Regulatory Recognition:**
-- Malaysia (BNM) distinguishes stablecoins from volatile cryptocurrencies in regulatory treatment
-- Saudi Arabia (SAMA) explicitly restricts high-volatility cryptocurrencies
-- UAE (VARA) accepts stablecoins within framework; restricts speculative cryptocurrencies
-- Bahrain (CBB) applies stricter prudential requirements to volatile assets
+**Jurisprudential basis.** Volatility defeats the certainty of value that *al-tahaqquq* requires, prevents the reliable preservation of wealth, and at high levels constitutes the excessive uncertainty against which the prohibition of *gharar* is directed. Volatile assets also tend to function as vehicles of speculation rather than as media of exchange.
 
-**Example Scores:**
-- USDT: 5 points (maintains USD parity within 1%)
-- USDC: 5 points (maintains USD parity within 1%)
-- Dai (algorithmic stablecoin): 3 points (targets 1 USD but experiences ±5-10% deviations)
-- Bitcoin (BTC): 1 point (±30-100% annual volatility)
-- Ethereum (ETH): 1 point (±40-150% annual volatility)
+**Regulatory practice.** The regulators examined in Chapter 4 consistently distinguish stablecoins from volatile cryptocurrencies. Saudi Arabia restricts volatile cryptocurrencies, and the UAE accepts stablecoins within its frameworks while restricting the most speculative products. Bahrain applies stricter prudential requirements to volatile assets, and Indonesia has admitted a rupiah stablecoin issuer (IDRP) to its sandbox.
+
+**Illustrative scores.** USDT and USDC score 5, since both generally maintain parity with the US dollar within 1 percent. Dai, which targets one dollar but has deviated by 5–10 percent, scores 3. Bitcoin, with annual volatility of 30–100 percent, scores 1, as does Ether, with 40–150 percent. [Unverified: volatility ranges to be confirmed from a cited dataset; see Appendix F.]
 
 ### 5.2.3 Productive Utility Dimension (Dimension 3)
 
-**Definition:** The degree to which cryptocurrency enables productive economic activity, genuine utility beyond speculation, and value creation.
+The third dimension measures how far an asset enables productive economic activity and genuine use beyond speculation.
 
-**Scoring Scale (0-5):**
-- **5 points:** Cryptocurrency enables critical infrastructure (payments, remittances, cross-border settlement) with genuine utility adoption
-- **4 points:** Cryptocurrency supports productive applications (smart contracts enabling lending, insurance) with significant real-world use
-- **3 points:** Cryptocurrency has defined utility but limited adoption; development roadmap for expansion
-- **2 points:** Cryptocurrency has stated utility purpose but minimal real-world adoption; primarily speculative
-- **1 point:** Cryptocurrency explicitly designed for speculation or gaming; limited productive use case
-- **0 points:** No identified utility; designed solely for wealth transfer or speculation
+**Scoring scale.** The dimension is scored from 0 to 5:
 
-**Islamic Jurisprudential Basis:**
-- Al-Maslaha (Public Interest): Productive utility aligns with community benefit
-- Al-Karamah (Dignity): Enables financial participation and economic empowerment
-- Prohibition of Maysir (Gambling): Speculation without underlying utility constitutes gambling
-- Istihsan (Juristic Preference): Utility-generating cryptocurrencies deserve preference over speculative alternatives
+- **5:** the asset supports critical infrastructure, such as payments, remittances or cross-border settlement, with genuine adoption;
+- **4:** it supports productive applications, such as smart contracts for lending or insurance, with significant real-world use;
+- **3:** it has defined utility but limited adoption, with a credible plan for expansion;
+- **2:** it has a stated purpose but minimal adoption and is primarily speculative;
+- **1:** it is designed for speculation or gaming;
+- **0:** it has no identifiable utility.
 
-**Regulatory Recognition:**
-- Indonesia (OJK) emphasizes utility and consumer protection in commodity classification
-- Malaysia (BNM) prioritizes technology innovation and financial inclusion
-- UAE (VARA) explicitly supports fintech innovation and use-case development
-- Bahrain (CBB) assesses systemic risk implications of cryptocurrency utility
+**Jurisprudential basis.** Productive utility serves the public interest (*al-maslaha*) and economic participation (*al-karamah*). Its absence is the hallmark of *maysir*, in which gain arises without the creation of value. Juristic preference (*istihsan*) also favours instruments that generate real benefit over purely speculative alternatives.
 
-**Example Scores:**
-- Bitcoin (payments, store of value): 4 points
-- Ethereum (smart contracts, DeFi): 4 points
-- USDT/USDC (payment stablecoins): 5 points
-- Governance tokens (DAO management): 2 points (limited adoption)
-- Meme coins (speculative trading): 0 points
+**Regulatory practice.** Utility features in regulatory assessment. OJK's sandbox parameters include the clarity of economic benefit. Malaysia gives priority to innovation and financial inclusion, the UAE explicitly supports the development of use cases, and Bahrain assesses the systemic implications of the uses to which assets are put.
+
+**Illustrative scores.** Payment stablecoins such as USDT and USDC score 5. Bitcoin, as a means of peer-to-peer payment and store of value, scores 4, as does Ether, which supports smart contracts and decentralised finance. Bitcoin's score reflects its potential and the scale of its network rather than the proportion of its activity that is non-speculative; Chapter 2 (§2.3) assessed its realised contribution to public interest less favourably. This tension is discussed in §5.7.3. Governance tokens with limited adoption score 2, and meme coins score 0.
 
 ### 5.2.4 Governance and Decentralization Dimension (Dimension 4)
 
-**Definition:** The extent to which cryptocurrency governance is decentralized, transparent, and protects against exploitation and inequality.
+The fourth dimension measures how far an asset's governance is decentralised and transparent and protects participants against exploitation.
 
-**Scoring Scale (0-5):**
-- **5 points:** Fully decentralized governance with transparent protocols; no central authority or developer privilege
-- **4 points:** Largely decentralized with minor centralization points (e.g., development team influence)
-- **3 points:** Mixed governance with community input and central authority checks
-- **2 points:** Centralized governance with limited transparency; significant central authority power
-- **1 point:** Highly centralized; opaque decision-making; developer or founder control
-- **0 points:** Single-entity control; no community governance mechanisms
+**Scoring scale.** The dimension is scored from 0 to 5:
 
-**Islamic Jurisprudential Basis:**
-- Al-Adl (Justice): Decentralized governance prevents exploitative authority structures
-- Al-Karamah (Dignity): Equal participation in governance respects human dignity
-- Riba (Exploitation): Centralized control enabling developer wealth concentration problematic
-- Shura (Consultation): Community participation in governance decisions aligns with Islamic governance principles
+- **5:** fully decentralised governance with transparent protocols and no privileged authority;
+- **4:** largely decentralised, with minor points of centralisation such as a development team's influence;
+- **3:** mixed governance, combining community input with checks on central authority;
+- **2:** centralised governance with limited transparency;
+- **1:** highly centralised and opaque, with founder or developer control;
+- **0:** control by a single entity without any community governance.
 
-**Regulatory Recognition:**
-- Malaysia (BNM) emphasizes governance transparency in regulatory framework
-- UAE (VARA) requires governance documentation for digital asset licensing
-- Bahrain (CBB) assesses governance risk in prudential framework
-- Indonesia (OJK) applies stricter oversight to centralized cryptocurrency entities
+**Jurisprudential basis.** Decentralised and transparent governance guards against exploitative concentrations of power and so serves justice (*al-'adl*). Equal participation in governance respects human dignity (*al-karamah*), and the principle of consultation (*shura*) favours community participation in decisions. Centralised control that enables the concentration of wealth among developers is problematic from the perspective of justice.
 
-**Example Scores:**
-- Bitcoin: 5 points (fully decentralized mining and governance)
-- Ethereum: 4 points (primarily decentralized; Vitalik Buterin influence)
-- Solana: 2 points (development team significant influence; concentrated validator base)
-- USDC: 1 point (Circle/Coinbase centralized governance)
-- USDT: 1 point (Tether centralized governance)
+**Regulatory practice.** Regulators attend to governance in different ways. Malaysia emphasises governance transparency, the UAE requires governance documentation for licensing, and Bahrain assesses governance risk in its prudential framework. Indonesia supervises exchanges, custodians and clearing institutions directly under POJK 27/2024.
+
+**Illustrative scores.** Bitcoin scores 5 for its decentralised mining and protocol governance. Ether scores 4, reflecting the residual influence of its founding developers. Solana scores 2, because its development team is influential and its validator base concentrated. USDC (Circle) and USDT (Tether) score 1 or 2, depending on the weight given to the issuer's regulatory supervision.
+
+The dimension has a known limitation. Decentralisation and accountability can pull in opposite directions. A centralised issuer subject to regulation and audit may protect holders better than an anonymous decentralised protocol. The score therefore combines decentralisation with transparency and accountability rather than measuring decentralisation alone.
 
 ### 5.2.5 Regulatory Recognition Dimension (Dimension 5)
 
-**Definition:** The degree to which cryptocurrency has achieved regulatory recognition and compliance framework within Islamic jurisdiction contexts.
+The fifth dimension measures the extent to which an asset has been recognised by regulators in Islamic jurisdictions, and by Islamic authorities.
 
-**Scoring Scale (0-5):**
-- **5 points:** Explicitly approved or recognized by multiple Islamic jurisdiction regulators; formal licensing framework
-- **4 points:** Recognized in at least one major Islamic jurisdiction (OJK, BNM, VARA) with clear compliance pathway
-- **3 points:** Recognized by at least one Islamic jurisdiction; under regulatory consideration in others
-- **2 points:** Recognized outside Islamic jurisdictions; under evaluation by Islamic regulators
-- **1 point:** Not recognized by any major Islamic regulator; negative regulatory signals
-- **0 points:** Banned or prohibited by Islamic regulators; circumvented regulatory frameworks
+**Scoring scale.** The dimension is scored from 0 to 5:
 
-**Islamic Jurisprudential Basis:**
-- Maslahah (Public Interest): Regulatory recognition indicates institutional assessment of public benefit
-- Darar (Harm Prevention): Regulatory framework prevents market manipulation and consumer harm
-- Darura (Necessity): Regulatory recognition enables institutional participation in financial system
+- **5:** explicitly approved by regulators in several Islamic jurisdictions, within a formal licensing framework;
+- **4:** recognised in at least one major Islamic jurisdiction, with a clear compliance pathway;
+- **3:** recognised in at least one Islamic jurisdiction and under consideration in others;
+- **2:** recognised outside Islamic jurisdictions and under evaluation by Islamic regulators;
+- **1:** not recognised by any major Islamic regulator, with negative regulatory signals;
+- **0:** banned by Islamic regulators.
 
-**Regulatory Recognition:**
-- USDT/USDC: 3-4 points (recognized in Malaysia, UAE; under evaluation elsewhere)
-- Bitcoin: 2 points (recognized outside Islamic jurisdictions; prohibited in Saudi Arabia, restricted elsewhere)
-- Ethereum: 2 points (similar regulatory status to Bitcoin)
-- DeFi tokens: 1 point (no Islamic jurisdiction recognition; under evaluation)
-- Islamic digital asset proposals: 4-5 points (planned recognition in UAE, Malaysia)
+**Jurisprudential basis.** Recognition by a competent regulator is evidence of an institutional assessment of public benefit. It supports the prevention of harm through supervision of the market, and it enables institutions to participate within the financial system.
+
+**Illustrative scores.** USDT and USDC score 3–4. Bitcoin and Ether score 2: both are recognised outside Islamic jurisdictions, restricted in Saudi Arabia, and admitted to trading in Indonesia and Malaysia. Decentralised finance tokens without recognition score 1. Proposed Islamic digital assets designed for regulatory approval could score 4–5.
+
+This dimension raises a methodological difficulty. Legal recognition is not Sharia recognition. Indonesia lists more than a thousand assets as lawfully tradeable without any Sharia assessment (Chapter 4, §4.1.12). The dimension therefore distinguishes, where possible, between legal admission and recognition by a Sharia authority, such as inclusion on the Malaysian Securities Commission's list of Sharia-compliant digital assets. The risk of circular reasoning is discussed in §5.7.4.
 
 ## 5.3 Composite Classification Categories
 
-By aggregating scores across five dimensions, cryptocurrencies are classified into five categories reflecting overall Islamic compatibility:
+The scores on the five dimensions are aggregated into a composite score of up to 25 points. On that basis, assets are assigned to one of four categories of compatibility with Islamic law, together with a separate category for central bank digital currencies. The assessments attached to each category are the conclusions of this framework. They are not rulings of any authority, and the authorities examined in Chapter 3 would not all accept them.
 
 ### Category A: Islamic-Compliant Digital Assets (Composite Score 20-25 points)
 
-**Characteristics:**
-- Asset-backed (4-5 points on Dimension 1)
-- Stable value (4-5 points on Dimension 2)
-- Productive utility (3-5 points on Dimension 3)
-- Decentralized or transparent governance (3-5 points on Dimension 4)
-- Regulatory recognition in Islamic jurisdictions (3-4 points on Dimension 5)
+Assets in Category A are backed by assets (4–5 points on Dimension 1), stable in value (4–5 on Dimension 2), productively useful (3–5 on Dimension 3), and decentralised or transparently governed (3–5 on Dimension 4). They are also recognised in Islamic jurisdictions (3–5 on Dimension 5).
 
-**Islamic Assessment:** HALAL (Permissible with confidence)
+The framework assesses such assets as permissible with confidence. They align with all five criteria of the *maqasid* assessment and answer the principal concerns raised by restrictive authorities. Holders of Position B would nonetheless dissent: the 2026 Karachi fatwa excludes even fully reserved stablecoins.
 
-**Jurisprudential Rationale:**
-- Aligns with all five Maqasid Shariah principles
-- Addresses concerns raised by restrictive Islamic authorities
-- Receives explicit or implicit endorsement from Islamic regulators
-
-**Examples:**
-- USDC (composite score: 4+5+5+2+3 = 19 points, enters borderline Category A/B)
-- Planned Islamic digital assets with full collateralization and regulatory approval
-
-**Regulatory Pathway:**
-- Prioritized in Malaysia (BNM) framework
-- Supported by UAE (VARA) Islamic digital asset initiative
-- Acceptable in Indonesia (OJK) commodity regulatory framework
+No existing asset clearly falls within Category A. USDC, at 19 points (4+5+5+2+3), lies at the border with Category B. The category is occupied principally by planned Islamic digital assets with full collateralisation and regulatory approval. Among existing Indonesian models, a gold-backed token such as GOIDR could qualify if its redemption rights and reserve verification were confirmed (§5.4).
 
 ### Category B: Conditional-Compliance Digital Assets (Composite Score 15-19 points)
 
-**Characteristics:**
-- Partially asset-backed or stable (3-4 points on Dimension 1-2 combined)
-- Emerging productive utility (2-4 points on Dimension 3)
-- Centralized but transparent governance (2-3 points on Dimension 4)
-- Limited regulatory recognition but under evaluation (2-3 points on Dimension 5)
+Assets in Category B are partially backed or stable, have emerging productive utility (2–4 points on Dimension 3), are centrally but transparently governed (2–3 on Dimension 4), and have limited recognition or are under evaluation (2–3 on Dimension 5).
 
-**Islamic Assessment:** MUBAH MA'A KARAHAH (Permissible with reservations)
+The framework assesses such assets as permissible with reservations. They satisfy some but not all of the *maqasid* criteria, and they address the principal concerns only partially. They are acceptable in jurisdictions that recognise backed digital assets but not pure cryptocurrencies.
 
-**Jurisprudential Rationale:**
-- Meets some but not all Maqasid Shariah principles
-- Addresses main concerns through partial measures (stablecoins with partial backing)
-- Acceptable in jurisdictions recognizing asset-backed cryptocurrencies but not pure cryptocurrencies
-
-**Examples:**
-- Dai stablecoin (composite score: 3+3+3+3+2 = 14 points, borderline Category B/C)
-- USDT with reserves verification (composite score: 4+5+5+1+3 = 18 points, Category B)
-- Utility tokens with revenue-generating capabilities and improving governance
-
-**Regulatory Pathway:**
-- Regulated under commodity framework (Indonesia)
-- Permitted within specific use-case licensing (Malaysia, UAE)
-- Subject to enhanced prudential requirements (Bahrain)
+Examples include USDT with verified reserves (4+5+5+1+3 = 18 points) and utility tokens with revenue-generating functions and improving governance. Dai, at 14 points (3+3+3+3+2), lies on the border with Category C. Such assets could be traded on licensed exchanges in Indonesia, permitted for specific uses under licence in Malaysia and the UAE, and made subject to enhanced prudential requirements in Bahrain.
 
 ### Category C: Problematic-Status Cryptocurrencies (Composite Score 10-14 points)
 
-**Characteristics:**
-- Minimal asset backing (1-2 points on Dimension 1)
-- High volatility (1-2 points on Dimension 2)
-- Limited utility or speculative focus (1-2 points on Dimension 3)
-- Centralized governance or governance concerns (1-2 points on Dimension 4)
-- No Islamic jurisdiction regulatory recognition (1-2 points on Dimension 5)
+Assets in Category C have minimal backing (1–2 points on Dimension 1), high volatility (1–2 on Dimension 2), and limited or speculative utility. They may have governance concerns, and they are recognised by few Islamic authorities.
 
-**Islamic Assessment:** MAKRUH or HARAM (Disliked to Prohibited)
+The framework assesses such assets as disliked or prohibited, depending on the conduct of the transaction. They fail the majority of the *maqasid* criteria and function primarily as vehicles of speculation. This assessment is more nuanced for Bitcoin than for other assets in the category. Bitcoin scores 13 points (1+1+4+5+2), Ether 12 (1+1+4+4+2), and governance tokens without revenue around 9.
 
-**Jurisprudential Rationale:**
-- Fails majority of Maqasid Shariah principles
-- Functions primarily as speculation vehicles (prohibited Maysir)
-- Lacks governance structures protecting against exploitation
-- Receives no regulatory endorsement from Islamic authorities
+For Bitcoin, the authorities divide:
 
-**Examples:**
-- Bitcoin (composite score: 1+1+4+5+2 = 13 points)
-- Ethereum (composite score: 1+1+4+4+2 = 12 points)
-- Governance tokens without revenue generation (composite score: 1+2+2+3+1 = 9 points)
+| Authority | Position on Bitcoin |
+|---|---|
+| Dar al-Ifta al-Misriyyah (2017/2018) | Impermissible |
+| Darul Uloom Karachi (2026) | Impermissible; not *mal* |
+| MUI (2021) | *Haram* as currency; valid as a commodity only if the *sil'ah* conditions, an underlying and a clear benefit are met |
+| Muhammadiyah and NU Muktamar (2026) | Permissible as an asset, subject to conditions; not as money |
+| AAOIFI | No specific standard; the author's reconstruction from existing standards rates it 1/5 |
 
-**Jurisprudential Authority Positions:**
-- Dar al-Ifta (Egypt): HARAM (categorical prohibition applies)
-- MUI (Indonesia): HARAM (speculative commodity)
-- AAOIFI: Score 1/5 (pure cryptocurrencies not Islamic-compliant)
-- Taqi Usmani: Score 1/5 (pure cryptocurrencies problematic)
+The divergence between the framework's assessment and the 2026 NU and Muhammadiyah determinations is significant. Those bodies regard the conditions of permissibility as matters of conduct, whereas the framework attaches weight to the absence of backing. The divergence is examined in §5.5.5.
 
-**Regulatory Pathway:**
-- Prohibited or severely restricted in Saudi Arabia
-- Restricted as commodity in Indonesia
-- Subject to enhanced anti-money laundering oversight across jurisdictions
+The regulatory treatment of Category C assets varies: they are restricted in Saudi Arabia, admitted to trading in Indonesia (where Bitcoin is on both exchange lists), and subject to enhanced AML/CFT oversight across jurisdictions.
 
 ### Category D: Speculative/Non-Compliant Cryptocurrencies (Composite Score 5-9 points)
 
-**Characteristics:**
-- No asset backing (0-1 points on Dimension 1)
-- Extreme volatility (0-1 points on Dimension 2)
-- Minimal utility; designed for speculation or gaming (0-2 points on Dimension 3)
-- Centralized control or governance failures (0-2 points on Dimension 4)
-- Explicitly prohibited or not recognized (0-1 points on Dimension 5)
+Assets in Category D have no backing (0–1 points on Dimension 1) and extreme volatility (0–1 on Dimension 2). They have minimal utility, often being designed for speculation or entertainment (0–2 on Dimension 3). They are centrally controlled or have failed governance (0–2 on Dimension 4), and they are prohibited or unrecognised (0–1 on Dimension 5).
 
-**Islamic Assessment:** HARAM (Prohibited)
+The framework assesses such assets as prohibited. Their primary function is *maysir*, they facilitate exploitation and the destruction of wealth, and they lack any legitimate use. Examples include meme coins such as Dogecoin and Shiba Inu (about 3 points: 1+1+0+1+0), schemes marketed as cryptocurrencies for pump-and-dump purposes, and tokens used predominantly for money laundering or sanctions evasion. On these assets the authorities that have addressed the question do not diverge: even the permissive determinations of 2026 exclude objects that lack a lawful benefit.
 
-**Jurisprudential Rationale:**
-- Constitutes Maysir (gambling) as primary function
-- Enables financial exploitation and wealth destruction
-- Lacks any productive utility or legitimate use case
-- Explicitly prohibited by Islamic authorities
-
-**Examples:**
-- Meme coins (Dogecoin, Shiba Inu): composite score 1+1+0+1+0 = 3 points
-- Pump-and-dump schemes marketed as cryptocurrencies: 2-4 points
-- Cryptocurrencies used for money laundering or sanctions evasion: 1-3 points
-
-**Islamic Assessment:** UNIFORMLY PROHIBITED across all Islamic jurisprudential schools
-
-**Regulatory Pathway:**
-- Prohibited across all Islamic jurisdictions
-- Subject to anti-money laundering and counter-terrorist financing restrictions
-- Users subject to financial penalties under Islamic regulatory frameworks
+Notably, some meme coins are lawfully tradeable in Indonesia and elsewhere, so legal admission does not imply recognition under this dimension. Regulators applying the framework would restrict or exclude such assets and subject them to AML/CFT controls.
 
 ### Category E: Central Bank Digital Currencies - CBDC (Composite Score 15-25 points)
 
-**Characteristics:**
-- Explicitly asset-backed by central bank (5 points on Dimension 1)
-- Full value stability (5 points on Dimension 2)
-- Utility defined by central bank policy (3-4 points on Dimension 3)
-- Governance by central banking authority (2-3 points on Dimension 4: centralized but transparent)
-- Explicit regulatory approval (5 points on Dimension 5)
+Central bank digital currencies form a separate category because they are not cryptocurrencies in the relevant sense. A CBDC is a liability of the central bank, denominated in the national unit of account. It therefore scores at the maximum for backing and stability (5 points each) and for regulatory recognition (5). Its utility is defined by monetary policy (3–4 points), and its governance is centralised but transparent (2–3 points).
 
-**Islamic Assessment:** HALAL (Permissible)
+The framework assesses CBDCs as permissible in principle, since they are a digital form of the fiat money that the authorities examined treat as valid *thaman*. Their particular design features nonetheless require Sharia review. Relevant features include whether holdings bear interest, how programmability is used, and the implications of central control for privacy.
 
-**Jurisprudential Rationale:**
-- Central bank backing provides complete asset security
-- Stability guaranteed by monetary authority
-- Utility defined by central bank as part of monetary system
-- Governance fully transparent and regulated
-
-**Examples:**
-- Saudi Arabia's planned CBDC (supported by SAMA as Islamic alternative)
-- UAE's digital dirham initiative (supported by CBUAE)
-- Malaysia's ringgit digital development (supported by BNM)
-
-**Religious Authority Recognition:**
-- Explicitly endorsed by Saudi Arabia's religious and financial authorities
-- Supported by Malaysia's Shariah advisory bodies
-- Consistent with Islamic finance principles as central banking function
+Examples include the Saudi Central Bank's participation in multi-CBDC experiments such as Project mBridge, and the Central Bank of the UAE's Digital Dirham programme. Malaysia's central bank has explored wholesale applications through cross-border experiments. No authority examined in this dissertation has issued a specific fatwa on a CBDC. [Unverified: the current status of each programme should be confirmed at the time of submission.]
 
 ## 5.4 Implementation Pathways: From Current State to Islamic Compliance
 
-The framework enables cryptocurrency projects to identify specific improvement pathways toward Islamic compliance:
+The framework allows a project to identify the specific changes that would move it towards compliance. Four pathways follow from the dimensions, in order of priority.
 
 ### Pathway A: Asset-Backing Enhancement (Primary Priority)
 
-**Current State → Target State:**
-- Bitcoin (Score 1/5 on Dimension 1) → No viable pathway
-- Ethereum (Score 1/5 on Dimension 1) → No viable pathway
-- DeFi protocols → Transition to collateral-backed lending protocols (Score 3-4/5)
+The first and most important pathway is to strengthen asset backing. For Bitcoin and Ether, it is not available, since their protocols have no mechanism for backing. Decentralised finance protocols, by contrast, can move to lending protocols backed by collateral, raising their score to 3–4.
 
-**Implementation Requirements:**
-- Create collateral reserve matching issued cryptocurrency value
-- Establish transparent reserve verification mechanisms
-- Enable redemption rights for cryptocurrency holders
+The pathway requires a collateral reserve matching the value of the issued tokens, transparent mechanisms for verifying the reserve, and redemption rights for holders. Its jurisprudential value is that it addresses the concerns of certainty and stability directly. It also creates an identifiable claim to a real asset, which is the condition of validity in the 2021 MUI decision.
 
-**Islamic Jurisprudential Support:**
-- Directly addresses al-Tahaqquq (Certainty) concerns
-- Eliminates al-Darura (Necessity/Financial Stability) objections
-- Creates tangible asset claims enabling Shariah compliance
-
-**Regulatory Approval Timeline:**
-- Malaysia: 12-18 months review (BNM framework allows asset-backed pathways)
-- Indonesia: 6-12 months under commodity classification
-- UAE: 6-9 months under VARA digital asset framework
-- Saudi Arabia: Asset-backed alternatives acceptable; pure cryptocurrencies remain prohibited
+The length of regulatory review varies by jurisdiction and cannot be stated with precision. Indonesian experience gives one reference point: GOIDR graduated from the OJK sandbox in August 2025 and was listed on both exchanges by October 2026. Saudi Arabia, by contrast, admits asset-backed alternatives only in limited contexts and continues to restrict pure cryptocurrencies.
 
 ### Pathway B: Stability Enhancement (Secondary Priority)
 
-**Current State → Target State:**
-- Bitcoin (Score 1/5 on Dimension 2) → Stablecoin wrapper (Score 4-5/5)
-- Ethereum (Score 1/5 on Dimension 2) → Index stablecoins (Score 3/5)
+The second pathway is to improve stability. Bitcoin's volatility cannot be reduced at the protocol level, but its value can be represented in a structure that targets a stable reference. Ether-based index stablecoins might reach a stability score of 3, and collateralised stablecoins 4–5.
 
-**Implementation Requirements:**
-- Implement stablecoin mechanisms (collateral backing, algorithmic control)
-- Achieve ±5% price stability against reference asset
-- Maintain transparent stability mechanism documentation
+The pathway requires a stability mechanism, preferably collateral rather than algorithmic control, a demonstrated stability within ±5 percent of the reference asset, and transparent documentation. It addresses the concerns of certainty and *gharar* directly and enables use as a medium of exchange.
 
-**Islamic Jurisprudential Support:**
-- Addresses al-Tahaqquq (Certainty) directly
-- Eliminates Gharar (Excessive Uncertainty) objections
-- Enables use as medium of exchange (primary Islamic requirement for currency)
-
-**Examples in Progress:**
-- Wrapped Bitcoin (maintains Bitcoin utility while adding stability layer)
-- Ethereum stablecoins (emerging but not yet widely accepted)
+A caution is necessary here. Wrapping does not stabilise. A wrapped Bitcoin token, for example, represents Bitcoin on another blockchain but retains Bitcoin's volatility. Only collateralised designs referenced to a stable asset satisfy this pathway.
 
 ### Pathway C: Utility Development (Supportive Priority)
 
-**Current State → Target State:**
-- Gaming tokens (Score 1/5 on Dimension 3) → Productive DeFi (Score 3-4/5)
-- Governance tokens (Score 2/5 on Dimension 3) → Revenue-generating platforms (Score 4/5)
-
-**Implementation Requirements:**
-- Develop genuine productive use cases generating real-world value
-- Document utility adoption metrics and user engagement
-- Create revenue-sharing or benefit mechanisms for token holders
-
-**Islamic Jurisprudential Support:**
-- Addresses al-Maslaha (Public Interest) concerns
-- Aligns with Islamic finance prohibition of Maysir (gambling)
-- Supports al-Karamah (Dignity) through genuine economic participation
+The third pathway is to develop productive utility. Gaming tokens scoring 1 on this dimension could reach 3–4 by acquiring productive uses in decentralised finance, and governance tokens scoring 2 could reach 4 by becoming revenue-generating platforms. The pathway requires genuine use cases that create real value, documented metrics of adoption, and mechanisms that share the benefit with holders. It addresses the concern of public interest and distinguishes the asset from *maysir*.
 
 ### Pathway D: Governance Decentralization (Supportive Priority)
 
-**Current State → Target State:**
-- Tether/USDT (Score 1/5 on Dimension 4) → Community governance (Score 3-4/5)
-- Solana (Score 2/5 on Dimension 4) → Validator decentralization (Score 4/5)
+The fourth pathway is to improve governance. For a centralised stablecoin such as USDT (score 1), improvement could come through independent oversight or community governance (score 3–4). For Solana (score 2), it could come through decentralising its validator base (score 4). The pathway requires community governance mechanisms, reduced control by founders and developers, and transparent records of governance decisions. It serves justice, dignity and the principle of consultation.
 
-**Implementation Requirements:**
-- Establish community governance mechanisms (DAO structures)
-- Reduce founder/developer control through decentralization
-- Create transparent governance documentation and voting records
+### Pathway Implementation: The OJK Regulatory Sandbox and the GOIDR Case
 
-**Islamic Jurisprudential Support:**
-- Addresses al-Adl (Justice) through equal participation
-- Enables al-Karamah (Dignity) in governance decisions
-- Aligns with Islamic principle of Shura (Consultation)
+Indonesian practice offers the closest available illustration of these pathways, though it should not be overstated. OJK's sandbox is a legal and prudential test, not a Sharia assessment, although OJK's 2025 presentation described several sandbox models, including tokenised gold, as satisfying point 3 of the 2021 MUI decision (Chapter 4, §4.1.9). Its parameters include the clarity of the underlying asset and of the economic benefit, which correspond to Dimensions 1 and 3 of this framework. As of October 2026 it had produced seven graduates (Chapter 4, §4.1.8). Six are named in OJK's material:
 
-### Pathway Implementation: OJK Regulatory Sandbox Models and GIDR Case Study
+- GOIDR (gold tokenisation);
+- ID Digital Bonds (tokenised government securities);
+- GORO (tokenised property usufruct);
+- IDRP (a rupiah stablecoin issuer);
+- Tennet (a non-trading digital asset custodian);
+- Dana Kripto (a crypto fund manager).
 
-The Indonesia Financial Services Authority (OJK) has operationalized these pathways through its regulatory sandbox program, establishing seven distinct compliance models designed to test cryptocurrency structures meeting Islamic legal requirements. This section documents how OJK's implementation translates the abstract framework into concrete regulatory structures.
+Read through the framework, the asset-backed graduates illustrate Pathway A, the stablecoin issuer Pathway B, and the custodian a service relevant to the conditions of ownership and possession (*qabd*). Chapter 6 (Table 6.4) gives an indicative dimensional reading of each.
 
-**Five-Dimensional Assessment of Sandbox Models:**
+**GOIDR as an illustration of Pathway A.** GOIDR, a gold-tokenisation model of PT Indonesia Blockchain Persada, is the clearest Indonesian illustration of the asset-backing pathway. Table 5.1 sets out its position against the framework.
 
-| Model | Asset Backing | Stability | Utility | Governance | Regulatory Recognition | Framework Category | Shariah Status |
-|---|---|---|---|---|---|---|---|
-| Bond Tokenization | 5/5 (RWA) | 4/5 (tied to bonds) | 4/5 (institutional) | 3/5 (issuer-controlled) | 5/5 (approved) | A+ | Compliant |
-| Property Tokenization | 5/5 (real estate) | 3/5 (subject to RE markets) | 3/5 (ownership fractionation) | 2/5 (developer control) | 5/5 (approved) | B+ | Conditional |
-| Digital Identity | 3/5 (identity service value) | 4/5 (non-traded) | 4/5 (KYC/CDD) | 4/5 (multi-party) | 5/5 (approved) | A- | Compliant |
-| Crypto Index | 1/5 (speculative) | 1/5 (volatile) | 2/5 (speculation only) | 2/5 (data provider control) | 4/5 (approved with conditions) | C | Problematic |
-| Stablecoin (100% Rupiah) | 5/5 (cash reserves) | 5/5 (1:1 peg) | 4/5 (medium of exchange) | 2/5 (issuer custody) | 5/5 (approved) | A | Compliant |
-| Blockchain Custody | 4/5 (asset services) | 4/5 (non-speculative) | 4/5 (settlement/custody) | 3/5 (regulated provider) | 5/5 (approved) | A- | Compliant |
+**Table 5.1: GOIDR against the framework (author's assessment; issuer documentation not reviewed)**
 
-**GIDR (Gold Indonesia Republic): Pathway A Operationalized**
-
-**Framework Alignment:**
-
-GIDR exemplifies how Pathway A (Asset-Backing Enhancement) operationalizes within Indonesia's regulatory structure while satisfying Shariah legal requirements:
-
-| Requirement | GIDR Implementation | Framework Dimension | Shariah Justification |
+| Requirement | Position as of October 2026 | Dimension | Jurisprudential relevance |
 |---|---|---|---|
-| Clear underlying asset | 1 gram physical gold per token | Dimension 1: Asset Backing (5/5) | Al-Tahaqquq (Certainty) |
-| Verifiable reserves | Third-party custody and audit | Dimension 1: Asset Backing | Amin Al-Wadi (Trustworthy Custodian) |
-| No gharar | Fixed 1:1 ratio with gold ounce | Dimension 2: Stability (5/5) | Prohibition of excessive uncertainty |
-| Redemption rights | 1:1 gold redemption in 14 days | Dimension 3: Utility (4/5) | Real wealth claim (haqq 'aini) |
-| Governance | Regulated custodian + blockchain | Dimension 4: Governance (3/5) | Trusted institutional oversight |
-| Regulatory approval | OJK sandbox (approved Aug 2025) | Dimension 5: Recognition (5/5) | Regulatory Shariah coordination |
+| Clear underlying asset | Physical gold held by Pegadaian, per OJK | 1: Asset backing | *Al-tahaqquq*; the asset exception of the 2021 MUI decision |
+| Verifiable reserves | To be confirmed from issuer documentation | 1: Asset backing | Trustworthy custody (*amanah*) |
+| Token-to-gold ratio | One token = one gram of gold, per OJK (2025) | 2: Stability | Certainty of the object of sale |
+| Redemption rights | Redeemable for physical gold through the GIDR wallet, per OJK (2025); terms to be confirmed from issuer documentation | 1 and 3 | Real claim on the asset; *qabd* |
+| Governance | Regulated custody by a state-owned pawnshop; exchange listing | 4: Governance | Institutional oversight |
+| Regulatory recognition | Sandbox graduate (8 August 2025); listed on ICEX ("Pass With Notes") and CFX (ticker changed from GIDR) | 5: Recognition | Legal admission; no Sharia determination located |
+| Exchange against rupiah | Gold is a *ribawi* item; exchange should satisfy spot settlement | Conduct layer | *Sarf* (by analogy with DSN-MUI Fatwa 28/2002) |
 
-**Classification Outcome:**
+On the available information, GOIDR is a candidate for Category A, conditional on confirmation of its reserve verification and of the detailed terms of redemption. The token-to-gold ratio (one gram per token) and the existence of a redemption facility are stated in OJK's 2025 presentation. In the author's assessment, it falls within the exception of the November 2021 Ijtima' Ulama decision, because it has a clear underlying asset. OJK, as regulator, has described the model as meeting point 3 of the 2021 decision. No fatwa of DSN-MUI or determination of any Sharia authority on the token has been located, however, so its Sharia status remains a regulatory reading and the author's assessment rather than an authoritative ruling.
 
-- **Framework Score:** A (Category A — Conditionally Compliant)
-- **Shariah Status:** Compliant under Fatwa MUI November 2021 butir 3 exception
-- **Regulatory Pathway:** Approved through OJK sandbox → market launch
-- **Jurisprudential Rationale:** Physical gold backing eliminates al-gharar (uncertainty) and establishes al-tahaqquq (certainty) required for Islamic financial contracts
+The case offers three lessons for other jurisdictions. First, regulatory assessment can focus on observable characteristics, such as the underlying asset and the economic benefit, that correspond to the dimensions of the framework. Second, a sandbox allows limited testing that gathers market data while containing systemic risk. Third, regulatory admission and Sharia assessment are separate processes: the same token carries a heightened-monitoring flag on one exchange and lacks any Sharia determination. A jurisdiction adopting the framework should therefore build the Sharia assessment into the admission process rather than assume it.
 
-**Regulatory Learning for Other Jurisdictions:**
-
-OJK's GIDR approval demonstrates how regulators operationalize Shariah compliance through:
-
-1. **Dimension-Based Assessment:** Regulatory approval focused on observable, measurable characteristics (asset backing, stability, utility) rather than abstract Islamic principles
-2. **Sandbox Testing Framework:** Limited-scope pilot testing reduces systemic risk while gathering market data
-3. **Institutional Coordination:** OJK coordination with Shariah Supervisory Boards and industry associations (AFSI) ensures jurisprudential alignment
-4. **Iterative Improvement:** GIDR serves as proof-of-concept for similar asset-backed tokenization models (real estate, bonds, other commodities)
-
-**Strategic Significance:**
-
-GIDR represents the first fully operationalized cryptocurrency satisfying both Islamic law requirements and modern regulatory frameworks. Its approval pathway enables:
-
-- **Institutional Investors:** Islamic banks and funds can hold GIDR without violating Shariah compliance obligations
-- **Retail Access:** Individual investors can participate in gold investment through blockchain-enabled fractionalization
-- **Financial Inclusion:** Cryptocurrency-based gold trading enables cost-effective access for small investors previously excluded from precious metals markets
-- **Regulatory Harmonization:** GIDR model can be replicated in other jurisdictions (Malaysia BNM, Saudi SAMA) with local underlying assets (palm oil in Malaysia, dates in Saudi Arabia)
+Should its open questions be resolved, a model of this kind could serve institutional investors seeking Sharia-compliant gold exposure and retail investors seeking fractional ownership of gold. It could also be replicated in other jurisdictions using local underlying assets.
 
 ---
 
 ## 5.5 Case Study Analysis: Cryptocurrency Projects Through Classification Framework
 
+This section applies the framework to seven assets. The first four are scored on the basis of the illustrative values in §5.2. The last three are given provisional assessments pending the empirical data described at the end of the section.
+
 ### Case 1: Bitcoin - Pure Cryptocurrency Architecture
 
-**Dimension Scoring:**
-- Asset Backing (Dim 1): 1 point (network utility only)
-- Value Stability (Dim 2): 1 point (±30-100% annual volatility)
-- Productive Utility (Dim 3): 4 points (peer-to-peer payment capability, store of value)
-- Governance (Dim 4): 5 points (fully decentralized mining and governance)
-- Regulatory Recognition (Dim 5): 2 points (not recognized in Islamic jurisdictions, recognized outside)
+Bitcoin scores 1 on asset backing, since its value derives from network utility alone, and 1 on stability, given annual volatility of 30–100 percent. It scores 4 on productive utility, as a means of peer-to-peer payment and store of value, and 5 on governance, reflecting fully decentralised mining and protocol governance. It scores 2 on recognition: admitted to trading in several jurisdictions with Muslim populations but not recognised by Islamic authorities generally. Its composite of 13 points places it in Category C.
 
-**Composite Score: 13 points → Category C (Problematic-Status)**
+The authorities divide on Bitcoin. AAOIFI has no standard, and the author's reconstruction gives it 1/5. Dar al-Ifta (2017/2018) held trading impermissible. The Darul Uloom Karachi fatwa (2026) holds it impermissible because it is not *mal*. MUI (2021) holds it *haram* as currency and valid as a commodity only if the *sil'ah* conditions, an underlying and a clear benefit are met. The NU Muktamar (2026) holds that Bitcoin satisfies the criteria of *mal* and *thaman* and is valid as a digital asset, though *haram* as currency in Indonesia.
 
-**Islamic Jurisprudential Assessment:**
-- **AAOIFI (2023):** Score 1/5 - "Lacks characteristics of Islamic-compliant currencies"
-- **Dar al-Ifta (2017):** HARAM - "Categorically prohibited as speculative instrument"
-- **Taqi Usmani (2024):** Score 1/5 - "Does not meet Islamic compliance requirements in pure form"
-- **MUI (2021):** HARAM - "Functions as speculative commodity rather than legitimate currency"
+Because Bitcoin's protocol cannot natively acquire backing, its routes to improvement are limited. Institutional custody with Sharia governance would improve its position on conduct, and representation within a collateralised structure would improve stability. Neither would change the asset itself. Its regulatory status also varies:
 
-**Improvement Pathway Assessment:**
-- Asset-backed stablecoin wrapping (Bitcoin Core protocol limitation prevents native change)
-- Institutional custody with Shariah-compliant governance overlay
-- Limited pathway to Islamic compliance without fundamental architectural changes
-
-**Regulatory Status:**
-- Saudi Arabia: Prohibited
-- Indonesia: Permitted only under commodity framework (restricted retail access)
-- Malaysia: Recognized but not recommended; restricted to sophisticated investors
-- UAE: Recognized within framework but subject to enhanced AML/CFT requirements
+- Saudi Arabia: restricted;
+- Indonesia: listed on both licensed exchanges as a digital financial asset;
+- Malaysia: tradeable on exchanges registered with the Securities Commission;
+- UAE: within the licensing frameworks, subject to enhanced AML/CFT requirements.
 
 ### Case 2: Ethereum - Smart Contract Platform
 
-**Dimension Scoring:**
-- Asset Backing (Dim 1): 1 point (network utility without collateral)
-- Value Stability (Dim 2): 1 point (±40-150% annual volatility)
-- Productive Utility (Dim 3): 4 points (enables smart contracts, DeFi, diverse applications)
-- Governance (Dim 4): 4 points (primarily decentralized; Vitalik Buterin residual influence)
-- Regulatory Recognition (Dim 5): 2 points (recognized outside Islamic jurisdictions; under evaluation)
+Ether scores 1 on asset backing and 1 on stability, given annual volatility of 40–150 percent. It scores 4 on utility, since it supports smart contracts, decentralised finance and diverse applications, and 4 on governance, being largely decentralised but subject to the residual influence of its founding developers. It scores 2 on recognition. Its composite of 12 points places it in Category C. Its jurisprudential assessment is similar to Bitcoin's: its utility is somewhat greater, but its core deficits are the same.
 
-**Composite Score: 12 points → Category C (Problematic-Status)**
-
-**Islamic Jurisprudential Assessment:**
-Similar to Bitcoin, with slightly higher utility recognition but same core compliance deficiencies.
-
-**Improvement Pathway Assessment:**
-- Develop Shariah-compliant DeFi applications with productive asset backing
-- Create stablecoin-based smart contract platforms
-- Build institutional adoption through regulated intermediaries
-
-**Emerging Opportunity - Islamic DeFi Protocols:**
-- Ethereum-based lending protocols using asset-backed collateral
-- Islamic finance applications (Murabaha contracts, Musharaka partnerships)
-- Can score 16-20 points through productive utility + institutional governance
+Ether's most promising route lies not in the asset itself but in what is built on it. Sharia-compliant applications, such as lending protocols with asset-backed collateral or platforms implementing *murabahah* and *musharakah* contracts, could score 16–20 points if they combine productive utility with institutional governance.
 
 ### Case 3: USD Coin (USDC) - Stablecoin Architecture
 
-**Dimension Scoring:**
-- Asset Backing (Dim 1): 4 points (100% fiat reserve backing verified)
-- Value Stability (Dim 2): 5 points (maintains ±0.5% USD parity)
-- Productive Utility (Dim 3): 5 points (widely adopted for payments, remittances, DeFi)
-- Governance (Dim 4): 2 points (Circle/Coinbase centralized governance)
-- Regulatory Recognition (Dim 5): 3 points (recognized in Malaysia, under evaluation elsewhere)
+USDC scores 4 on asset backing, with full fiat reserves subject to regular attestation, and 5 on stability, since it maintains dollar parity within about ±0.5 percent. It scores 5 on utility, being widely used for payments, remittances and decentralised finance, but only 2 on governance, because it is controlled centrally by its issuer. It scores 3 on recognition, being admitted in several jurisdictions and under evaluation in others. Its composite of 19 points places it in Category B, at the border with Category A.
 
-**Composite Score: 19 points → Category B (Conditional-Compliance)**
+AAOIFI has no standard; the author's reconstruction gives fully reserved and redeemable stablecoins 4/5. The Darul Uloom Karachi fatwa (2026), by contrast, names USDT and treats stablecoins generally as impermissible. Holders of Position B would therefore reject the framework's favourable assessment of USDC.
 
-**Islamic Jurisprudential Assessment:**
-- **AAOIFI:** Score 4/5 - "Asset-backed stablecoins meet Islamic requirements"
-- **Taqi Usmani:** Score 4.5/5 - "Stablecoins addressing primary objections to pure cryptocurrencies"
-- **UAE Islamic Finance Authority:** Endorsement - "Compatible with Islamic finance framework"
-- **Malaysia (BNM):** Recognition pathway - "Eligible for digital asset licensing framework"
-
-**Compliance Gap Assessment:**
-- Primary deficiency: Centralized governance (Circle/Coinbase control)
-- Improvement pathway: Transition to community governance or central bank backing
-
-**Improvement Pathway Assessment:**
-- Implement decentralized governance mechanisms → Move from Score 2→4 on Dimension 4
-- Achieve regulatory recognition in multiple Islamic jurisdictions → Move from Score 3→4 on Dimension 5
-- **Potential Category A Score: 22-23 points** (full Islamic compliance) with governance improvements
-
-**Current Regulatory Status:**
-- Malaysia (BNM): Recognized in digital asset framework
-- UAE (VARA): License pathway available
-- Indonesia (OJK): Acceptable under commodity classification
-- Saudi Arabia: Not explicitly prohibited; governance clarification needed
+Its principal deficit is centralised governance. Introducing independent oversight or community governance (from 2 to 4 on Dimension 4) and achieving recognition in further Islamic jurisdictions (from 3 to 4 on Dimension 5) could raise its composite to 22–23 points, within Category A.
 
 ### Case 4: Islamic Digital Asset Proposal - Hypothetical Design
 
-**Proposed Specifications:**
-- Full collateral backing: Real estate, equity portfolios, commodity reserves
-- Stability target: ±2% variation around basket of Islamic asset classes
-- Utility: Cross-border payment, Islamic finance settlement, retail access
-- Governance: Community council with Islamic finance expert participation
-- Regulatory: Planned recognition in Malaysia (BNM) and UAE (VARA)
+The fourth case is a hypothetical design for an Islamic digital asset. It would be fully collateralised by real estate, equity portfolios compliant with Sharia, and commodity reserves. It would target stability within ±2 percent around a basket of Islamic asset classes, serve cross-border payment, the settlement of Islamic financial transactions and retail use, and be governed by a community council that includes Islamic finance experts. Recognition would be sought in several Islamic jurisdictions.
 
-**Dimension Scoring:**
-- Asset Backing (Dim 1): 5 points (full productive asset collateralization)
-- Value Stability (Dim 2): 4 points (±2-5% stability around asset basket)
-- Productive Utility (Dim 3): 4 points (planned Islamic finance integration)
-- Governance (Dim 4): 4 points (distributed governance with Islamic finance expertise)
-- Regulatory Recognition (Dim 5): 4 points (planned recognition in multiple Islamic jurisdictions)
+The design scores 5 on backing, 4 on stability, 4 on utility, 4 on governance and 4 on recognition (on the assumption that recognition is obtained). Its composite of 21 points places it in Category A. It would satisfy all five *maqasid* criteria, and most authorities examined could be expected to accept it. The exception is the strict form of Position B represented by the 2026 Karachi fatwa, whose reasoning on the nature of digital records would require separate examination.
 
-**Composite Score: 21 points → Category A (Islamic-Compliant)**
-
-**Islamic Jurisprudential Assessment:**
-- **Unanimous consensus across Islamic authorities:** HALAL (Permissible)
-- **Maqasid Shariah alignment:** 5/5 principles satisfied
-- **Regulatory pathway:** Clear approval path in Malaysia, UAE, Indonesia
-
-**Implementation Timeline:**
-- Design and specification: 3-6 months
-- Regulatory approval: 12-18 months (Malaysia, UAE)
-- Pilot deployment: 18-24 months
-- Full operational launch: 24-36 months
+On the author's estimate, such a design would require three to six months for specification and twelve to eighteen months for regulatory approval. It would then require a further period of pilot deployment before full launch, which might occur within two to three years.
 
 ### Case 5: XRP (Ripple) - Bank-Settlement Token with Concentrated Issuance
 
 XRP tests the framework against an asset that pairs a genuine institutional use-case (cross-border settlement) with a highly concentrated ownership and governance structure. A substantial portion of the total XRP supply was created at genesis and allocated to Ripple Labs, a portion of which is released from escrow on a scheduled basis; Ripple also publishes the default Unique Node List that shapes validator selection, giving it disproportionate influence over the ledger (Ripple, published escrow and UNL documentation). The 2023 ruling in *SEC v. Ripple Labs* (S.D.N.Y., Torres J.) held that programmatic exchange sales of XRP did not constitute investment-contract securities, a status distinct from Shariah classification but material to Dimension 5.
 
-**Dimensional Assessment (provisional — awaiting screening confirmation):**
-- Asset Backing (Dim 1): low — XRP carries no collateral; value derives from network/settlement utility only.
-- Value Stability (Dim 2): **[pending screened volatility data — see Coder data request]**; historically high, unpegged.
-- Productive Utility (Dim 3): moderate-to-high — demonstrated cross-border settlement function via RippleNet, though adoption is contested.
-- Governance (Dim 4): **low** — concentrated issuer control (escrow supply overhang; Ripple-shaped UNL) is the decisive compliance deficiency.
-- Regulatory Recognition (Dim 5): **[pending]** — not recognised in Islamic jurisdictions; U.S. status partially clarified by the 2023 ruling.
+On a provisional assessment, XRP scores low on asset backing, since it carries no collateral and its value derives from network and settlement utility. Its stability is historically low, as it is unpegged; the precise score awaits volatility data. Its productive utility is moderate to high, given its demonstrated cross-border settlement function, though its adoption is contested. Its governance score is low, because concentrated issuer control, through the escrow overhang and the Ripple-shaped validator list, is the decisive deficiency. It is not recognised by Islamic authorities, and its status in the United States has been partly clarified by the 2023 ruling.
 
-**Jurisprudential Assessment:** The concentrated-issuance and governance structure is the analytically salient feature: the *gharar* concern shifts from price uncertainty alone to counterparty and control risk (dependence on a single commercial issuer's release schedule and influence over consensus). XRP therefore illustrates a case where productive utility (Dim 3) cannot offset a structural Dimension 4 deficiency — a pattern the framework is designed to surface. Provisional placement: **Category C**, pending confirmation of the volatility- and recognition-dependent scores.
+The analytically salient feature is the concentrated issuance and governance structure. Here the *gharar* concern shifts from price uncertainty alone to counterparty and control risk, that is, dependence on a single commercial issuer's release schedule and on its influence over consensus. XRP therefore illustrates a case in which productive utility (Dimension 3) cannot offset a structural deficiency on Dimension 4, a pattern the framework is designed to surface. Its provisional placement is Category C.
 
 ### Case 6: BNB (Binance Coin) - Exchange-Native Utility Token
 
-BNB is issued by, and functionally tethered to, a single commercial exchange operator. It confers trading-fee discounts and serves as the gas asset for BNB Chain, and its supply is periodically reduced through issuer-conducted token burns (Binance, published burn documentation). Its governance is the antithesis of decentralisation: control rests with the issuing firm. The compliance salience of that concentration was underscored by the November 2023 U.S. enforcement resolution, in which Binance entered a settlement with the Department of Justice and CZ pleaded guilty to Bank Secrecy Act violations — an *illa* bearing directly on the counterparty-integrity aspect of the governance dimension.
+BNB is issued by, and functionally tethered to, a single commercial exchange operator. It confers trading-fee discounts and serves as the gas asset for BNB Chain, and its supply is periodically reduced through issuer-conducted token burns (Binance, published burn documentation). Its governance is the antithesis of decentralisation: control rests with the issuing firm. The compliance salience of that concentration was underscored by the November 2023 resolution with the United States authorities, in which Binance entered a settlement with the Department of Justice and its founder pleaded guilty to violations of the Bank Secrecy Act. That resolution bears directly on the counterparty-integrity aspect of the governance dimension.
 
-**Dimensional Assessment (provisional — awaiting screening confirmation):**
-- Asset Backing (Dim 1): low — no external collateral; value tied to exchange demand and burn policy.
-- Value Stability (Dim 2): **[pending screened volatility data]**; unpegged.
-- Productive Utility (Dim 3): moderate — real utility within one ecosystem, but that utility is issuer-dependent, not general.
-- Governance (Dim 4): **very low** — single-firm control of issuance, burns, and the dominant validator set.
-- Regulatory Recognition (Dim 5): **[pending]** — not recognised in Islamic jurisdictions; issuer under active enforcement scrutiny in multiple jurisdictions.
+Provisionally, BNB scores low on asset backing, since its value is tied to demand on the exchange and to the issuer's burn policy. It is unpegged, and its stability score awaits data. Its utility is moderate: real within one ecosystem, but dependent on the issuer rather than general. Its governance score is very low, because a single firm controls issuance, burns and the dominant validator set. It is not recognised by Islamic authorities, and its issuer has been subject to enforcement in several jurisdictions.
 
-**Jurisprudential Assessment:** BNB sharpens the Dimension 4 problem beyond XRP: utility is entirely contingent on the continued solvency and good standing of a single, legally-troubled issuer, compounding *gharar* with concentration risk. It is a clear illustration of why productive utility alone (Dim 3) is insufficient for compliance under the framework. Provisional placement: **Category C/D**, pending confirmation.
+BNB sharpens the governance problem beyond XRP. Its utility is entirely contingent on the continued solvency and good standing of a single, legally troubled issuer, compounding *gharar* with concentration risk. It is a clear illustration of why productive utility alone is insufficient for compliance under the framework. Its provisional placement is Category C or D.
 
 ### Case 7: Tether (USDT) - Fiat-Referenced Stablecoin with Attestation-Quality Deficit
 
-USDT is instructive precisely because it invites comparison with USDC (Case 3): both are fiat-referenced stablecoins with strong Dimension 2 and 3 profiles, yet they diverge on the *quality of assurance* over their reserves — the crux of Dimension 1 under Islamic scrutiny. Tether has faced regulatory findings on reserve representation: a 2021 CFTC order (US$41 million civil penalty) found that USDT was not fully backed by fiat reserves at all relevant times, and a 2021 New York Attorney General settlement (US$18.5 million) addressed related misrepresentations (CFTC, Order, Oct. 2021; NYAG, Settlement, Feb. 2021). Tether subsequently shifted toward publishing periodic reserve attestations dominated by short-term U.S. Treasury holdings, though these remain attestations rather than full audits.
+USDT is instructive precisely because it invites comparison with USDC (Case 3). Both are fiat-referenced stablecoins with strong profiles on Dimensions 2 and 3, yet they diverge on the quality of assurance over their reserves, which is the crux of Dimension 1 under Islamic scrutiny. Tether has faced regulatory findings on reserve representation. A 2021 order of the CFTC (with a civil penalty of US$41 million) found that USDT was not fully backed by fiat reserves at all relevant times, and a 2021 settlement with the New York Attorney General (US$18.5 million) addressed related misrepresentations (CFTC, Order, October 2021; NYAG, Settlement, February 2021). Tether subsequently began publishing periodic reserve attestations dominated by short-term US Treasury holdings, though these remain attestations rather than full audits.
 
-**Dimensional Assessment (provisional — awaiting screening confirmation):**
-- Asset Backing (Dim 1): 4 — reserves are now largely short-dated Treasuries (satisfying the framework's 4-point "100% reserve backing" tier), but the attestation-not-audit quality and the documented history of misrepresentation cap USDT below the 5-point "transparent, auditable backing" tier that a fully audited issuer could reach.
-- Value Stability (Dim 2): high (≈5) — peg generally maintained within a narrow band, with historical de-peg episodes; **[pending screened deviation data]**.
-- Productive Utility (Dim 3): high (≈5) — the most widely used stablecoin for payments and settlement.
-- Governance (Dim 4): low (≈2) — centralised issuer (Tether Ltd.).
-- Regulatory Recognition (Dim 5): **[pending]** — recognition trajectory weaker than USDC; not endorsed in Islamic jurisdictions.
+On a provisional assessment, USDT scores 4 on asset backing. Its reserves are now largely short-dated Treasuries, which satisfies the framework's tier of full reserve backing, but the attestation-not-audit quality and the documented history of misrepresentation cap it below the 5-point tier that a fully audited issuer could reach. Its stability is high (about 5): the peg has generally been maintained within a narrow band, with historical episodes of de-pegging. Its utility is also high (about 5), since it is the most widely used stablecoin for payments and settlement. Its governance is low (about 2), as it is issued by a centralised company. Its recognition trajectory is weaker than USDC's, and it is not endorsed by Islamic authorities; it is, moreover, the stablecoin named in the 2026 Karachi fatwa.
 
-**Jurisprudential Assessment:** USDT demonstrates that Dimension 1 is not a binary "backed / unbacked" test but a graded assessment of the *verifiability* of backing — a distinction with direct Shariah weight, since the *gharar* objection to fiat-referenced tokens is answered by demonstrable, auditable reserves, not by asserted ones. USDT and USDC both land in **Category B**, consistent with the dimensional example scores in §5.2.1–§5.2.2; the analytically decisive difference lies in their *headroom to Category A*. USDC's path (Case 3) is blocked only by centralised governance (Dimension 4); USDT faces a **second** barrier — the reserve-transparency ceiling on Dimension 1 — so that even a governance improvement would not carry it to Category A without an audit-grade attestation regime. The USDC/USDT contrast thus operationalises reserve transparency as a live compliance variable rather than a formality, and illustrates why two assets with near-identical composite scores can have materially different compliance trajectories.
+USDT demonstrates that Dimension 1 is not a binary test of "backed" or "unbacked" but a graded assessment of the verifiability of backing. The distinction has direct Sharia weight, since the *gharar* objection to fiat-referenced tokens is answered by demonstrable, auditable reserves, not by asserted ones. USDT and USDC both fall in Category B, consistent with the illustrative scores in §5.2.1–5.2.2, but they differ in their headroom towards Category A. The path for USDC (Case 3) is blocked only by centralised governance. USDT faces a second barrier, the ceiling on reserve transparency, so that even an improvement in governance would not carry it to Category A without an audit-grade regime. The contrast thus treats reserve transparency as a live compliance variable rather than a formality, and it shows why two assets with near-identical composite scores can have materially different compliance trajectories.
 
-> **Data provenance note.** The volatility-derived Dimension 2 scores, purification figures, and screening verdicts for Cases 5–7 (and re-confirmation for Cases 1–4) are to be populated from the compliance-screening dataset produced by the engineering track (halalscreener run on BTC, ETH, XRP, BNB, USDC, USDT), not asserted by the author. Provisional category placements above are analytical judgments on publicly documented structural facts and will be finalised once that dataset is delivered.
+**Note on data.** The stability scores for Cases 5–7, and the reconfirmation of the scores for Cases 1–4, should be derived from a dated dataset of realised volatility and peg deviation, rather than from the author's estimates. The provisional placements above are analytical judgements based on publicly documented structural facts, and they should be finalised once that data is incorporated (see Appendix F).
 
 ### 5.5.5 Confronting the Categorical Objection: A Steelman of Blanket Prohibition and Its Rebuttal
 
-The case analyses above repeatedly record a categorical verdict—Dar al-Ifta (2017) and MUI (2021) declare pure cryptocurrency *haram* outright. A framework that assigns Bitcoin a graded score of "Category C" rather than a simple prohibition must answer the objection that grading a categorically void (*batil*) instrument is a methodological error: that the entire exercise launders a forbidden thing by dressing degrees onto it. This objection deserves its strongest statement before it is answered.
+The case analyses above repeatedly record categorical verdicts. Dar al-Ifta (2017/2018) and the Darul Uloom Karachi (2026) declare pure cryptocurrency impermissible outright, the latter extending the verdict to stablecoins, and MUI (2021) does so for its use as currency. A framework that assigns Bitcoin a graded score of "Category C" rather than a simple prohibition must answer the objection that grading a categorically void (*batil*) instrument is a methodological error: that the entire exercise launders a forbidden thing by dressing degrees onto it. This objection deserves its strongest statement before it is answered.
 
-**The Categorical Thesis (Steelman).** Reconstructed at full strength, the prohibitionist argument is a valid syllogism resting on textually proximate grounds rather than inferential *maslaha*:
+**The categorical thesis (steelman).** Reconstructed at full strength, the prohibitionist argument is a valid syllogism resting on textually proximate grounds rather than on inferential *maslaha*:
 
-- **Premise 1.** Legitimate currency and property (*mal*) in Islam require either intrinsic value, productive backing, or the backing of a recognised authority; classical jurisprudence on the *dinar* and *dirham* presupposes a connection to real economic value (Dar al-Ifta, 2017; see §3.2.3).
+- **Premise 1.** Legitimate currency and property (*mal*) in Islam require either intrinsic value, productive backing, or the backing of a recognised authority; classical jurisprudence on the *dinar* and *dirham* presupposes a connection to real economic value (Dar al-Ifta, 2017/2018; see §3.2.3). The 2026 Karachi fatwa states the premise in its strongest form: a cryptocurrency balance is a record of notional numbers, not a thing that can be owned.
 - **Premise 2.** Pure cryptocurrency possesses none of these: no intrinsic value, no productive collateral, and no sovereign backing.
-- **Premise 3.** Its dominant realised function is speculation on price movement—wealth transfer from losers to winners with no productive creation—which is *maisir*, conducted under *gharar* so severe that the object of exchange cannot be ascertained (Qur'an 5:90; the *hadith* prohibiting sale of "the fish in the water and the bird in the sky").
-- **Conclusion.** Every unit of pure cryptocurrency is therefore *haram* as such, and a compliance *gradient* is incoherent: one cannot be "partially" engaged in a *batil* contract.
+- **Premise 3.** Its dominant realised function is speculation on price movement, a transfer of wealth from losers to winners with no productive creation. That is *maysir*, conducted under *gharar* so severe that the object of exchange cannot be ascertained (Qur'an 5:90; the *hadith* prohibiting the sale of "the fish in the water and the bird in the sky").
+- **Conclusion.** Every unit of pure cryptocurrency is therefore *haram* as such, and a compliance gradient is incoherent: one cannot be "partially" engaged in a *batil* contract.
 
-This is the position with the firmest footing in explicit prohibitory texts (*nusus*). It does not depend on contested empirical estimates or on weighing competing maqasid; it invokes the direct Qur'anic prohibition of *maisir* and the authenticated *hadith* on *gharar*. It is, on its own terms, the most defensible conservative reading, and the strict camp—extending beyond Dar al-Ifta to the 2017 ruling of Turkey's Diyanet and to prominent individual jurists—advances it precisely because it appears to require the fewest inferential steps.
+This is the position with the firmest footing in explicit prohibitory texts (*nusus*). It does not depend on contested empirical estimates or on weighing competing *maqasid*; it invokes the direct Qur'anic prohibition of *maysir* and the authenticated *hadith* on *gharar*. On its own terms it is the most defensible conservative reading. The strict camp, which extends beyond Dar al-Ifta and the Karachi fatwa to the 2017 statement of Turkey's Diyanet and to prominent individual jurists, advances it precisely because it appears to require the fewest inferential steps.
 
-**Rebuttal.** The framework answers the categorical thesis not by denying the prohibition of speculative instruments but by contesting the move from *some* prohibited uses to a *universal* prohibition of the asset class. Four responses, in ascending force:
+**Rebuttal.** The framework answers the categorical thesis not by denying the prohibition of speculative instruments but by contesting the move from *some* prohibited uses to a *universal* prohibition of the asset class. It offers four responses, in ascending order of force.
 
-1. **Premise 1 proves too much.** If *mal*-status strictly required intrinsic value or sovereign backing, contemporary fiat currency—valueless paper by intrinsic measure and, in the classical sense, without commodity backing—would itself be void. Yet Dar al-Ifta, AAOIFI, and Taqi Usmani all treat fiat as valid *thaman*. Classical fiqh reached the same result for *fulus* (copper token money whose exchange value exceeded its metal value), which the jurists validated on the basis of customary acceptance, not intrinsic worth (Al-Kasani, *Bada'i al-Sana'i*; Ibn Taymiyya on money as an instrument whose value rests on convention). *Mal*-status therefore turns on recognised, storable benefit—exactly what Dimensions 1–3 and 5 measure—rather than on intrinsic substance. Premise 1, as stated, is unsound.
+1. **Premise 1 proves too much.** If *mal*-status strictly required intrinsic value or sovereign backing, decentralised commodities of purely customary value would be excluded along with cryptocurrency, and the classical validation of *fulus* would be inexplicable. Classical fiqh validated *fulus*, copper token money whose exchange value exceeded its metal value, on the basis of customary acceptance rather than intrinsic worth (Al-Kasani, *Bada'i al-Sana'i*; Ibn Taymiyyah on money as an instrument whose value rests on convention). Imam Malik's statement on leather adopted as currency makes the same point. *Mal*-status therefore turns on recognised, storable benefit, which is what Dimensions 1–3 and 5 measure, rather than on intrinsic substance. The Karachi fatwa's characterisation of a digital balance as mere "numbers" is the strongest form of the premise. It is contested by the 2026 Muhammadiyah and NU determinations, which hold that a digital record controlled by its holder can be *mal mutaqawwam*. This is the threshold question on which the authorities now divide (Chapter 3, §3.5).
 
-2. **Gharar and maisir attach to the transaction, not the token (tahqiq al-manat).** Classical *gharar* doctrine voids specific *contracts* whose object or price is indeterminate—*bay' al-hasah*, *habal al-habala*—not classes of asset. The identical Bitcoin can be the subject of a spot sale of a defined quantity at a defined price (minimal contractual *gharar*) or of a leveraged perpetual future (severe *gharar* compounded by *maisir*). The categorical thesis collapses the asset into its most harmful use. The doctrinally precise remedy is to verify the operative cause (*'illa*) in the concrete case—*tahqiq al-manat*—and to pair classification with restrictions on the offending conduct, which is what the framework does.
+2. **Gharar and maysir attach to the transaction, not the token (*tahqiq al-manat*).** Classical *gharar* doctrine voids specific contracts whose object or price is indeterminate, such as *bay' al-hasah* and *habal al-habalah*; it does not void classes of asset. The same Bitcoin can be the subject of a spot sale of a defined quantity at a defined price, with minimal contractual *gharar*, or of a leveraged perpetual future, with severe *gharar* compounded by *maysir*. The categorical thesis collapses the asset into its most harmful use. The doctrinally precise remedy is to verify the operative cause (*'illah*) in the concrete case, which is *tahqiq al-manat*, and to pair classification with restrictions on the offending conduct. This is what the framework does, and it is also the approach of the 2026 Muhammadiyah determination, which permits crypto transactions while prohibiting futures, short selling and interest-bearing leverage.
 
-3. **The thesis cannot supply the granularity its own proponents demand.** A blanket *haram* cannot distinguish a fully reserve-backed, audited, regulator-recognised stablecoin (USDC, scored 19/25, Category B) from an anonymous meme-token, yet the prohibitionist authorities themselves draw exactly such distinctions: Dar al-Ifta exempts blockchain technology and legitimate applications (§3.2.4), MUI permits a commodity classification under conditions (§3.4.4), and AAOIFI and Taqi Usmani expressly accept properly-structured stablecoins (§3.1, §3.3). The presence of these concessions *within* the strict camp refutes true categoricality; the live disagreement is over *where* the line falls—which is precisely the question a graded framework is built to answer.
+3. **The thesis cannot supply the granularity that most of its proponents themselves draw.** A blanket *haram* cannot distinguish a fully reserve-backed, audited, regulator-recognised stablecoin (USDC, scored 19/25, Category B) from an anonymous meme token. Yet most authorities that restrict crypto draw distinctions of exactly this kind. Dar al-Ifta exempts blockchain technology and its legitimate applications (§3.2.4), and MUI permits trading as a commodity under conditions (§3.4.2). The Karachi fatwa is the significant exception. It draws no such distinction even for stablecoins, and it is the purest form of the categorical thesis. Against it the third response has no force; the first response, on the definition of *mal*, carries the burden. For the other restrictive authorities, the concessions within the strict camp refute true categoricality, and the live disagreement is over where the line falls, which is precisely the question a graded framework is built to answer.
 
-4. **Where the objection retains full force, the framework already agrees.** For a pure, unbacked, speculative token whose predominant realised use is *maisir* under *gharar*, the framework returns Category C–D (Problematic to Non-Compliant)—the same practical outcome the prohibitionist seeks. The framework does not overturn the prohibition of the speculative instrument; it declines to extend that prohibition, by an analogy lacking a shared *'illa*, to structurally different instruments (asset-backed and stablecoin designs) that do not exhibit the operative cause of the ruling.
+4. **Where the objection retains full force, the framework already agrees.** For a pure, unbacked, speculative token whose predominant realised use is *maysir* under *gharar*, the framework returns Category C–D (problematic to non-compliant), which is the same practical outcome the prohibitionist seeks. The framework does not overturn the prohibition of the speculative instrument. It declines to extend that prohibition, by an analogy lacking a shared *'illah*, to structurally different instruments, namely asset-backed and stablecoin designs, that do not exhibit the operative cause of the ruling.
 
-**The methodological divergence, named.** This is not a case of "some scholars say yes and some say no." It is a divergence in *usul al-fiqh*. The prohibitionist reasons from *sadd al-dhara'i* and a presumption that a novel instrument bearing prohibited features is void until affirmatively validated. The framework reasons from *al-asl fi al-muamalat al-ibaha* (the default permissibility of transactions) disciplined by *tahqiq al-manat*, validating or invalidating each design by its verified characteristics. The categorical thesis is thus not defeated but *bounded*: sound as applied to the speculative assets that generated it, and unsound only as a claim of universality. The five-dimensional framework is the instrument that marks that boundary with the granularity the sources require.
+**The methodological divergence, named.** This is not a case of "some scholars say yes and some say no." It is a divergence in *usul al-fiqh*. The prohibitionist reasons from *sadd al-dhara'i* and from a presumption that a novel instrument bearing prohibited features is void until affirmatively validated. The framework reasons from *al-asl fi al-mu'amalat al-ibahah* (the default permissibility of transactions), disciplined by *tahqiq al-manat*, and validates or invalidates each design by its verified characteristics. The categorical thesis is thus not defeated but bounded. It is sound as applied to the speculative assets that generated it, and unsound only as a claim of universality, except in the Karachi formulation, where the disagreement reduces to the prior question of whether a digital record can be property. The five-dimensional framework is the instrument that marks the boundary with the granularity the sources require. It is offered for application by those who answer that prior question in the affirmative.
 
 ## 5.6 Regulatory Harmonization Through Classification Framework
 
-The unified framework enables progressive regulatory harmonization across Islamic jurisdictions:
+The framework also offers a basis for progressive harmonisation across jurisdictions. The full institutional proposal is developed in Chapter 6. This section indicates how the classification itself would be used in each phase of the roadmap set out there (§6.6), which begins in 2027.
 
-### Phase 1: Short-term (2025-2026) - Category Recognition
+In the first phase, **category recognition (2027–2028)**, regulators would begin to recognise categories within their existing frameworks. Indonesia would introduce a Sharia screening standard that classifies the assets on its exchange lists. That standard would be developed through the joint study of OJK and DSN-MUI that is already under way. Malaysia would map its existing Sharia screening onto the categories, and the UAE would consider an Islamic designation within its licensing regimes. Bahrain would incorporate category-based risk weighting into its prudential framework. The expected outcome is that stablecoins in Category B or above become eligible for institutional custody, that asset-backed tokens in Category A become eligible for integration with banking, and that projects acquire clear pathways to compliance.
 
-**Action Items:**
-- Indonesia (OJK): Formally recognize Category A and B cryptocurrencies under commodity framework
-- Malaysia (BNM): Implement digital asset licensing specifically for Category A cryptocurrencies
-- UAE (VARA): Approve Category A and B cryptocurrencies under Islamic digital asset framework
-- Bahrain (CBB): Develop prudential framework incorporating category-based risk weighting
+In the second phase, **framework harmonisation (2029–2030)**, the Inter-Islamic Finance Regulatory Council (IIFRC) proposed in Chapter 6 would standardise the scoring methodology across jurisdictions. It would conclude mutual recognition agreements for classifications in Category A and agree minimum scores on each dimension, for example at least 3 on stability and asset backing. An asset approved in one major jurisdiction could then be accepted in others, reducing duplicated effort and lowering the cost of compliance for smaller projects.
 
-**Expected Outcomes:**
-- Stablecoins (Category B minimum) eligible for institutional custody
-- Asset-backed tokens (Category A) eligible for banking integration
-- Clear compliance pathways for cryptocurrency projects
-
-### Phase 2: Medium-term (2026-2028) - Framework Harmonization
-
-**Action Items:**
-- Establish Inter-Islamic Finance Council (IIFC) working group on digital assets
-- Develop standardized scoring methodology across jurisdictions
-- Create mutual recognition agreements for Category A classifications
-- Establish minimum Dimension standards (e.g., minimum Score 3 on Stability and Asset Backing)
-
-**Expected Outcomes:**
-- Cryptocurrency approved in one major Islamic jurisdiction (e.g., Malaysia) accepted in others
-- Reduced duplicate compliance efforts for projects
-- Lower compliance costs enabling smaller projects to achieve Islamic compliance
-
-### Phase 3: Long-term (2028-2030) - CBDC Integration
-
-**Action Items:**
-- Launch CBDC programs in Saudi Arabia, UAE, Malaysia
-- Integrate CBDC with Islamic digital asset framework
-- Enable Islamic cryptocurrency-CBDC interoperability
-- Establish Islamic digital asset reserve pools
-
-**Expected Outcomes:**
-- Seamless Islamic digital asset ecosystem
-- Reduced regulatory arbitrage
-- Enhanced financial inclusion for Islamic finance globally
+In the third phase, **integration with central bank digital currencies (2031–2033)**, the framework would be integrated with CBDC programmes as they launch. Interoperability between recognised Islamic digital assets and CBDCs would be enabled, and pooled reserves of Islamic digital assets could be established. The expected outcome is a more coherent ecosystem of Islamic digital assets, reduced regulatory arbitrage and wider financial inclusion.
 
 ## 5.7 Limitations and Methodological Considerations
 
 ### 5.7.1 Dimension Independence and Correlation
 
-The framework treats dimensions as independent variables, but in practice they exhibit correlation: asset-backed cryptocurrencies tend to have higher stability and better governance. This correlation does not invalidate the dimensional approach but suggests some cryptocurrencies may improve multiple dimensions simultaneously through single design modifications.
+The framework treats the dimensions as independent variables. In practice they are correlated: asset-backed tokens tend also to be more stable and better governed. The correlation does not invalidate the dimensional approach. It does mean that a single design change, such as the introduction of full collateral, may improve several dimensions at once. It also means that the composite score may overstate the difference between backed and unbacked assets.
 
 ### 5.7.2 Temporal Sensitivity
 
-Cryptocurrency characteristics change rapidly: new stablecoin models emerge, governance structures evolve, regulatory recognition shifts. The framework snapshot represents point-in-time assessment. Regular re-evaluation (annual minimum) is required to maintain accuracy.
+The characteristics of digital assets change rapidly. New stablecoin models emerge, governance structures evolve, and regulatory recognition shifts. Each classification is therefore a point-in-time assessment and requires regular re-evaluation, at least annually and also whenever a material event occurs (see the enforcement mechanics in §5.8).
 
 ### 5.7.3 Dimension Weighting
 
-The framework weights dimensions equally (each Dimension = maximum 5 points = 20% of total score). Alternative weighting schemes emphasizing asset backing (Foundation issue) or stability (Certainty issue) would yield different category assignments. Stakeholders may prefer weighted models where Asset Backing and Stability dimensions receive 30% weight each.
+The framework weights the five dimensions equally, each contributing up to 5 points, or 20 percent of the total. Alternative schemes that give greater weight to asset backing or stability, for example 30 percent each, would yield different category assignments and would generally lower the scores of pure cryptocurrencies. The equal weighting also produces a tension that should be acknowledged. Bitcoin's high scores on utility and governance raise its composite to 13, while Chapter 2 assessed its realised contribution to public interest and justice more severely. Weighting schemes that track the *maqasid* assessment more closely deserve further study.
 
 ### 5.7.4 Regulatory Recognition Dimension Circularity
 
-The Regulatory Recognition dimension (Dimension 5) reflects institutional assessment of Islamic compliance rather than first-principles Islamic jurisprudence. This can create circular reasoning: cryptocurrencies receive regulatory approval, which boosts their compliance score, which justifies approval. Separation of regulatory assessment from compliance scoring deserves consideration.
+The regulatory recognition dimension reflects the institutional assessments of regulators rather than first-principles jurisprudence. This creates a risk of circular reasoning: an asset receives regulatory approval, which raises its compliance score, which in turn is cited to justify approval. The risk is aggravated where, as in Indonesia, legal admission occurs without any Sharia assessment. The framework mitigates the problem by distinguishing legal admission from recognition by a Sharia authority, but complete separation of regulatory assessment from compliance scoring deserves further consideration.
 
 ## 5.8 Framework Application Workflow
 
-### For Islamic Financial Institutions:
+The framework can be applied by three groups of users, each following a different sequence.
 
-1. Identify cryptocurrency under consideration
-2. Score across five dimensions using provided criteria
-3. Calculate composite score and category assignment
-4. Cross-reference with Islamic authority positions for category
-5. Consult with institutional Shariah board for final determination
-6. Document compliance assessment for regulatory filing
+**Islamic financial institutions.** An institution would identify the asset under consideration and score it on the five dimensions using the criteria above. It would then calculate the composite score and the resulting category, and compare that result with the positions of Islamic authorities on assets of that category. The final determination rests with the institution's own Sharia board, not with the framework. The assessment would then be documented for regulatory filing.
 
-### For Cryptocurrency Projects Seeking Islamic Compliance:
+**Projects seeking Sharia compliance.** A project would score its asset on the five dimensions and identify its weakest dimensions. It would develop improvements in order of priority: asset backing, then stability, utility and governance. It would engage with regulators and Sharia authorities in its target jurisdictions, and re-score after each improvement until it reaches Category A.
 
-1. Score current cryptocurrency across five dimensions
-2. Identify lowest-scoring dimension(s)
-3. Develop improvement pathway for lowest dimensions
-4. Prioritize improvements: Asset Backing → Stability → Utility → Governance
-5. Engage with Islamic regulators in target jurisdictions
-6. Re-score and repeat iteratively until Category A achieved
-
-### For Regulators:
-
-1. Define minimum dimension scores for different regulatory classifications
-2. Establish mutual recognition criteria for inter-jurisdictional approvals
-3. Develop periodic review cycle for cryptocurrency classification updates
-4. Coordinate with other Islamic regulators through standardized framework
+**Regulators.** A regulator would define minimum dimensional scores for each regulatory classification and establish criteria for recognising the approvals of other jurisdictions. It would set a periodic review cycle for classifications and coordinate with other regulators through the standardised framework.
 
 ### Enforcement Mechanics: Continuous Monitoring, Recertification, and Downgrade Protocol
 
-A classification is not a certificate awarded once and retained indefinitely. Compliance is a *continuing state*, and the framework requires machinery to detect when an asset ceases to occupy the category it was assigned and to attach consequences to that change. This dynamic dimension is what makes the classification an operative regulatory tool rather than a one-time academic scoring exercise.
+A classification is not a certificate awarded once and retained indefinitely. Compliance is a continuing state, and the framework requires machinery to detect when an asset ceases to occupy the category it was assigned and to attach consequences to that change. This dynamic dimension is what makes the classification an operative regulatory tool rather than a one-time academic scoring exercise.
 
-**Jurisprudential warrant for dynamic re-classification.** The requirement follows directly from a foundational principle of *uṣūl al-fiqh*: *al-ḥukm yadūru maʿa ʿillatihi wujūdan wa ʿadaman* — a ruling turns with its operative cause (ʿilla), present when the cause is present and absent when it is absent (a maxim systematised across the classical *qawāʿid* literature; cf. Ibn Nujaym, *al-Ashbāh wa'l-Naẓāʾir*). A stablecoin classified Category B because its reserves are fully backed (the ʿilla) forfeits that classification the moment the backing fails; the compliance ruling cannot outlive the attribute that justified it. Equally, the principle of *istiṣḥāb* (presumption of continuity) permits a prior classification to stand only until contrary evidence emerges — placing an affirmative monitoring burden on the certifying regulator. Static certification would treat a contingent, attribute-dependent ruling as if it were permanent, which the jurisprudence does not license.
+**Jurisprudential warrant for dynamic re-classification.** The requirement follows directly from a foundational principle of *uṣūl al-fiqh*: *al-ḥukm yadūru maʿa ʿillatihi wujūdan wa ʿadaman*, a ruling turns with its operative cause (*ʿilla*), present when the cause is present and absent when it is absent (a maxim systematised across the classical *qawāʿid* literature; cf. Ibn Nujaym, *al-Ashbāh wa'l-Naẓāʾir*). A stablecoin classified in Category B because its reserves are fully backed (the *ʿilla*) forfeits that classification the moment the backing fails; the compliance ruling cannot outlive the attribute that justified it. Equally, the principle of *istiṣḥāb* (presumption of continuity) permits a prior classification to stand only until contrary evidence emerges, which places an affirmative monitoring burden on the certifying regulator. Static certification would treat a contingent, attribute-dependent ruling as if it were permanent, which the jurisprudence does not license.
 
-**Monitoring inputs (per dimension).** Each dimension is mapped to observable indicators that a supervisory data pipeline tracks continuously rather than annually:
+**Monitoring inputs.** Each dimension is mapped to observable indicators that a supervisory data pipeline tracks continuously rather than annually. For asset backing, the indicators are independent reserve attestations, the collateralisation ratio, and the status of custody and bankruptcy-remoteness. For stability, they are realised volatility and the maximum deviation from the peg or target band over rolling windows. For utility, they are on-chain settlement volume, trends in active addresses, and demonstrated non-speculative use. For governance, they are measures of token and validator concentration and changes in controlling entities or in custody of administrative keys. For recognition, they are new fatwas, licensing decisions or prohibitions in member jurisdictions.
 
-- **Dimension 1 (Asset Backing):** independent reserve attestation reports; collateralisation ratio; custody and bankruptcy-remoteness status.
-- **Dimension 2 (Value Stability):** realised volatility and maximum deviation from peg or target band over rolling windows.
-- **Dimension 3 (Productive Utility):** on-chain settlement volume, active-address trends, and demonstrated non-speculative use.
-- **Dimension 4 (Governance):** token- and validator-concentration metrics; changes in controlling entities or admin-key custody.
-- **Dimension 5 (Regulatory Recognition):** new fatwas, licensing decisions, or prohibitions in member jurisdictions.
+The empirical values feeding these indicators should be supplied by a screening and market-data pipeline (see Appendix F), not asserted by the analyst. Where an input cannot be independently sourced, the dimension is scored conservatively and the gap disclosed.
 
-The empirical values feeding these indicators are supplied by the screening and market-data pipeline (see Appendix F and the compliance-screening dataset), not asserted by the analyst; where an input cannot be independently sourced, the dimension is scored conservatively and the gap disclosed.
+**Recertification cadence.** Two clocks run in parallel. The first is a scheduled recertification at least annually, consistent with the temporal sensitivity noted in §5.7.2. The second is an event-driven re-score triggered immediately by any material change, such as a de-peg, a failed or qualified reserve attestation, a governance-capture event, an exchange delisting, or a regulatory reversal.
 
-**Recertification cadence.** Two clocks run in parallel: (i) a **scheduled** minimum annual recertification (consistent with the temporal-sensitivity limitation of §5.7.2), and (ii) an **event-driven** re-score triggered immediately by any material change — a de-peg event, a failed or qualified reserve attestation, a governance-capture event, an exchange delisting, or a regulatory reversal.
+**Downgrade triggers and consequences.** When monitoring detects deterioration, the asset moves through a graduated protocol rather than a binary switch between *halal* and *haram*. In the first stage, a single indicator breaches its threshold and the asset is placed on a watchlist: the classification is retained but flagged, and institutions are notified. In the second, a dimension score falls pending review and the composite category is provisionally suspended. A stablecoin trading outside its band beyond the permitted duration, for example, would provisionally lose points on stability. In the third, the technical panel confirms the lower score and the asset is formally reassigned to a lower category, with the registry updated. In the fourth, an asset that falls to Category C or D is removed from the Qualified Cryptocurrency Registry (Chapter 6, §6.5.1), which terminates its mutual recognition.
 
-**Downgrade triggers and the asset-side consequence ladder.** When monitoring detects deterioration, the asset moves through a graduated protocol rather than a binary halal/haram flip:
-
-1. **Watchlist** — a single indicator breaches its threshold; classification retained but flagged, institutions notified.
-2. **Provisional downgrade** — a dimension score falls pending review (e.g., a stablecoin trading outside its band beyond the permitted duration provisionally loses points on Dimension 2); the composite category is suspended.
-3. **Category reassignment** — the technical panel confirms the lower score; the asset is formally re-categorised and the Qualified Registry updated.
-4. **Delisting** — an asset falling to Category C/D is removed from the Qualified Cryptocurrency Registry (Chapter 6, §6.5.1), terminating mutual recognition.
-
-**Consequences for holders.** Institutions holding a downgraded asset receive a defined wind-down window proportioned to market liquidity (avoiding fire-sale harm, itself a *maṣlaḥa* consideration), and any returns accrued while the asset was non-compliant are subject to the purification (*taṭhīr*) obligation — the quantified disposal of impermissible income to charity — using the purification figures produced by the screening pipeline. Enforcement of the classification thus reaches through to the balance sheet, closing the loop between the score and the institution's actual Shariah exposure, and dovetailing with the inter-regulator enforcement ladder of Chapter 6 (§6.5.4).
+**Consequences for holders.** Institutions holding a downgraded asset receive a defined wind-down window proportioned to market liquidity, which avoids the harm of a fire sale and is itself a consideration of *maṣlaḥa*. Any returns accrued while the asset was non-compliant are subject to the obligation of purification (*taṭhīr*), the quantified disposal of impermissible income to charity. Enforcement of the classification thus reaches through to the balance sheet. This closes the loop between the score and the institution's actual Sharia exposure, and it dovetails with the inter-regulator enforcement ladder of Chapter 6 (§6.5.4).
 
 ## 5.9 Conclusion
 
-The unified classification framework synthesizes fragmented jurisprudential positions and regulatory approaches into coherent, actionable structure. By evaluating cryptocurrencies across five dimensions—asset backing, value stability, productive utility, governance, and regulatory recognition—the framework accommodates legitimate jurisdictional variation while establishing common ground for assessment.
+The unified classification framework draws the fragmented jurisprudential positions and regulatory approaches into a coherent and usable structure. It evaluates digital assets on five dimensions: asset backing, value stability, productive utility, governance and regulatory recognition. In doing so it accommodates legitimate variation between jurisdictions while establishing a common basis for assessment.
 
-The framework demonstrates that cryptocurrency compliance with Islamic law is not binary but exists along continuum of categories reflecting different degrees of alignment with Maqasid Shariah principles. Stablecoins and asset-backed digital assets represent genuine Islamic finance innovation, while pure cryptocurrencies remain problematic until fundamental architectural changes occur.
+The framework shows that the compatibility of a digital asset with Islamic law is not binary. It lies along a continuum of categories reflecting different degrees of alignment with the *maqasid*. Stablecoins with verifiable reserves and asset-backed digital assets represent a genuine opportunity for Islamic finance. Pure cryptocurrencies remain problematic, and nothing short of fundamental architectural change would alter that assessment. The framework operationalises Position A, conditional permissibility as property, which is now the position of the two largest Indonesian mass organisations. It must be acknowledged, however, that the strict form of Position B, articulated in the 2026 Karachi fatwa, rejects its premise that a digital record can be property.
 
-This classification framework provides pathway toward regulatory harmonization across Islamic jurisdictions while enabling cryptocurrency projects to systematically improve Islamic compliance. Future research should explore optimal dimension weighting, temporal validation across market cycles, and integration with emerging Islamic digital asset innovations.
+The framework provides a pathway towards regulatory harmonisation and a means by which projects can systematically improve their compliance. Future research should address the optimal weighting of the dimensions, the validation of scores across market cycles using empirical data, the separation of legal admission from Sharia recognition, and the integration of the framework with emerging Islamic digital asset designs.

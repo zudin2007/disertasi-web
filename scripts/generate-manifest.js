@@ -29,14 +29,14 @@ const REPOS = [
     name: 'Disertasi',
     dir: process.env.DISERTASI_DIR || '../Disertasi',
     github: 'https://github.com/zudin2007/Disertasi',
-    branch: null, // detected from git below; falls back to 'main'
+    branch: process.env.DISERTASI_BRANCH || 'main', // canonical text; not the GitHub default branch
     note: 'Dissertation manuscript, appendices, build pipeline, research scripts.',
   },
   {
     name: 'disertasi-web',
     dir: '.',
     github: 'https://github.com/zudin2007/disertasi-web',
-    branch: null, // detected from git below; falls back to 'main'
+    branch: 'main',
     note: 'This project: static web output + this monitoring manifest.',
   },
 ];

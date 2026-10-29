@@ -15,7 +15,6 @@
 
 const fs = require('fs');
 const path = require('path');
-const { execFileSync } = require('child_process');
 
 const PROJECT = path.resolve(__dirname, '..');
 const DISERTASI = path.resolve(PROJECT, process.env.DISERTASI_DIR || '../Disertasi');
@@ -32,49 +31,34 @@ const LOCALES = [{ lang: 'id', srcDir: 'id' }];
 // Extra front/back matter to surface on the site beyond the compiled manifest.
 // Inserted relative to the canonical section list; content decisions stay in the
 // Disertasi repo — we only choose whether to LINK a file, not what it says.
-const EXTRA_FRONT = [{ file: 'EXECUTIVE_SUMMARY.md', after: 'ABSTRACT.md' }];
-const EXTRA_BACK = ['CASE_STUDIES.md'];
+// EXECUTIVE_SUMMARY.md and CASE_STUDIES.md were linked here until Oct 2026; both
+// predate the narrated 7-chapter text on Disertasi `main` and contradict it, so
+// they are no longer surfaced.
+const EXTRA_FRONT = [];
+const EXTRA_BACK = [];
 
 // Downloadable deliverables (repo path -> served filename).
-// We bundle the committed, compact "_Complete" outputs so downloads work on the
-// live site regardless of the repo's push state. The always-current full build
-// (Dissertation_Full.pdf/.docx, larger) is indexed with a GitHub link in
-// MANIFEST.md / manifest.json instead of being bundled.
+// Dissertation_Full.pdf/.docx is the reproducible build of the canonical text
+// (`npm run build` in Disertasi). The older "_Complete" outputs (Jul 2026) are
+// stale and no longer bundled.
 const DELIVERABLES = [
   {
-    src: 'Disertasi_Cryptocurrency_Classification_Islamic_Finance_Complete.pdf',
+    src: 'Dissertation_Full.pdf',
     out: 'Dissertation.pdf',
     label: 'Dissertation (PDF)',
   },
   {
-    src: 'Disertasi_Cryptocurrency_Classification_Islamic_Finance_Complete.docx',
+    src: 'Dissertation_Full.docx',
     out: 'Dissertation.docx',
     label: 'Dissertation (DOCX)',
   },
 ];
 
-function git(repoDir, args) {
-  return execFileSync('git', args, {
-    cwd: repoDir,
-    encoding: 'utf8',
-    stdio: ['ignore', 'pipe', 'ignore'],
-  }).trim();
-}
-
-// Prefer the repo's REMOTE DEFAULT branch: it is what GitHub serves (pushed) and
-// what raw.githubusercontent.com resolves for the live SPA. The local checkout
-// may sit on a transient feature branch that isn't pushed. Fall back to the
-// local branch, then 'main'.
-function publishBranch(repoDir) {
-  try {
-    const ref = git(repoDir, ['symbolic-ref', '--short', 'refs/remotes/origin/HEAD']);
-    if (ref) return ref.replace(/^origin\//, '');
-  } catch {}
-  try {
-    return git(repoDir, ['rev-parse', '--abbrev-ref', 'HEAD']) || 'main';
-  } catch {
-    return 'main';
-  }
+// The canonical text lives on Disertasi `main`; DISERTASI_BRANCH overrides. The
+// repo's GitHub default branch is deliberately not used: it still points at an
+// older draft branch.
+function publishBranch() {
+  return process.env.DISERTASI_BRANCH || 'main';
 }
 
 function ensureDir(d) {
@@ -113,9 +97,9 @@ function sectionOrder(file) {
 
 /*
  * Mirror one localized Markdown tree (Disertasi/<srcDir>/) into content/<lang>/
- * and regenerate its site-manifest.json `sections`. Files already committed under
- * content/<lang>/ but absent from the source (e.g. Bab 1, whose translation lives
- * on a different Disertasi branch) are preserved so the live site never regresses.
+ * and regenerate its site-manifest.json `sections`. The mirror is exact: .md files
+ * under content/<lang>/ that are absent from the source are removed, so stale
+ * translations of superseded chapters are not published.
  * Localized chrome (metadata + ui) in the existing manifest is kept verbatim.
  */
 function syncLocale({ lang, srcDir }) {
@@ -128,15 +112,16 @@ function syncLocale({ lang, srcDir }) {
 
   ensureDir(outDir);
 
-  // Union of translated sources (copied fresh) and previously-committed .md files.
   const fromSource = fs.existsSync(srcRoot)
     ? fs.readdirSync(srcRoot).filter((f) => /\.md$/i.test(f))
     : [];
+  for (const f of fs.readdirSync(outDir).filter((f) => /\.md$/i.test(f))) {
+    if (!fromSource.includes(f)) fs.unlinkSync(path.join(outDir, f));
+  }
   for (const f of fromSource) {
     fs.copyFileSync(path.join(srcRoot, f), path.join(outDir, f));
   }
-  const committed = fs.readdirSync(outDir).filter((f) => /\.md$/i.test(f));
-  const files = Array.from(new Set([...fromSource, ...committed])).sort(
+  const files = [...fromSource].sort(
     (a, b) => sectionOrder(a) - sectionOrder(b) || a.localeCompare(b)
   );
 
@@ -205,6 +190,13 @@ function main() {
     sections.push({ file, slug, title: firstH1(raw, file.replace(/\.md$/i, '')) });
   }
   if (!sections.length) throw new Error('No content files were synced — nothing to build.');
+
+  // Exact mirror: drop top-level Markdown that is no longer part of the site, so
+  // superseded drafts are not left behind in content/.
+  const synced = new Set(sections.map((s) => s.file));
+  for (const f of fs.readdirSync(CONTENT).filter((f) => /\.md$/i.test(f))) {
+    if (!synced.has(f)) fs.unlinkSync(path.join(CONTENT, f));
+  }
 
   // Copy the downloadable deliverables (skip any that are absent).
   const downloads = [];

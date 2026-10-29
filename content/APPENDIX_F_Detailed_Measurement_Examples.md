@@ -379,7 +379,3 @@
 
 7. **Periodic Re-assessment:** Conduct annual or quarterly re-scoring reflecting changed circumstances (new governance, regulatory changes, volatility patterns).
 
----
-
-**Appendix F - Word Count: ~2,000 words**
-
