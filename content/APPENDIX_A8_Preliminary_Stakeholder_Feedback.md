@@ -312,7 +312,3 @@ Preliminary stakeholder consultation gathered feedback from Islamic financial in
 
 Preliminary stakeholder consultation reveals strong support for framework concept and IIFRC coordination while identifying significant implementation barriers primarily related to institutional capacity and clarity. Most stakeholders express confidence framework can work if capacity-building and implementation support provided. Recommendation: Refine framework based on stakeholder input; develop detailed implementation support materials; commit to phased 24-36 month implementation timeline; establish capacity-building programs before mandatory compliance.
 
----
-
-**Appendix A.8 - Word Count: ~1,500 words**
-

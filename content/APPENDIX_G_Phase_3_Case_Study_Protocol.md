@@ -131,7 +131,7 @@
 ### Case Study Site 3: UAE (VARA) - Regional Authority Model
 
 #### Site Context
-- **Regulatory Authority:** VARA (Virtual Asset Regulatory Authority, Abu Dhabi)
+- **Regulatory Authority:** VARA (Virtual Assets Regulatory Authority, Dubai)
 - **Regulatory Philosophy:** Regional authority positioning; Islamic finance financial center development
 - **Implementation Timeline:** 20 months (intermediate implementation timeline)
 - **Implementation Model:** Regional coordination establishing VARA as Islamic digital asset regulator for Gulf region
@@ -152,7 +152,7 @@
 
 #### Site-Specific Interview Sample (18 total)
 - VARA Governor/Senior Leadership (1)
-- VARA Shariah Advisory Council (2)
+- VARA Shariah adviser(s), if any (2) [verify whether VARA has a Shariah body before fieldwork]
 - VARA technical staff (3)
 - Regional regulator representatives (Saudi Arabia, Bahrain, Qatar, Kuwait) (4)
 - Islamic banks operating regionally (3)
@@ -371,8 +371,4 @@
 - Data management and analysis software: ~$5,000-$10,000
 - Institutional research agreements/coordination: ~$10,000-$15,000
 - **Total budget: ~$220,000-$305,000**
-
----
-
-**Appendix G - Word Count: ~2,500 words**
 

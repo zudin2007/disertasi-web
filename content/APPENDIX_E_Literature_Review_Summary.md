@@ -14,7 +14,7 @@
 
 **Representative Literature:**
 - Houben & Snyers (2020, European Parliament): Comprehensive taxonomy of cryptocurrency regulatory approaches across OECD jurisdictions identifying consumer protection, innovation, financial stability, and monetary control as dominant regulatory philosophies. Notes fragmentation creating compliance burden for multinational cryptocurrency projects.
-- Barker et al. (2021, MIT Media Lab): Analysis of cryptocurrency regulation across 24 jurisdictions finding divergent approaches ranging from prohibition (China, Saudi Arabia pre-2023) to innovation-focused approaches (Malta, El Salvador post-2021).
+- [Unverified: confirm before citing] Barker et al. (2021, MIT Media Lab): Analysis of cryptocurrency regulation across 24 jurisdictions finding divergent approaches ranging from prohibition (China, Saudi Arabia pre-2023) to innovation-focused approaches (Malta, El Salvador post-2021).
 - Rogoff (2021, Harvard University): Macroeconomic analysis of cryptocurrency systemic risk arguing for stricter regulation based on financial stability concerns, not consumer protection alone.
 
 **Gap Addressed:** Existing literature examines cryptocurrency regulation through secular regulatory lenses (consumer protection, innovation, stability). No systematic analysis integrates religious or jurisprudential frameworks into regulatory design.
@@ -53,10 +53,10 @@
 **Key Finding:** Islamic finance scholarship on cryptocurrency focuses on jurisprudential positions but lacks systematic measurement methodology or empirical validation of positions.
 
 **Representative Literature:**
-- Al-Khudhairi (2014, AAOIFI): Early Islamic finance perspective arguing cryptocurrency lacks Islamic permissibility due to absence of intrinsic value and asset-backing. Establishes precautionary Islamic finance position on cryptocurrency.
+- [Unverified: could not be located; confirm before citing] Al-Khudhairi (2014, AAOIFI): Early Islamic finance perspective arguing cryptocurrency lacks Islamic permissibility due to absence of intrinsic value and asset-backing. Establishes precautionary Islamic finance position on cryptocurrency.
 - Khan (2018, Islamic Finance Review): Analysis of Bitcoin using Islamic jurisprudential framework identifying concerns about riba (interest/excessive returns), gharar (excessive uncertainty), and maysir (speculation). Positions cryptocurrency as problematic without addressing conditional permissibility.
-- Usmani (2019, ISRA Islamic Finance Institute): Framework for assessing cryptocurrency permissibility through Maqasid Shariah lens. Identifies that cryptocurrency permissibility depends on specific characteristics rather than categorical prohibition. Notable early work identifying dimensional assessment approach.
-- Rahman (2023, Journal of Islamic Finance): Meta-analysis of 50+ Islamic scholar positions on cryptocurrency finding 65% classify as dependent-on-characteristics (conditional permissibility) vs. 20% unconditional prohibition, 15% conditional permissibility. Empirically establishes consensus trend toward conditional assessment.
+- Usmani / Darul Uloom Karachi (2026): Fatwa dated 10 June 2026 holding that cryptocurrency, including stablecoins, is not *mal* and that transactions in it are impermissible (reported July 2026). The earlier attribution to Usmani (2019, ISRA) of a characteristics-dependent framework could not be located and has been removed.
+- [Unverified: could not be located; figures internally inconsistent; confirm before citing] Rahman (2023, Journal of Islamic Finance): Meta-analysis of 50+ Islamic scholar positions on cryptocurrency finding 65% classify as dependent-on-characteristics (conditional permissibility) vs. 20% unconditional prohibition, 15% conditional permissibility. Empirically establishes consensus trend toward conditional assessment.
 
 **Gap Addressed:** Islamic finance literature documents jurisprudential positions but does not operationalize dimensional framework with measurable thresholds, does not validate assumptions empirically, does not address regulatory implementation.
 
@@ -169,9 +169,10 @@ This dissertation bridges three academic domains:
 - Ayub, M. (2007). Understanding Islamic Finance. Wiley Finance.
 
 **Cryptocurrency and Islamic Finance:**
-- Usmani, M. T. (2019). An Introduction to Islamic Finance. Kluwer Law International.
-- Rahman, S. (2023). Islamic Scholars' Positions on Cryptocurrency: A Meta-Analysis. Journal of Islamic Finance, 45(2), 112-145.
-- Al-Khudhairi, I. (2014). Shari'ah Perspective on Cryptocurrency. AAOIFI Research Paper.
+- Usmani, M. T. (2002). An Introduction to Islamic Finance. The Hague: Kluwer Law International.
+- Darul Ifta, Jamia Darul Uloom Karachi. (2026). Fatwa on cryptocurrency, 10 June 2026.
+- [Unverified] Rahman, S. (2023). Islamic Scholars' Positions on Cryptocurrency: A Meta-Analysis. Journal of Islamic Finance, 45(2), 112-145.
+- [Unverified] Al-Khudhairi, I. (2014). Shari'ah Perspective on Cryptocurrency. AAOIFI Research Paper.
 
 **Maqasid Shariah:**
 - Al-Raisuni, A. (2015). Imam Al-Shatibi's Theory of the Higher Objectives and Intents of Islamic Law. International Institute of Islamic Thought.
@@ -183,9 +184,5 @@ This dissertation bridges three academic domains:
 
 **Cryptocurrency Regulation:**
 - Houben, R., & Snyers, C. (2020). Cryptocurrencies and Blockchain: Legal Context and Implications for Financial Crime, Money Laundering and Tax Evasion. European Parliament Research Service.
-- Barker, A., et al. (2021). Global Cryptocurrency Regulatory Landscape. MIT Media Lab.
-
----
-
-**Appendix E - Word Count: ~1,200 words**
+- [Unverified] Barker, A., et al. (2021). Global Cryptocurrency Regulatory Landscape. MIT Media Lab.
 

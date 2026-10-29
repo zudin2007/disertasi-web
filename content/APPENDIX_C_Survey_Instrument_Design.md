@@ -375,6 +375,3 @@ Selected from survey respondents expressing strong Islamic compliance preference
 - Refined Framework (incorporating stakeholder feedback)
 - Academic papers on cryptocurrency investment preferences and institutional participation
 
----
-
-**Appendix C - Word Count: ~1,400 words**

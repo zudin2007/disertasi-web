@@ -4,44 +4,39 @@
 
 ### Research Problem
 
-Cryptocurrency adoption within Islamic finance contexts faces three-fold fragmentation: (1) divergent jurisprudential positions among Islamic authorities regarding cryptocurrency permissibility; (2) heterogeneous regulatory approaches across Islamic jurisdictions; and (3) absence of principled methodology for systematic Islamic compliance assessment. This fragmentation creates uncertainty for Islamic financial institutions, regulatory confusion for policymakers, and compliance challenges for cryptocurrency projects.
+The adoption of cryptocurrency in Muslim societies confronts Islamic finance with a threefold fragmentation. Islamic authorities disagree about whether crypto-assets are permissible. Jurisdictions with large Muslim populations regulate them in markedly different ways. And no principled methodology exists for assessing the Sharia compliance of a particular digital asset. The result is uncertainty for Islamic financial institutions, confusion for policymakers and an unclear path to compliance for issuers.
 
 ### Research Methodology
 
-This dissertation employs integrated analytical approach combining Islamic jurisprudential analysis, comparative regulatory study, and institutional design. The analysis examines positions from four major Islamic authorities (AAOIFI, Dar al-Ifta, Taqi Usmani, MUI Indonesia) and regulatory frameworks from five Islamic jurisdictions (Indonesia, Malaysia, Saudi Arabia, UAE, Bahrain). The Maqasid Shariah framework—encompassing five Islamic jurisprudential objectives (necessity, certainty, public interest, justice, dignity)—provides foundation for systematic assessment.
+The dissertation combines jurisprudential analysis, comparative regulatory study and institutional design. It examines the positions of four reference authorities: AAOIFI, Dar al-Ifta al-Misriyyah, Mufti Muhammad Taqi Usmani (through the Darul Uloom Karachi fatwa of 2026) and Majelis Ulama Indonesia, together with Muhammadiyah and the Nahdlatul Ulama. It compares the regulatory frameworks of Indonesia, Malaysia, Saudi Arabia, the United Arab Emirates and Bahrain. The assessment rests on the *maqasid al-shari'ah*, operationalised through five evaluative criteria: stability and preservation of wealth, certainty, public interest, justice and dignity. The selection and scoring of these criteria are the author's construction.
 
 ### Key Findings
 
-1. **Islamic Jurisprudential Assessment**: Pure cryptocurrencies score 2.4/5 against Maqasid Shariah framework, failing on necessity and certainty grounds. Asset-backed digital assets and stablecoins demonstrate significantly higher compliance (4.0-4.5/5).
+1. **Maqasid assessment.** Pure cryptocurrency scores 2.4 out of 5. It fails the criteria of stability, public interest and justice, partially meets that of certainty, and comes closest to meeting that of dignity, through its potential for financial inclusion. Asset-backed tokens and fully reserved stablecoins perform substantially better, with indicative scores of 3.5–4.5.
 
-2. **Jurisprudential Convergence**: Despite apparent divergence, Islamic authorities have achieved implicit consensus on three points: pure cryptocurrencies are non-compliant, asset-backed alternatives merit consideration, and Maqasid Shariah provides appropriate assessment framework.
+2. **Jurisprudential positions.** The authorities agree that pure cryptocurrency is not acceptable as money. They diverge on whether it may be held and traded as an asset, and the divergence runs along the threshold question of whether a crypto-asset is *mal* (property). Dar al-Ifta (2017/2018) holds Bitcoin trading impermissible, and the Karachi fatwa (2026) denies that crypto-assets, including stablecoins, are *mal* at all. AAOIFI has issued no crypto-specific standard. The Indonesian bodies permit crypto as an asset subject to conditions: MUI through the *sil'ah* exception of 2021, and Muhammadiyah and the Nahdlatul Ulama in 2026. Divergence on the question of *mal* sharpened, rather than narrowed, in 2026.
 
-3. **Regulatory Differentiation**: Five distinct regulatory approaches reflect legitimate policy priorities (innovation, stability, consumer protection, monetary control) rather than error or inconsistency.
+3. **Regulatory differentiation.** The five regulatory approaches reflect legitimate differences of policy priority (innovation, stability, consumer protection and monetary control) rather than error. With the exception of Malaysia, whose Securities Commission integrates Sharia screening, the jurisdictions regulate crypto-assets on religiously neutral terms. Indonesia, for example, licenses trading in more than 1,500 listed assets without any Sharia standard.
 
-4. **Classification Framework**: A five-dimensional assessment model (asset backing, value stability, productive utility, governance, regulatory recognition) creates continuous compliance spectrum with five categories ranging from Islamic-Compliant (Category A: ≥19 points) to Prohibited (Category D: 5-9 points).
+4. **Classification framework.** A five-dimensional model assesses asset backing, value stability, productive utility, governance and regulatory recognition. It places assets on a continuum of four categories, from compatible with Islamic law (Category A, 20–25 points) to prohibited (Category D, 5–9 points), with central bank digital currencies treated separately. Bitcoin scores 13 points (Category C). The framework operationalises the position of conditional permissibility as property.
 
-5. **Institutional Coordination**: An Inter-Islamic Finance Regulatory Council (IIFRC) operating on minimum standards and mutual recognition enables regulatory harmonization while preserving jurisdictional sovereignty and policy differentiation.
+5. **Institutional coordination.** An Inter-Islamic Finance Regulatory Council (IIFRC), operating through minimum standards, mutual recognition and a graduated enforcement ladder grounded in *siyasah shar'iyyah*, could achieve harmonisation while preserving national sovereignty and policy differentiation.
 
 ### Research Contributions
 
-**Theoretical**: Operationalizes Maqasid Shariah as measurable assessment framework for digital assets; demonstrates jurisprudential convergence methodology applicable to Islamic finance beyond cryptocurrency.
-
-**Practical**: Provides Islamic financial institutions, regulators, and cryptocurrency projects with systematic compliance methodology and clear improvement pathways. Enables institutional participants to confidently assess and engage with digital assets.
-
-**Institutional**: Proposes IIFRC coordination mechanism demonstrating how Islamic jurisdictions can harmonize policy without sacrificing sovereign authority or policy flexibility. Establishes template for broader Islamic finance regional coordination.
+The theoretical contribution of the dissertation is to operationalise the *maqasid* as an explicit, criteria-based framework for assessing digital assets. It also offers a method for comparing jurisprudential positions that distinguishes jurisprudential, empirical and methodological sources of disagreement. Its practical contribution is a transparent methodology of assessment, together with pathways of improvement, for Islamic financial institutions, regulators and issuers. Its institutional contribution is the IIFRC proposal, which shows how jurisdictions could coordinate policy without surrendering sovereign authority and which could serve as a template for wider regional coordination in Islamic finance.
 
 ### Policy Implications
 
-Central banks and regulators should adopt five-dimensional classification framework for cryptocurrency assessment. Cryptocurrency projects seeking Islamic compliance should prioritize asset-backing and stability improvements. Islamic financial institutions should establish Shariah-board capacity for emerging technology assessment. Islamic jurisdictions should pursue IIFRC participation enabling regulatory coordination and mutual recognition.
+Regulators should adopt a dimensional classification framework in place of binary determinations. In Indonesia, the priority is a Sharia screening standard for the assets on licensed exchange lists. Projects seeking Sharia compliance should give priority to asset backing and stability. Islamic financial institutions should build Sharia board capacity to assess emerging technologies. Jurisdictions should pursue coordination and mutual recognition through a mechanism such as the IIFRC.
 
 ### Conclusion
 
-Islamic jurisprudence does not categorically prohibit cryptocurrency but requires specific architectural characteristics satisfying Maqasid Shariah principles. This dissertation provides framework enabling principled engagement with digital asset innovation while maintaining Islamic jurisprudential integrity, positioning Islamic finance as sophisticated regulator capable of accommodating technological change within ethical constraints.
+On the reading defended in this dissertation, Islamic jurisprudence does not categorically prohibit digital assets. It permits them conditionally, subject to design characteristics that satisfy the objectives of the law. That position is shared by a significant body of Islamic opinion but contested by the strict view, articulated in the 2026 Karachi fatwa, that crypto-assets are not property. The dissertation offers a framework for principled engagement with digital asset innovation that remains faithful to Islamic jurisprudence. Its central limitation is that it is doctrinal and qualitative; the empirical agenda it sets out remains to be carried out.
 
 ---
 
-**Keywords:** Islamic finance, cryptocurrency regulation, Maqasid Shariah, digital assets, regulatory harmonization, CBDC, stablecoins
+**Keywords:** Islamic finance, cryptocurrency regulation, Maqasid Shariah, digital assets, *mal*, regulatory harmonization, CBDC, stablecoins
 
-**Dissertation Length:** ~32,900 words  
 **Chapters:** 7  
-**Research Scope:** Five Islamic jurisdictions, Four Islamic jurisprudential authorities, Five-dimensional classification framework
+**Research Scope:** Five jurisdictions; four reference Islamic authorities and two Indonesian mass organisations; five-dimensional classification framework

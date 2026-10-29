@@ -109,19 +109,20 @@ root). Each additional language is **pure data** — no code change needed:
   it into **`dist/<lang>/`**, cross-linked with the English root via a language
   switcher in the sidebar.
 
-**Bahasa Indonesia** lives at `content/id/` → served at `/id/`. Translator drops
-new ID chapters into `content/id/` and adds a `sections` entry in
-`content/id/site-manifest.json`; the source Markdown is mirrored from the
-`Disertasi` repo's `id/` directory.
+**Bahasa Indonesia** lives at `content/id/` → served at `/id/`. It is an exact
+mirror of the `Disertasi` repo's `id/` directory: `npm run sync` copies every
+translated chapter there and removes any file under `content/id/` that the source
+no longer has. Add a translation in `Disertasi/id/`, not here.
+
+Content is synced from Disertasi `main` (override with `DISERTASI_BRANCH`), not
+from the repo's GitHub default branch, which still points at an older draft.
 
 ## Downloads / provenance
 
-The site's **Download** buttons serve the committed, compact
-`Disertasi_..._Complete.pdf` / `.docx` outputs (bundled under
-`public/downloads/`), so downloads work on the live site independent of the
-source repo's push state. The always-current full build
-(`Dissertation_Full.pdf` / `.docx`, larger) is indexed with a GitHub link in
-`MANIFEST.md`.
+The site's **Download** buttons serve `Dissertation_Full.pdf` / `.docx`, the
+reproducible build of the canonical text (`npm run build` in Disertasi), bundled
+under `public/downloads/` as `Dissertation.pdf` / `.docx`. The older
+`Disertasi_..._Complete.*` outputs (Jul 2026) are stale and no longer served.
 
 ## Layout
 

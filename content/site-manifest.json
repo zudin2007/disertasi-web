@@ -5,7 +5,7 @@
     "author": "Zudin",
     "date": "2026",
     "repository": "github.com/zudin2007/Disertasi",
-    "repoBranch": "claude/halalscreener-mcp-setup-0imrfp"
+    "repoBranch": "main"
   },
   "generatedFrom": "Disertasi/build/manifest.json (+ web front/back matter)",
   "sections": [
@@ -15,13 +15,8 @@
       "title": "ABSTRACT"
     },
     {
-      "file": "EXECUTIVE_SUMMARY.md",
-      "slug": "executive-summary",
-      "title": "Executive Summary & Key Takeaways"
-    },
-    {
-      "file": "CHAPTER_1_Islamic_Jurisprudence_and_Cryptocurrency_EXPANDED.md",
-      "slug": "chapter-1-islamic-jurisprudence-and-cryptocurrency-expanded",
+      "file": "CHAPTER_1_Cryptocurrency_Classification_Islamic_Law.md",
+      "slug": "chapter-1-cryptocurrency-classification-islamic-law",
       "title": "Chapter 1: Cryptocurrency Classification Under Islamic Law"
     },
     {
@@ -30,14 +25,14 @@
       "title": "Chapter 2: Islamic Legal Framework - Maqasid Shariah Analysis"
     },
     {
-      "file": "CHAPTER_3_Jurisprudential_Positions_EXPANDED.md",
-      "slug": "chapter-3-jurisprudential-positions-expanded",
+      "file": "CHAPTER_3_Jurisprudential_Positions.md",
+      "slug": "chapter-3-jurisprudential-positions",
       "title": "Chapter 3: Jurisprudential Positions and Islamic Authority Perspectives"
     },
     {
-      "file": "CHAPTER_4_Regulatory_Frameworks_Operationalized.md",
-      "slug": "chapter-4-regulatory-frameworks-operationalized",
-      "title": "Chapter 4: Regulatory Frameworks Operationalized"
+      "file": "CHAPTER_4_Regulatory_Landscape.md",
+      "slug": "chapter-4-regulatory-landscape",
+      "title": "Chapter 4: Comparative Regulatory Analysis Across Islamic Jurisdictions"
     },
     {
       "file": "CHAPTER_5_Unified_Classification_Framework.md",
@@ -53,11 +48,6 @@
       "file": "CHAPTER_7_Conclusion_and_Future_Research.md",
       "slug": "chapter-7-conclusion-and-future-research",
       "title": "CHAPTER 7: CONCLUSION AND FUTURE RESEARCH"
-    },
-    {
-      "file": "CHAPTER_8_Empirical_Research_Agenda.md",
-      "slug": "chapter-8-empirical-research-agenda",
-      "title": "CHAPTER 8: EMPIRICAL RESEARCH AGENDA & IMPLEMENTATION ROADMAP"
     },
     {
       "file": "APPENDIX_B_Interview_Protocol_Blueprint.md",
@@ -93,23 +83,18 @@
       "file": "APPENDIX_A8_Preliminary_Stakeholder_Feedback.md",
       "slug": "appendix-a8-preliminary-stakeholder-feedback",
       "title": "APPENDIX A.8: PRELIMINARY STAKEHOLDER CONSULTATION SUMMARY"
-    },
-    {
-      "file": "CASE_STUDIES.md",
-      "slug": "case-studies",
-      "title": "Case Studies: Islamic Finance & Cryptocurrency in Practice"
     }
   ],
   "downloads": [
     {
       "file": "downloads/Dissertation.pdf",
       "label": "Dissertation (PDF)",
-      "bytes": 260936
+      "bytes": 3465145
     },
     {
       "file": "downloads/Dissertation.docx",
       "label": "Dissertation (DOCX)",
-      "bytes": 94483
+      "bytes": 286050
     }
   ]
 }

@@ -357,6 +357,3 @@ Digital asset innovation accelerating globally; Islamic authorities responding a
 
 **End of Appendix D**
 
----
-
-**Appendix D - Word Count: ~1,400 words**

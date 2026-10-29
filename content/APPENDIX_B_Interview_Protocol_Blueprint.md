@@ -226,6 +226,3 @@ For each case study, ask:
 - Dimensional Scoring Consensus Report (what scholars agree on for each dimension)
 - Empirical Research Recommendations (what evidence would help resolve disagreements)
 
----
-
-**Appendix B - Word Count: ~1,200 words**
