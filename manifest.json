@@ -1,16 +1,16 @@
 {
   "project": "Cryptocurrency Classification Under Islamic Law — dissertation",
   "repoCount": 2,
-  "fileCount": 114,
-  "totalBytes": 19187063,
+  "fileCount": 116,
+  "totalBytes": 19367250,
   "repos": [
     {
       "name": "Disertasi",
       "github": "https://github.com/zudin2007/Disertasi",
       "branch": "main",
       "note": "Dissertation manuscript, appendices, build pipeline, research scripts.",
-      "fileCount": 83,
-      "totalBytes": 14667889,
+      "fileCount": 84,
+      "totalBytes": 14758522,
       "files": [
         {
           "path": ".claude/claude.json",
@@ -294,8 +294,8 @@
         },
         {
           "path": "REVISI_2026-10-28_DATA_PROYEK_DPS.md",
-          "bytes": 15393,
-          "updated": "2026-10-29T15:17:49+00:00",
+          "bytes": 15881,
+          "updated": "2026-10-29T15:36:11+00:00",
           "category": "Doc",
           "url": "https://github.com/zudin2007/Disertasi/blob/main/REVISI_2026-10-28_DATA_PROYEK_DPS.md"
         },
@@ -396,6 +396,13 @@
           "updated": "2026-07-29T16:37:00+00:00",
           "category": "Built output",
           "url": "https://github.com/zudin2007/Disertasi/blob/main/dissertation_integrated.pdf"
+        },
+        {
+          "path": "id/BAB_1_Klasifikasi_Mata_Uang_Kripto_dalam_Hukum_Islam.md",
+          "bytes": 90145,
+          "updated": "2026-10-29T15:36:11+00:00",
+          "category": "Doc",
+          "url": "https://github.com/zudin2007/Disertasi/blob/main/id/BAB_1_Klasifikasi_Mata_Uang_Kripto_dalam_Hukum_Islam.md"
         },
         {
           "path": "id/BAB_4_Analisis_Regulasi_Komparatif_Lintas_Yurisdiksi_Islam.md",
@@ -600,8 +607,8 @@
       "github": "https://github.com/zudin2007/disertasi-web",
       "branch": "main",
       "note": "This project: static web output + this monitoring manifest.",
-      "fileCount": 31,
-      "totalBytes": 4519174,
+      "fileCount": 32,
+      "totalBytes": 4608728,
       "files": [
         {
           "path": ".gitignore",
@@ -612,141 +619,148 @@
         },
         {
           "path": "MANIFEST.md",
-          "bytes": 19931,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "bytes": 18870,
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Doc",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/MANIFEST.md"
         },
         {
           "path": "README.md",
-          "bytes": 6182,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "bytes": 6343,
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Doc",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/README.md"
         },
         {
           "path": "content/ABSTRACT.md",
           "bytes": 6070,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Front matter",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/ABSTRACT.md"
         },
         {
           "path": "content/APPENDIX_A8_Preliminary_Stakeholder_Feedback.md",
           "bytes": 16955,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Appendix",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/APPENDIX_A8_Preliminary_Stakeholder_Feedback.md"
         },
         {
           "path": "content/APPENDIX_B_Interview_Protocol_Blueprint.md",
           "bytes": 11898,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Appendix",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/APPENDIX_B_Interview_Protocol_Blueprint.md"
         },
         {
           "path": "content/APPENDIX_C_Survey_Instrument_Design.md",
           "bytes": 14669,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Appendix",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/APPENDIX_C_Survey_Instrument_Design.md"
         },
         {
           "path": "content/APPENDIX_D_Regulatory_Executive_Summaries.md",
           "bytes": 16094,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Appendix",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/APPENDIX_D_Regulatory_Executive_Summaries.md"
         },
         {
           "path": "content/APPENDIX_E_Literature_Review_Summary.md",
           "bytes": 15753,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Appendix",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/APPENDIX_E_Literature_Review_Summary.md"
         },
         {
           "path": "content/APPENDIX_F_Detailed_Measurement_Examples.md",
           "bytes": 19551,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Appendix",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/APPENDIX_F_Detailed_Measurement_Examples.md"
         },
         {
           "path": "content/APPENDIX_G_Phase_3_Case_Study_Protocol.md",
           "bytes": 19703,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Appendix",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/APPENDIX_G_Phase_3_Case_Study_Protocol.md"
         },
         {
           "path": "content/CHAPTER_1_Cryptocurrency_Classification_Islamic_Law.md",
           "bytes": 86166,
-          "updated": "2026-10-29T15:25:16.083Z",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Chapter",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_1_Cryptocurrency_Classification_Islamic_Law.md"
         },
         {
           "path": "content/CHAPTER_2_Islamic_Legal_Framework.md",
           "bytes": 55523,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Chapter",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_2_Islamic_Legal_Framework.md"
         },
         {
           "path": "content/CHAPTER_3_Jurisprudential_Positions.md",
           "bytes": 82619,
-          "updated": "2026-10-29T15:25:16.087Z",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Chapter",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_3_Jurisprudential_Positions.md"
         },
         {
           "path": "content/CHAPTER_4_Regulatory_Landscape.md",
           "bytes": 95284,
-          "updated": "2026-10-29T15:25:16.087Z",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Chapter",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_4_Regulatory_Landscape.md"
         },
         {
           "path": "content/CHAPTER_5_Unified_Classification_Framework.md",
           "bytes": 68579,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Chapter",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_5_Unified_Classification_Framework.md"
         },
         {
           "path": "content/CHAPTER_6_Regulatory_Harmonization_Recommendations.md",
           "bytes": 45924,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Chapter",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_6_Regulatory_Harmonization_Recommendations.md"
         },
         {
           "path": "content/CHAPTER_7_Conclusion_and_Future_Research.md",
           "bytes": 37293,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Chapter",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/CHAPTER_7_Conclusion_and_Future_Research.md"
         },
         {
+          "path": "content/id/BAB_1_Klasifikasi_Mata_Uang_Kripto_dalam_Hukum_Islam.md",
+          "bytes": 90145,
+          "updated": "2026-10-29T15:42:57.002Z",
+          "category": "Doc",
+          "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/id/BAB_1_Klasifikasi_Mata_Uang_Kripto_dalam_Hukum_Islam.md"
+        },
+        {
           "path": "content/id/BAB_4_Analisis_Regulasi_Komparatif_Lintas_Yurisdiksi_Islam.md",
           "bytes": 95238,
-          "updated": "2026-10-29T15:25:16.111Z",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Doc",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/id/BAB_4_Analisis_Regulasi_Komparatif_Lintas_Yurisdiksi_Islam.md"
         },
         {
           "path": "content/id/site-manifest.json",
-          "bytes": 1031,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "bytes": 1340,
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Data/config",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/id/site-manifest.json"
         },
         {
           "path": "content/site-manifest.json",
           "bytes": 3673,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Data/config",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/content/site-manifest.json"
         },
@@ -767,14 +781,14 @@
         {
           "path": "public/downloads/Dissertation.docx",
           "bytes": 286050,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Built output",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/public/downloads/Dissertation.docx"
         },
         {
           "path": "public/downloads/Dissertation.pdf",
           "bytes": 3465145,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Built output",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/public/downloads/Dissertation.pdf"
         },
@@ -795,14 +809,14 @@
         {
           "path": "scripts/generate-manifest.js",
           "bytes": 7136,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Script",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/scripts/generate-manifest.js"
         },
         {
           "path": "scripts/sync-content.js",
           "bytes": 8899,
-          "updated": "2026-09-04T11:51:18+07:00",
+          "updated": "2026-10-29T15:26:13+00:00",
           "category": "Script",
           "url": "https://github.com/zudin2007/disertasi-web/blob/main/scripts/sync-content.js"
         },
